@@ -769,9 +769,9 @@ textarea {
     color: white;
 }
 
-#file_upload .card-body span {
+/* #file_upload .card-body span {
     font-size: 30px;
-}
+} */
 
 #file_upload_body .card-body i {
     font-size: 50px;
