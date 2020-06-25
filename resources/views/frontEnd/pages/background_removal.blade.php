@@ -66,7 +66,7 @@
             </div>
             <div class="single pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">
                 <div class="row pt-sm-4 pt-xs-3">
-                    <div class="col-md-6 mobile-py">
+                    <div class="col-md-6 mobile-pt mobile-pb">
                         <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4"><b>Portrait Background Removal</b></h4>
                         <p class="pb-sm-3 pb-xs-3">Model shoots also need background when you need to place it on 
                             exceptional something & multicolor required. We draw a clipping path to cut 
@@ -80,7 +80,7 @@
             </div>
             <div class="single pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">
                 <div class="row pt-sm-4 pt-xs-3">
-                    <div class="col-md-6 mobile-py">
+                    <div class="col-md-6 mobile-pt mobile-pb">
                         <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-px"><b>Re-Size & Shadow</b></h4>
                         <p class="pb-sm-3 pb-xs-3 mobile-px">When remove background then do resize & shadow ads for the perfect 
                             look & image optimization as the clients easily can load to their page where 
