@@ -10,7 +10,7 @@
 <!--==** Pricing head Section Start **==-->
 <section id="pricing_head">
     <div class="container">
-        <div class="py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5">
+        <div class="py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5 mobile-pt mobile-pb">
             <div class="header  text-center pt-col-2 pt-sm-2 pt-md-3 pt-lg-4 pt-xl-4">
                 <h1>Photo Editing Price-Designer Country</h1>
                 <p>A cheap-priced we offer let you approach us flexibly, pricing strategy policy <br>
@@ -20,7 +20,7 @@
         </div>
         <div class="main py-col-2 py-sm-2 py-md-3 py-lg-4 py-xl-4 mx-col-2 mx-sm-3 mx-md-4 mx-lg-5 mx-xl-5"
             style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-            <div id="myBtnContainer" class="text-center py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5">
+            <div id="myBtnContainer" class="text-center py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5 mobile-pt">
                 <!-- <button class="btn btn-success" onclick="filterSelection('all')"> Show all</button> -->
                 <button class="btn btn custom-b mt-3 active" onclick="filterSelection('clipping_path')">Clipping
                     path</button>
@@ -144,7 +144,7 @@
 <!--**-- Pricing Section Start --**-->
 <section id="pricing_body">
     <div class="container py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5">
-        <div class="head text-center">
+        <div class="head text-center mobile-pt mobile-pb mobile-pr mobile-pl">
             <h1 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4">Image Processing Pricing Table</h1>
             <p>Eventually the standard value of your images & brand will regulate how appreciably you pay for files
                 edited.
@@ -206,7 +206,7 @@
             </div>
         </div>
         <h1 class="text-center pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4">Quantity Credits</h1>
-        <p class="lead text-center">We have a big discount for bulk photo processing, you first get discount for editing
+        <p class="text-center mobile-pr mobile-pl">We have a big discount for bulk photo processing, you first get discount for editing
             100 files by ourselves, this process goes on a clipping path & shadow creation to get a real view.</p>
         <div class="custom_button text-center">
             <a href="{{route('get.quote')}}" class="btn btn text-uppercase">get your quote</a>

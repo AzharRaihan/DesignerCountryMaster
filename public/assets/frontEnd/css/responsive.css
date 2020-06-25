@@ -658,6 +658,25 @@ video {
         padding-top: 15px !important;
     }
 
+    #myBtnContainer .mt-3 {
+        margin-top: 5px !important;
+    }
+
+    #pricing_body .list-group-item {
+        padding: 8px 15px;
+        font-size: 13px;
+    }
+
+    #privacy_and_policy .privacy-body ul {
+        font-size: 12px;
+    }
+
+    #privacy_and_policy .privacy-mobile .py-2 {
+        padding-bottom: 7px !important;
+        padding-top: 0px !important;
+
+    }
+
 
 
     /*===== index.html Responsive Css End ======*/
