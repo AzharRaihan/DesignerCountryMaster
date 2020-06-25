@@ -11,16 +11,16 @@
 <section id="editing_Service">
     <div class="container py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5">
         <div class="row">
-            <div class="col-md-10 offset-md-1">
+            <div class="col-md-10 offset-md-1 mobile-pt">
                 <div class="editing_service_head  text-center py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5">
-                    <h2 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4">Image-Editing Service Pricing</h2>
+                    <h2 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-py">Image-Editing Service Pricing</h2>
                     <p>We carefully fulfill every order by hand. Each job is different, and the price varies, too. On a
                         time
                         crunch? Enter a few details below to get a ballpark range instantly.</p>
                 </div>
                 <hr>
                 <div class="editing_service_body py-col-2 py-sm-2 py-md-3 py-lg-4 py-xl-4">
-                    <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4">Choose one or more service <sup><strong
+                    <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-pb">Choose one or more service <sup><strong
                                 style="font-size: larger;">*</strong></sup></h4>
 
                     <form action="{{ route('store.quote') }}" method="POST">
@@ -186,7 +186,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row mobile-pb">
                             <div class="col-md-12">
                                 <div class="custom_button text-right p-0">
                                     <button type="submit" class="btn btn submit">SUBMIT</button>

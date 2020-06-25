@@ -606,6 +606,24 @@ video {
         font-size: 14px;
     }
 
+    /* Get Quote Page */
+    select.form-control:not([size]):not([multiple]) {
+        height: calc(2.25rem + 0px);
+    }
+
+    .checkmark {
+        height: 15px;
+        width: 15px;
+    }
+
+    .check-container .checkmark:after {
+        left: 5px;
+        top: 2px;
+        width: 5px;
+        height: 9px;
+    }
+
+
     /*===== index.html Responsive Css End ======*/
 
     /*===== upload.html Responsive Css Start ======*/
@@ -628,9 +646,7 @@ video {
         transition: border-color .15s ease-in-out, black .15s ease-in-out;
     }
 
-    select.form-control:not([size]):not([multiple]) {
-        height: calc(2.25rem + 1px);
-    } */
+*/
 }
 
 /*------------------------------------------------------------*/
