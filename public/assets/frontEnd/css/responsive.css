@@ -681,6 +681,20 @@ video {
 
     }
 
+    .sitemapRes .pl-5 {
+        padding-left: 10px !important;
+    }
+
+    .sitemapRes {
+        margin: 0 auto;
+        width: 80% !important;
+    }
+
+    #sitemap a {
+        font-size: 12px;
+
+    }
+
 
 
     /*===== index.html Responsive Css End ======*/

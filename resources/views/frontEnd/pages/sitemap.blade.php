@@ -14,14 +14,14 @@
 <!--==** Terms And Condition Section Start **==-->
 <section id="sitemap">
   <div class="container">
-    <div class="site-map pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl5 text-center">
+    <div class="site-map pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl5 text-center mobile-pt">
       <h1 class="pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl5 pb-3"><span style="border-bottom: 2px solid #19BEB9; width: 60%; padding-bottom: 20px;">Designer Country Sitemap</span></h1>
     </div>
     <div class="menu py-lg-5 py-md-4 py-sm-3 py-xs-3">
-      <div class="site-map pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl5 text-center">
+      <div class="site-map pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl5 text-center mobile-pt">
         <h1 class="pb-5"><span style="border-bottom: 2px solid #19BEB9; width: 60%; padding-bottom: 15px;">Header</span></h1>
       </div>
-      <ul class="sitemapRes ">
+      <ul class="sitemapRes">
         <li class="py-2 "><a href="" target="_blank" rel="noopener noreferrer"><b>Service</b></a>
           <ul class="pt-3 pl-5 ">
             <li class="py-2"><a href="{{route('clipping.path')}}" target="_blank">Clipping Path</a></li>
