@@ -9,7 +9,7 @@
 
 <!--==** Upload Section Start **==-->
 <section id="upload">
-    <div class="container py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5">
+    <div class="container py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5 mobile-pt">
         <div class="sample-head">
             <h1 class="py-3 text-center">Start a Project with Designer Country</h1>
         </div>
@@ -34,7 +34,7 @@
                         photo editing in your expected area.</p>
                         
                 </div>
-                <div class="upload-file col-md-6 col-lg-4 col-xl-4">
+                <div class="upload-file col-md-6 col-lg-4 col-xl-4 mobile-pt">
                     <h3 class="pb-col-2 pb-sm-3 pb-md-4 pb-lg-5 pb-xl-5">Upload Files</h3>
                     <div class="custom_button text-center pt-0">
                         <a href="https://designercountry.wetransfer.com/" target="_blank" class="btn btn-block"><i class="fas fa-paper-plane mr-2"></i>We Transfer</a>
