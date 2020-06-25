@@ -11,7 +11,7 @@
 <section id="service">
     <div class="container py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5">
         <div class="head pt-col-1 pt-sm-2 pt-md-2 pt-lg-3 pt-xl-3">
-            <h1 class="pb-col-2 pb-sm-3 pb-md-4 pb-lg-5 pb-xl-5 text-center">Clipping Path Service</h1>
+            <h1 class="pb-col-2 pb-sm-3 pb-md-4 pb-lg-5 pb-xl-5 text-center mobile-pt">Clipping Path Service</h1>
             <div class="box" style="box-shadow: 3px 3px 13px 2px rgba(0,0,0,.3);">
                 <img src="{{asset('assets/frontEnd/images/Service_All/Clipping_Path_Service/Clipping_Path_Service.png')}}"
                     alt="Clipping_Path_Service" class="img-fluid" style="width: 100%;">
@@ -28,7 +28,7 @@
 <section id="out_work">
     <div class="container pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">
         <div class="head">
-            <h1 class="text-center text-uppercase">Our Work</h1>
+            <h1 class="text-center text-uppercase mobile-pt">Our Work</h1>
         </div>
         <div class="box my-col-2 my-sm-3 my-md-4 my-lg-5 my-xl-5"
             style="box-shadow: 3px 3px 13px 2px rgba(0,0,0,.3);">
@@ -54,7 +54,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4"><b>Single Clipping Path</b></h4>
-                        <p class="pb-sm-3 pb-xs-3">Having plain & absolutely blurred edges products involving to Single
+                        <p class="pb-sm-3 pb-xs-3 mobile-pb">Having plain & absolutely blurred edges products involving to Single
                         Clipping Path where we work in pen tool to remove object smoothly
                         including Shoe, Bag, Packet & such single products.
                         </p>
@@ -67,9 +67,9 @@
             </div>
             <div class="single pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">
                 <div class="row pt-sm-4 pt-xs-3">
-                    <div class="col-md-6">
-                        <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4"><b>Complex Clipping Path</b></h4>
-                        <p class="pb-sm-3 pb-xs-3">Clipping Path frequently be complex when curve edges with a number of paths
+                    <div class="col-md-6 mobile-pt">
+                        <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-pt"><b>Complex Clipping Path</b></h4>
+                        <p class="pb-sm-3 pb-xs-3 mobile-pb">Clipping Path frequently be complex when curve edges with a number of paths
                         outsource to pick off background for eventual outcome of products including
                         Garments, Accessories, People, Industry Products.</p>
                     </div>
@@ -81,9 +81,9 @@
             </div>
             <div class="single pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">
                 <div class="row pt-sm-4 pt-xs-3">
-                    <div class="col-md-6">
-                        <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4"><b>Multiple Clipping Path</b></h4>
-                        <p class="pb-sm-3 pb-xs-3">The super curve with hole products when photographed desperately to cook up
+                    <div class="col-md-6 mobile-pt">
+                        <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-pt"><b>Multiple Clipping Path</b></h4>
+                        <p class="pb-sm-3 pb-xs-3 mobile-pb">The super curve with hole products when photographed desperately to cook up
                         color variation, multi clipping path is requisite. Here Normal pen tool Path is drawn not permissible
                         including People, Different multi-color Products.</p>
                     </div>
@@ -103,14 +103,14 @@
 <div class="image_editing">
     <div class="container">
         <div class="imge-article">
-            <h1 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4">Products Background Removal & Improvement via Clipping Path</h1>
-            <p>Photo Clip in even-handed & depth editing is the incontestable supreme technique to withdraw
+            <h1 class="mobile-pl mobile-pr pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4">Products Background Removal & Improvement via Clipping Path</h1>
+            <p class="mobile-pl mobile-pr">Photo Clip in even-handed & depth editing is the incontestable supreme technique to withdraw
                 background & improve it to transparent or solid white.
                 Hard-pressed photographers don’t own time to professionalize photo gingerly,
                 seriously in concernment to outsource images for clipping path or Deep Etch.
                 Finally do also freelancers, dealers, e-commerce sellers, printing people.
-                </p><br><br>
-                <h4>Why need you Photoshop editing service for the best clipping path service?</h4>
+                </p><br>
+                <h4 class="mobile-pl mobile-pr">Why need you Photoshop editing service for the best clipping path service?</h4>
                 <br>
                 <ul class="pl-5">
                     <li class="py-2">Multiple Photoshop cutting routes for capable shading amendment</li>
@@ -127,20 +127,20 @@
                     <li class="py-2">To make a differing bit for vitality</li>
                 </ul>
             <br>
-            <h5 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4"><b>Categorized Outsource Clipping Path in Asian Countries</b></h5>
-            <p>Put forward to products lively animated & apart from cost, Europe & American lands people outsource images
+            <h5 class="mobile-pl mobile-pr pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4"><b>Categorized Outsource Clipping Path in Asian Countries</b></h5>
+            <p class="mobile-pl mobile-pr">Put forward to products lively animated & apart from cost, Europe & American lands people outsource images
                in Asia for cleansed & well-aimed images to persuade themselves satisfied. 
                India, Bangladesh, Pakistan, Philippine & other living people farm out themselves to be paid for images.
                 <br><br></p>
-                <h5 class="pt-2"><b>Ecommerce Product Advancement through Clipping Path Widely Accepted – Designer Country</b></h5>
-                <p class="pt-3">In the first instance, we continue to beproductive&high-handed clipping provider that influence our free quote users to browse ‘Designer Country’ for files uploading. <br>
+                <h5 class="pt-2 mobile-pl mobile-pr"><b>Ecommerce Product Advancement through Clipping Path Widely Accepted – Designer Country</b></h5>
+                <p class="pt-3 mobile-pl mobile-pr">In the first instance, we continue to beproductive&high-handed clipping provider that influence our free quote users to browse ‘Designer Country’ for files uploading. <br>
                 We thoroughly observe how they organize order & instructions that we conform to these because our stuff knows of product circulation, images are the highest fruitful strategy to get huge traffic. <br>
                 The production team is operated by re-checking consideration, where the master of clipping checks the files again that spread our renown. Recent Byers call for quality & so does Designer Country. <br>
                 Big bundle of files, you require to customize clipping path, not seem to us, we cover 3000+ images delivery now in a single day. We are accessible cheap- rated where you might also search for Product Enhancement, Quality Logo, Graphic Development, and Photoshop Solution.
                 </p>
 
             <h2
-                class="mt-col-2 mt-sm-2 mt-md-3 mt-lg-4 mt-xl-4 py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5 text-center text-capitalize">
+                class="mt-col-2 mt-sm-2 mt-md-3 mt-lg-4 mt-xl-4 py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5 text-center text-capitalize mobile-pt mobile-pb">
                 We take care photos for your professional increase with expected price & time</h2>
             <p class="text-capitalize text-center">inform us what service you require & we must serve you with your
                 expected

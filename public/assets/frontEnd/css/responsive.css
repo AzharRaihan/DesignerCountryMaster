@@ -333,6 +333,16 @@ video {
 
     }
 
+    .mobile-pl {
+        padding-left: 10px;
+
+    }
+
+    .mobile-pr {
+        padding-right: 10px;
+
+    }
+
     .navbar-brand img {
         padding-left: 10px;
     }
@@ -417,6 +427,7 @@ video {
     }
 
     /*===== Custom Mobile Responsive Css Start ======*/
+
     /* Index page Start */
     #header {
         height: 60px;
@@ -425,9 +436,8 @@ video {
 
     .navbar-brand img {
         height: 28px;
+
     }
-
-
 
     #header .navbar-nav a {
         padding-left: 15px;
@@ -501,7 +511,7 @@ video {
         padding-top: 30px;
     }
 
-    /* Index page End */
+
 
 
     /* About-Page Start */
@@ -513,7 +523,7 @@ video {
         padding-top: 10px;
     }
 
-    /* About-Page End*/
+
 
     /* Background-Removal-Page Start*/
     .mobile-sample>div {
@@ -522,25 +532,49 @@ video {
 
     #sample_card .py-5 {
         padding: 20px 0px !important;
-
-        /* Background-Removal-Page End*/
-
+    }
 
 
+    /* Why-Designer Country Start */
+    #about_article i {
+        padding: 15px;
+        font-size: 30px;
 
-        /*===== index.html Responsive Css End ======*/
+    }
 
-        /*===== upload.html Responsive Css Start ======*/
-        /* #upload .upload-file {
+    /* Sample Card */
+    #sample_card i {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    /* Clipping Path */
+    .image_editing .pl {
+        padding-left: 20px;
+    }
+
+    .image_editing li {
+        font-size: 9px;
+    }
+
+
+
+
+
+
+    /*===== index.html Responsive Css End ======*/
+
+    /*===== upload.html Responsive Css Start ======*/
+    /* #upload .upload-file {
         padding-top: 20px;
     } */
 
-        /*===== About-Us.html Responsive Css Start ======*/
+    /*===== About-Us.html Responsive Css Start ======*/
 
 
-        /*===== About-Us.html Responsive Css End ======*/
+    /*===== About-Us.html Responsive Css End ======*/
 
-        /* .img-fluid {
+    /* .img-fluid {
         width: 100%px;
     }
 
@@ -555,6 +589,7 @@ video {
         height: calc(2.25rem + 1px);
     } */
 
-    }
+}
 
-    /*------------------------------------------------------------*/
+/*------------------------------------------------------------*/
+}
