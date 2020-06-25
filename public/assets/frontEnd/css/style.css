@@ -799,3 +799,16 @@ textarea {
 select.form-control:not([size]):not([multiple]) {
     height: calc(2.25rem + 12px);
 }
+
+/* Payment Method */
+#payment-method .payment-m {
+    color: #002B86;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#payment-method .method {
+    color: #26A7DC;
+    font-size: 26px;
+    font-weight: bold;
+}

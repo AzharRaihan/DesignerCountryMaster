@@ -644,6 +644,20 @@ video {
         /* font-size: 16px; */
     }
 
+    #payment-method .payment-m {
+        font-size: 12px;
+    }
+
+    #payment-method .method {
+        font-size: 12px;
+        padding-left: 3px;
+    }
+
+    #payment-method .py-5 {
+        padding-bottom: 15px !important;
+        padding-top: 15px !important;
+    }
+
 
 
     /*===== index.html Responsive Css End ======*/

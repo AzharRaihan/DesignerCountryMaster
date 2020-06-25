@@ -10,12 +10,12 @@
 <!--==** Payment Method Section Start **==-->
 <section id="payment-method">
     <div class="container pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">
-        <div class="payment-method-head pt-col-2 pt-sm-2 pt-md-3 pt-lg-4 pt-xl-4">
+        <div class="payment-method-head pt-col-2 pt-sm-2 pt-md-3 pt-lg-4 pt-xl-4 mobile-pt">
             <h1 class="text-center pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4"><span style="border-bottom: 2px solid #19BEB9; padding-bottom: 20px;">Our Payment Method</span></h1>
         </div>
-        <div class="payment-method-body py-col-2 py-sm-2 py-md-3 py-lg-4 py-xl-4 mt-4">
-            <h3 class="pb-md-3 pb-sm-2">Payment Method to Designer Country</h3>
-            <p>Designer Country(DC) always use the clients advantageous <a href="https://www.paypal.com"  target="blank" style="color:#002B86; font-size: 26px; font-width: bold;"> <b>Payment</b> <span style="color:#26A7DC;"> <b>Method</b> </span></a> to make the
+        <div class="payment-method-body py-col-2 py-sm-2 py-md-3 py-lg-4 py-xl-4 mt-4 mobile-pr mobile-pl">
+            <h3 class="pb-md-3 pb-sm-2 mobile-pb">Payment Method to Designer Country</h3>
+            <p>Designer Country(DC) always use the clients advantageous <a href="https://www.paypal.com"  target="blank"> <span class="payment-m">Payment</span><span class="method">Method</span></a> to make the
                 payment
                 to Designer Country, a leading photo clipping path & image retouching service provider company. Here you
                 actually not in necessary to set up an account or complex method, besides we do not use any advance
