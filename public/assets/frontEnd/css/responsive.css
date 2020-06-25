@@ -623,6 +623,28 @@ video {
         height: 9px;
     }
 
+    .file-upload .card-title span {
+        font-size: 12px;
+    }
+
+    #file_upload_body .card-body .py-4 {
+        padding-top: 0px !important;
+    }
+
+    #file_upload_body .card-body .py-4 {
+        padding-bottom: 0px !important;
+    }
+
+    #file_upload_body .card-body i {
+        font-size: 25px;
+        color: #009B97;
+    }
+
+    #file_upload .card-body span {
+        /* font-size: 16px; */
+    }
+
+
 
     /*===== index.html Responsive Css End ======*/
 
