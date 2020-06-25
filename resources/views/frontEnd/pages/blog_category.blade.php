@@ -27,8 +27,8 @@
                     Online</button><br>
             </div>
             <!-- Blog Category  Grid -->
-            <div class="row">
-                <div class="column commercial_photography">
+            <div class="row mobile-pt">
+                <div class="column commercial_photography mobile-pt">
                     <div class="heading text-center pb-col-2 pb-sm-3 pb-md-4 pb-lg-5 pb-xl-5">
                         <h2 class="pb-col-1 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4">Commercial Photography</h2>
                             <p>Photographers for Outsourcing Online Store</p>

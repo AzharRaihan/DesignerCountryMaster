@@ -309,6 +309,10 @@ video {
 @media only screen and (min-width: 310px) and (max-width: 575px) {
 
     /*===== Custom Mobile Responsive Css Start ======*/
+    .mobile-padding {
+        padding: 14px 10px;
+    }
+
     .mobile-pt {
         padding-top: 14px;
 
@@ -331,6 +335,10 @@ video {
 
     .navbar-brand img {
         padding-left: 10px;
+    }
+
+    .custom-b {
+        font-size: 10px;
     }
 
     .mobile-navbar button {

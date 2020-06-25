@@ -58,7 +58,7 @@ Route::get('get-quote-upload', 'frontEnd\WebController@getQuoteUpload')->name('g
 /*====----====* Blog Route Start *====----====*/
 Route::get('blog', 'BlogController@index')->name('blog');
 Route::get('blog/{slug}', 'BlogController@show');
-// Route::get('blog-category', 'frontEnd\WebController@blogCategory')->name('blog.category');
+Route::get('blog-category', 'frontEnd\WebController@blogCategory')->name('blog.category');
 // Route::get('ecommerce-trend', 'frontEnd\WebController@ecommerceTrend')->name('ecommerce.trend');
 /*====----====* Blog Route End *====----====*/
 
