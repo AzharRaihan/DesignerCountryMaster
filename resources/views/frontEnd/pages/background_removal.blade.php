@@ -53,7 +53,7 @@
             <div class="single pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">
                 <div class="row">
                     <div class="col-md-6">
-                        <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-pb"><b>Product Background Removal</b></h4>
+                        <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 "><b>Product Background Removal</b></h4>
                         <p class="pb-sm-3 pb-xs-3 mobile-pb">Product images getting ready to enter on web, maiden work is to withdraw 
                             image unnecessary background & place professional suited one basically it may transparent 
                             for pure white including the naturalistic shadow.</p>
@@ -66,9 +66,9 @@
             </div>
             <div class="single pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">
                 <div class="row pt-sm-4 pt-xs-3">
-                    <div class="col-md-6 mobile-pt mobile-pb">
-                        <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4"><b>Portrait Background Removal</b></h4>
-                        <p class="pb-sm-3 pb-xs-3">Model shoots also need background when you need to place it on 
+                    <div class="col-md-6 mobile-pt">
+                        <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-pt"><b>Portrait Background Removal</b></h4>
+                        <p class="pb-sm-3 pb-xs-3 mobile-pb">Model shoots also need background when you need to place it on 
                             exceptional something & multicolor required. We draw a clipping path to cut 
                             background & place it on your expected one.</p>
                     </div>
@@ -80,9 +80,9 @@
             </div>
             <div class="single pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">
                 <div class="row pt-sm-4 pt-xs-3">
-                    <div class="col-md-6 mobile-pt mobile-pb">
-                        <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-px"><b>Re-Size & Shadow</b></h4>
-                        <p class="pb-sm-3 pb-xs-3 mobile-px">When remove background then do resize & shadow ads for the perfect 
+                    <div class="col-md-6 mobile-pt">
+                        <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-pt"><b>Re-Size & Shadow</b></h4>
+                        <p class="pb-sm-3 pb-xs-3 mobile-pb">When remove background then do resize & shadow ads for the perfect 
                             look & image optimization as the clients easily can load to their page where 
                             they are in objective to expand sale.</p>
                     </div>
@@ -102,11 +102,11 @@
 <div class="image_editing">
     <div class="container">
         <div class="imge-article">
-            <h2 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-px">Necessity of Ecommerce Product & Model Background Withdraw for Perfect Look</h2>
-            <p class="mobile-pb mobile-px">Image cut out is all-important while putting ecommerce products as listing display to your page. Anywhere &  anytime it may occurs to be needed for removal background in photo related any workshop.
+            <h1 class="mobile-pl mobile-pr pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4">Necessity of Ecommerce Product & Model Background Withdraw for Perfect Look</h1>
+            <p class="mobile-pl mobile-pr">Image cut out is all-important while putting ecommerce products as listing display to your page. Anywhere &  anytime it may occurs to be needed for removal background in photo related any workshop.
                 Materially printing, magazines, newspaper, fashion, garments, ecommerce, retails, photography, marketing & advertise agencies commercially involving to background removal work where it is maiden objective.<br><br></p>
-                <h5 class="pb-col-2 pb-sm-3 pb-md-3 pb-lg-2 pb-xl-2 mobile-pb mobile-px"><b>Outsource Images Background Removal Service manually in Asia</b></h5>
-                <p class="mobile-px">You conceivably& probably from Europe & American countries are in hours limitation with valuablecriteria, superior& top-end option is to outsource your images from Asia because people expert in Photoshop fromAsian countries make delivery in low rate & fulfill exact expected area.</p>
+                <h5 class="pb-col-2 pb-sm-3 pb-md-3 pb-lg-2 pb-xl-2 mobile-pl mobile-pr"><b>Outsource Images Background Removal Service manually in Asia</b></h5>
+                <p class="mobile-pl mobile-pr">You conceivably& probably from Europe & American countries are in hours limitation with valuablecriteria, superior& top-end option is to outsource your images from Asia because people expert in Photoshop fromAsian countries make delivery in low rate & fulfill exact expected area.</p>
 
 
             <h5 class="pt-3 pb-col-2 pb-sm-3 pb-md-3 pb-lg-2 pb-xl-2 mobile-px"><b>Ecommerce Retailers Images Background Removal for Amazon, Alibaba, eBay – Designer Country </b></h5>
