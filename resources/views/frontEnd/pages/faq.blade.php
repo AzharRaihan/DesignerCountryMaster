@@ -10,7 +10,7 @@
 <!--**-- Faq Section Start --**-->
 <section id="faq">
     <div class="container py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5">
-        <h1 class="text-center pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4">Frequently asked questions</h1>
+        <h1 class="text-center pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-pt">Frequently asked questions</h1>
         <div class="row">
             <div class="col-md-10 offset-md-1">
                 <div id="accordion">
@@ -177,9 +177,9 @@
                 </div>
             </div>
         </div>
-        <h2 class="py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5 text-center text-dark" style="text-decoration:none;">Can’t find answer to your question? Our friendly
+        <h2 class="mobile-padding py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5 text-center text-dark" style="text-decoration:none;">Can’t find answer to your question? Our friendly
             dedicated team is always ready to help.</h2>
-        <div id="faq-button" class="text-center">
+        <div id="faq-button" class="text-center mobile-pb">
             <a href="{{route('contact')}}" class="btn bt px-5 py-3"><b>More Help</b></a>
         </div>
     </div>

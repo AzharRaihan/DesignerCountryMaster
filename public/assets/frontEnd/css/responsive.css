@@ -163,6 +163,7 @@ video {
     px      68    160    252    344    436    */
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
     /*===== index.html Responsive Css Start ======*/
     .custom_button {
         padding: 50px 0px;
@@ -296,6 +297,7 @@ video {
     px      68    160    252    344    436    */
 
 @media only screen and (min-width: 310px) and (max-width: 575px) {
+
     /*===== Custom Mobile Responsive Css Start ======*/
     .mobile-padding {
         padding: 14px 10px;
@@ -499,7 +501,7 @@ video {
     }
 
     /* Background-Removal-Page Start*/
-    .mobile-sample > div {
+    .mobile-sample>div {
         padding: 20px 0px;
     }
 
@@ -570,6 +572,38 @@ video {
 
     #office_location .list-group-item {
         padding: 0.25rem 0.75rem;
+    }
+
+    /* Faq Page */
+    #faq .card a {
+        font-size: 14px;
+    }
+
+    #faq .card-header i {
+        border: 1px solid #19beb9;
+        font-size: 10px;
+        margin-right: 10px;
+        padding: 4px 5px;
+    }
+
+    #faq .px-5 {
+        padding-left: 15px !important;
+    }
+
+    #faq .px-5 {
+        padding-right: 15px !important;
+    }
+
+    #faq .py-3 {
+        padding-top: 10px !important;
+    }
+
+    #faq .py-3 {
+        padding-bottom: 10px !important;
+    }
+
+    #faq a {
+        font-size: 14px;
     }
 
     /*===== index.html Responsive Css End ======*/
