@@ -1,6 +1,6 @@
 <!--==** Tag Section Start **==-->
 <section id="tag">
-    <div class="container py-md-5 py-sm-3 py-xs-2">
+    <div class="container py-md-5 py-sm-3 py-xs-2 mobile-pt">
         <div class="row">
             <div class="tagSec col-md-7 col-sm-12">
                 <h5 class="pb-2"><b>Tag :</b></h5>

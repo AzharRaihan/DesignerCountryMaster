@@ -10,7 +10,7 @@
 <!--==** Sample Section Start **==-->
 <section id="sample">
     <div class="container pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">
-        <div class="container pt-col-2 pt-sm-2 pt-md-3 pt-lg-4 pt-xl-4">
+        <div class="container pt-col-2 pt-sm-2 pt-md-3 pt-lg-4 pt-xl-4 mobile-pt">
             <div class="header  text-center">
                 <h1>Photoshop Sample Work: Clipping Path, Drop Shadow, Images Masking, Retouching & Manipulation.
                 </h1>
@@ -20,23 +20,23 @@
 
             <!-- Service list Start -->
             <div id="myBtnContainer" class="text-center pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4">
-                <button class="btn btn custom-b mt-col-2 mt-sm-2 mt-md-3 mt-lg-4 mt-xl-4 active"
+                <button class="btn btn custom-b mt-3 active"
                     onclick="filterSelection('clipping_path')">Clipping Path</button>
-                <button class="btn btn custom-b mt-col-2 mt-sm-2 mt-md-3 mt-lg-4 mt-xl-4"
+                <button class="btn btn custom-b mt-3"
                     onclick="filterSelection('background_removal')">Background Removal</button>
-                <button class="btn btn custom-b mt-col-2 mt-sm-2 mt-md-3 mt-lg-4 mt-xl-4"
+                <button class="btn btn custom-b mt-3"
                     onclick="filterSelection('image_masking')">Image Masking</button>
-                <button class="btn btn custom-b mt-col-2 mt-sm-2 mt-md-3 mt-lg-4 mt-xl-4"
+                <button class="btn btn custom-b mt-3"
                     onclick="filterSelection('ghost_mannequin')">Ghost Mannequin</button>
-                <button class="btn btn custom-b mt-col-2 mt-sm-2 mt-md-3 mt-lg-4 mt-xl-4"
+                <button class="btn btn custom-b mt-3"
                     onclick="filterSelection('natural_shadow')">Natural Shadow</button><br>
-                <button class="btn btn custom-b mt-col-2 mt-sm-2 mt-md-3 mt-lg-4 mt-xl-4"
+                <button class="btn btn custom-b mt-3"
                     onclick="filterSelection('photo_retouching')">Photo Retouching</button>
-                <button class="btn btn custom-b mt-col-2 mt-sm-2 mt-md-3 mt-lg-4 mt-xl-4"
+                <button class="btn btn custom-b mt-3"
                     onclick="filterSelection('color_correction')">Color Correction</button>
-                <button class="btn btn custom-b mt-col-2 mt-sm-2 mt-md-3 mt-lg-4 mt-xl-4"
+                <button class="btn btn custom-b mt-3"
                     onclick="filterSelection('product_photo_editing')">Product Photo Editing</button>
-                <button class="btn btn custom-b mt-col-2 mt-sm-2 mt-md-3 mt-lg-4 mt-xl-4"
+                <button class="btn btn custom-b mt-3"
                     onclick="filterSelection('vector_conversion')">Vector Conversion</button>
             </div>
             <!-- Service list End -->
@@ -424,7 +424,7 @@
 
 <!--==** Sample-Article Section Start **==-->
 <section id="sample_article">
-    <div class="container py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5 text-center">
+    <div class="container py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5 text-center mobile-padding">
         <h1>Designer Country, an outsourcing graphic design studio, situated in a developing country</h1>
         <p class="pt-col-2 pt-sm-2 pt-md-3 pt-lg-4 pt-xl-4">Bangladesh where the manpower is easier than this of
             developed country. Beacuse of an easier manpower we are able to provide design service in your expected
