@@ -36,12 +36,10 @@ Route::get('vector-conversion', 'frontEnd\WebController@vectorConversion')->name
 
 Route::get('/', 'frontEnd\WebController@index')->name('index');
 Route::get('about-us', 'frontEnd\WebController@aboutUs')->name('about.us');
-
 Route::get('ecommerce-trend', 'frontEnd\WebController@ecommerceTrend')->name('ecommerce.trend');
 Route::get('pricing', 'frontEnd\WebController@pricing')->name('pricing');
 Route::get('sample', 'frontEnd\WebController@sample')->name('sample');
 Route::get('upload', 'frontEnd\WebController@upload')->name('upload');
-
 Route::get('faq', 'frontEnd\WebController@faq')->name('faq');
 Route::get('privacy-and-policy', 'frontEnd\WebController@privacyAndPolicy')->name('privacy.and.policy');
 Route::get('terms-and-conditions', 'frontEnd\WebController@termsAndConditions')->name('terms.and.conditions');
@@ -50,7 +48,6 @@ Route::get('payment-method', 'frontEnd\WebController@paymentMethod')->name('paym
 Route::get('sitemap', 'frontEnd\WebController@siteMap')->name('sitemap');
 Route::get('get-quote', 'QuoteController@getQuote')->name('get.quote');
 Route::get('contact', 'admin\ContactUsController@index')->name('contact');
-
 Route::post('contact-send', 'admin\ContactUsController@send')->name('contact.send');
 Route::post('store-quote', 'QuoteController@storeQuote')->name('store.quote');
 Route::get('get-quote-upload', 'frontEnd\WebController@getQuoteUpload')->name('get.quote.upload');

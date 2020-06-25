@@ -9,18 +9,18 @@
 
   <!--==** Terms And Condition Section Start **==-->
   <section id="terms_and_condition">
-    <div class="container py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5">
-      <div class="terms-condition-head">
-        <div class="privacy-head py-col-2 py-sm-2 py-md-3 py-lg-4 py-xl-4">
+    <div class="container py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5 mobile-pr mobile-pl">
+      <div class="terms-condition-head mobile-pt">
+        <div class="privacy-head py-col-2 py-sm-2 py-md-3 py-lg-4 py-xl-4 mobile-pb">
           <h1 class="text-center pb-2"><strong><span style="border-bottom: 2px solid #19BEB9; padding-bottom: 20px;">Terms And Condition</span></strong></h1>
         </div>
-        <div class="py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5 mt-col-2 mt-sm-5">
-          <h6>Last updated Jan 01, 2020.</h6>
-          <h6 class="pt-3">Welcome to Designer Country</h6>
+        <div class="py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5 mt-col-2 mt-sm-5 mobile-pt">
+          <h6 >Last updated Jan 01, 2020.</h6>
+          <h6 class="pt-2">Welcome to Designer Country</h6>
         </div>
       </div>
-      <div class="terms-condition-body">
-        <h2 class="pb-2">1. Introduction</h2>
+      <div class="terms-condition-body mobile-pb">
+        <h2 class="pb-2 mobile-pt">1. Introduction</h2>
         <p>A debt of gratitude to you for picking Designer Country. By going to, utilizing our site
           (“designercountry.com”) is made accessible by Designer Country through the Service are going into a coupling
           contract with Designer Country. The Designer Country likewise incorporates the Customer Portal as further
@@ -43,7 +43,7 @@
           nation where the Site is accessible. You additionally guarantee that any enrollment data that you submit to
           Designer Country is valid, exact, and finish, and you consent to keep it that route consistently.</p>
 
-        <h2 class="pb-2 pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">2. Changes to the Agreements</h2>
+        <h2 class="pb-2 pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5 mobile-pt">2. Changes to the Agreements</h2>
         <p>Sporadically we may, in our tact, roll out improvements to the Agreements. It is your obligation to check
           these Agreements occasionally for changes. Your proceeded with utilization of the Site following the posting
           of changes will imply that you acknowledge and consent to the progressions. For whatever length of time that
@@ -51,7 +51,7 @@
           constrained benefit to enter and utilize the Site.</p>
 
 
-        <h2 class="pb-2 pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">3. Site Limitations and Modifications</h2>
+        <h2 class="pb-2 pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5 mobile-pt">3. Site Limitations and Modifications</h2>
         <p>Designer Country will endeavor sensible endeavors to keep the Designer Country Site operational. Be that as
           it may, certain specialized troubles or upkeep may, now and again, result in impermanent intrusions. To the
           degree allowable under pertinent law, Designer Country holds the right, intermittently and whenever, to adjust
@@ -63,7 +63,7 @@
           allowable by relevant law. Designer Country and additionally the proprietors of any Content may, every now and
           then, evacuate any such Content without notice to the degree allowed by relevant law.</p>
 
-        <h2 class="pb-2 pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">4. Using the Site</h2>
+        <h2 class="pb-2 pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5 mobile-pt">4. Using the Site</h2>
         <p>Here’s some data about all the ways you can utilize the Site.</p>
         <p class="py-3">4.1 Our Services</p>
         <p>Designer Country gives cutting way and other Photoshop administrations. Designer Country requires full
@@ -71,7 +71,7 @@
           You can ask for a statement before buying. You can take in more about our administrations by going by our
           site.</p>
 
-        <p class="py-3">4.2 Customer Portal, Account Creation, and Passwords</p>
+        <p class="py-3 mobile-pt">4.2 Customer Portal, Account Creation, and Passwords</p>
         <p>As a condition to utilizing certain items and administrations of the Service, User might be required to
           enlist with Designer Country and select a secret key. Client will give Designer Country exact, finish, and
           refreshed enrollment data. Inability to do as such will constitute a break of this Agreement, which may bring
@@ -81,7 +81,7 @@
           Notwithstanding, you might be held subject for misfortunes brought about by Designer Country or some other
           client of or guest to the Site because of another person utilizing your username, secret key or record.</p>
 
-        <h2 class="pb-2 pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">5. Rights We Grant to You</h2>
+        <h2 class="pb-2 pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5 mobile-pt">5. Rights We Grant to You</h2>
         <p>The Designer Country and the Content are the property of Designer Country, and its partnered/related
           organizations. We concede you a constrained, non-selective, revocable permit to make utilization of the Site,
           and a restricted, non-elite, revocable permit to make individual, non-business, diversion utilization of the
@@ -98,7 +98,7 @@
           way not explicitly allowed by the Agreements. Aside from the rights explicitly allowed to you in these
           Agreements, Designer Country concedes no right, title, or enthusiasm to you in the Site or Content.</p>
 
-        <h2 class="pb-2 pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">6. Outsider Applications</h2>
+        <h2 class="pb-2 pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5 mobile-pt">6. Outsider Applications</h2>
         <p>Designer Country is coordinated with outsider applications, sites, and administrations, including yet not
           restricted to Shopify, PayPal, BrickFTP, Heroku, HelpScout, Smile.io and Stripe (“Third-Party Applications”),
           to make accessible substance, items, as well as administrations to you. These Third-Party Applications may
@@ -109,7 +109,7 @@
           with the supplier of any such Third-Party Applications.</p>
 
 
-        <h2 class="pb-2 pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">7. Client Generated Content</h2>
+        <h2 class="pb-2 pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5 mobile-pt">7. Client Generated Content</h2>
         <p>Designer Country clients may post, transfer, as well as contribute (“post”) substance to the Site to acquire
           administrations (which may incorporate, for instance, pictures, content, messages, data, and additionally
           different sorts of substance) (“User Content”). For the evasion of uncertainty, “Client Content” incorporates
@@ -133,7 +133,7 @@
           You are exclusively in charge of all User Content that you give. Cut-out Path India isn’t in charge of User
           Content nor does it support any supposition contained in any User Content..</p>
 
-        <h2 class="pb-2 pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">8. Rights You Grant Us</h2>
+        <h2 class="pb-2 pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5 mobile-pt">8. Rights You Grant Us</h2>
         <p>In thought for the rights conceded to you under the Agreements, you give us the right (1) to permit the
           Designer Country Service to utilize the processor, data transmission, and capacity equipment on your Device
           keeping in mind the end goal to encourage the task of the Service, (2) to give publicizing and other data to
