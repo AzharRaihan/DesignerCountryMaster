@@ -160,6 +160,10 @@
 <!--==** Image Editing Solution Section Start **==-->
 
 <!--==** Sample-card Section Start **==-->
+@include ('frontEnd.layouts.take_care')
+<!--==** Sample-card Section End **==-->
+
+<!--==** Sample-card Section Start **==-->
 @include ('frontEnd.layouts.sample_card')
 <!--==** Sample-card Section End **==-->
 

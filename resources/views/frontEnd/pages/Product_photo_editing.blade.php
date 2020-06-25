@@ -127,20 +127,14 @@
             Our Photoshop team settled in Bangladesh outsources images globally in low charged where quality & resolution high, big project files we edit with active buyer support by offering a free trial option. 
             Keep in mind us when you urgently need Background Removal, Retouch, Logo & Graphic Design, and Vector Conversation.
             </p>
-
-            <h2
-                class="mt-col-2 mt-sm-2 mt-md-3 mt-lg-4 mt-xl-4 py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5 text-center text-capitalize">
-                We take care photos for your professional increase with expected price & time</h2>
-            <p class="text-capitalize text-center">inform us what service you require & we must serve you with your
-                expected
-                price</p>
-            <div class="custom_button text-center">
-                <a href="{{route('upload')}}" class="btn btn">Upload Now</a>
-            </div>
         </div>
     </div>
 </div>
 <!--==** Image Editing Solution Section Start **==-->
+
+<!--==** Sample-card Section Start **==-->
+@include ('frontEnd.layouts.take_care')
+<!--==** Sample-card Section End **==-->
 
 <!--==** Sample-card Section Start **==-->
 @include ('frontEnd.layouts.sample_card')
