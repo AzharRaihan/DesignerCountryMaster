@@ -10,7 +10,7 @@
 <!--==** Service Section Start **==-->
 <section id="service">
     <div class="container py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5">
-        <div class="head pt-col-1 pt-sm-2 pt-md-2 pt-lg-3 pt-xl-3">
+        <div class="head pt-col-1 pt-sm-2 pt-md-2 pt-lg-3 pt-xl-3 mobile-pt">
             <h1 class="pb-col-2 pb-sm-3 pb-md-4 pb-lg-5 pb-xl-5 text-center">Natural Shadow Service</h1>
             <div class="box" style="box-shadow: 3px 3px 13px 2px rgba(0,0,0,.3);">
                 <img src="{{asset('assets/frontEnd/images/Service_All/Natural_Shadow_Service/Natural_Shadow_Service.png')}}"
@@ -27,7 +27,7 @@
 <!--==** Our Work Section Start **==-->
 <section id="out_work">
     <div class="container pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">
-        <div class="head">
+        <div class="head mobile-pt">
             <h1 class="text-center text-uppercase">Our Work</h1>
         </div>
         <div class="box my-col-2 my-sm-3 my-md-4 my-lg-5 my-xl-5"
@@ -54,7 +54,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4"><b>Drop shadow</b></h4>
-                        <p class="pb-sm-3 pb-xs-3">Photoshop clipping path, known as deep etch, is used to create
+                        <p class="pb-sm-3 pb-xs-3 mobile-pb">Photoshop clipping path, known as deep etch, is used to create
                             outline around
                             an image must be needed for the advertising agencies, photography and graphic design
                             studios, web
@@ -70,9 +70,9 @@
             </div>
             <div class="single pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">
                 <div class="row pt-sm-4 pt-xs-3">
-                    <div class="col-md-6">
-                        <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4"><b>Create Product/ Natural Shadow</b></h4>
-                        <p class="pb-sm-3 pb-xs-3">Removing background by Photoshop clipping path, we know and belief is
+                    <div class="col-md-6 mobile-pt">
+                        <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-pt"><b>Create Product/ Natural Shadow</b></h4>
+                        <p class="pb-sm-3 pb-xs-3 mobile-pb">Removing background by Photoshop clipping path, we know and belief is
                             mandatory
                             but for this purpose the pen tool in Photoshop is considered for us as a double-edged sword.
                             Actually
@@ -86,9 +86,9 @@
             </div>
             <div class="single pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">
                 <div class="row pt-sm-4 pt-xs-3">
-                    <div class="col-md-6">
-                        <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4"><b>Existing shadow or cast shadow</b></h4>
-                        <p class="pb-sm-3 pb-xs-3">Tidal effect forming of a painting component, looks like the image
+                    <div class="col-md-6 mobile-pt">
+                        <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-pt"><b>Existing shadow or cast shadow</b></h4>
+                        <p class="pb-sm-3 pb-xs-3 mobile-pb">Tidal effect forming of a painting component, looks like the image
                             drop shadow,
                             giving the print the image is grown above the image behind it in Graphic design. A general
                             path of
@@ -111,8 +111,8 @@
 <div class="image_editing">
     <div class="container">
         <div class="imge-article">
-            <h1 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4">E-commerce images Service</h1>
-            <p>Image optimization is the ideal solution of E-commerce image when it is time to sell products through
+            <h1 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-pl mobile-pr">E-commerce images Service</h1>
+            <p class="mobile-pl mobile-pr">Image optimization is the ideal solution of E-commerce image when it is time to sell products through
                 online.
                 It must be a dependable way of E-commerce image service that always create a best network via online
                 which
@@ -129,8 +129,8 @@
                 must ensure you the best possibility for increasing your online product sales and acquire a good profit.
                 <br><br><br></p>
 
-            <h5 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4"><b>Importance of Ecommerce Image Services </b></h5>
-            <p>E-commerce product pictures are needed to be more gorgeous to the customer eyes as the product pictures
+            <h5 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-pl mobile-pr"><b>Importance of Ecommerce Image Services </b></h5>
+            <p class="mobile-pl mobile-pr">E-commerce product pictures are needed to be more gorgeous to the customer eyes as the product pictures
                 get
                 Photoshop edited properly. A worse picture editing obliged your product pictures not ruining your
                 pictures of
