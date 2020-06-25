@@ -473,6 +473,10 @@ video {
         padding-top: 15px;
     }
 
+    #footer ul li {
+        padding-bottom: 0px;
+    }
+
     #footer ul li a {
         font-size: 11px;
     }
