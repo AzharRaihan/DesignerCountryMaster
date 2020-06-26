@@ -3,9 +3,6 @@
 @section ('css')
 <style type="text/css">
 
-
-
-
 </style>
 @endsection
 @section ('content')
@@ -24,7 +21,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group pb-sm-2 pb-xs-1">
-                                    <label for="name" class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4"><b>Name :</b></label>
+                                    <label for="name"><b>Name :</b></label>
                                     <input  type="text" name="name" class="form-control" id="name" value="{{ Auth::user()->name }}" disabled> 
                                     @error('name')
                                     <span class="invalid-feedback" role="alert">
@@ -35,15 +32,64 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group pb-md-3 pb-sm-2 pb-xs-1">
-                                    <label for="email" class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4"><b>Email :</b></label>
+                                    <label for="email"><b>Email :</b></label>
                                     <input  type="email" name="email" class="form-control"  disabled value="{{ Auth::user()->email }}">
                                 </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group pb-sm-2 pb-xs-1">
+                                    <label for="mobile"><b>Mobile/Phone :</b></label>
+                                    <input  type="number" name="phone" class="form-control" id="phone" value=""> 
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group pb-md-3 pb-sm-2 pb-xs-1">
+                                    <label for="address"><b>Address :</b></label>
+                                    <input  type="address" name="address" class="form-control" value="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group pb-sm-2 pb-xs-1">
+                                    <label for="company-name"><b>Company Name :</b></label>
+                                    <input  type="text" name="company-name" class="form-control" id="company-name" value=""> 
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group pb-md-3 pb-sm-2 pb-xs-1">
+                                    <label for="work-phone"><b>Work Phone :</b></label>
+                                    <input  type="work-phone" name="work-phone" class="form-control" value="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group pb-sm-2 pb-xs-1">
+                                    <label for="website"><b>Website:</b></label>
+                                    <input  type="website" name="website" class="form-control" id="website" value=""> 
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group pb-md-3 pb-sm-2 pb-xs-1">
+                                    <label for="vat"><b>Vat Number :</b></label>
+                                    <input  type="number" name="vat" class="form-control" value="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6"></div>
+                            <div class="col-md-6">
+                                <div class="custom_button text-right">
+                                    <a href="#" class="btn btn">Update</a>
+                                </div>  
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
-            <hr>
         </div>
     </div>
   </section>

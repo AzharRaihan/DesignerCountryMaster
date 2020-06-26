@@ -33,7 +33,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group pb-sm-2 pb-xs-1">
-                                    <label for="name" class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-pb"><b>Name :</b></label>
+                                    <label for="name"><b>Name :</b></label>
                                     <input  type="text" name="name" class="form-control @error('name') is-invalid @enderror" id="name" placeholder="Enter Your Name"> 
                                     @error('name')
                                     <span class="invalid-feedback" role="alert">
@@ -44,7 +44,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group pb-md-3 pb-sm-2 pb-xs-1">
-                                    <label for="email" class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-pb"><b>Email :</b></label>
+                                    <label for="email"><b>Email :</b></label>
                                     <input  type="email" name="email" class="form-control @error('name') is-invalid @enderror" id="email" placeholder="Enter Your Email">
                                     @error('email')
                                     <span class="invalid-feedback" role="alert">
@@ -57,7 +57,7 @@
                         <div class="row pb-2">
                           <div class="col-md-12">
                                   <div class="form-group pb-sm-2 pb-xs-1">
-                                      <label for="subject" class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-pb"><b>Subject :</b></label>
+                                      <label for="subject"><b>Subject :</b></label>
                                       <input  type="subject" name="subject" class="form-control  @error('subject') is-invalid @enderror" id="subject"
                                           placeholder="Enter Your Subject">
                                           @error('subject')
@@ -69,7 +69,7 @@
                               </div>
                           </div>
                         <div class="col-12">
-                            <label for="message" class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-pb"><b>Write Your Message :</b></label>
+                            <label for="message"><b>Write Your Message :</b></label>
                             <textarea class="pl-2 pt-2 form-control @error('message') is-invalid @enderror" name="message"  placeholder="Write Your Message" rows="8" id="message" type="text"
                              spellcheck="false" class="border-rounded"></textarea>
                               @error('message')

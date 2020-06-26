@@ -79,6 +79,11 @@ p {
     padding: 60px 0px;
 }
 
+#editing_Service label {
+    padding-bottom: 15px;
+
+}
+
 .custom_button a {
     background-color: #009b97;
     color: #ffffff;
@@ -701,6 +706,10 @@ textarea {
 
 #office_location .body i {
     font-size: 20px;
+}
+
+#contact_us label {
+    padding-bottom: 15px;
 }
 
 #contact_us .varification i {

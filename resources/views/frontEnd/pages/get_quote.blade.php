@@ -116,7 +116,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="fname" class="pb-2"><strong>Full Name:</strong></label>
+                                    <label for="fname"><strong>Full Name:</strong></label>
                                     <input  type="text" class="form-control @error('name') is-invalid @enderror" id="name" name="name" value="{{ session('name')??"" }}">
                                     @error('name')
                                     <span class="invalid-feedback" role="alert">
@@ -127,7 +127,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="email" class="pb-2"><strong>Email Address:</strong></label>
+                                    <label for="email"><strong>Email Address:</strong></label>
                                     <input type="email" class="form-control @error('email') is-invalid @enderror" id="email" name="email"  value="{{ session('email')??"" }}">
                                     @error('email')
                                     <span class="invalid-feedback" role="alert">
@@ -137,10 +137,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row py-2">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="quantity" class="pb-2"><strong>Quantity:</strong></label>
+                                    <label for="quantity"><strong>Quantity:</strong></label>
                                     <input type="number" class="form-control  @error('quantity') is-invalid @enderror" id="quantity" name="quantity" min="1" max="99999"  value="{{ session('quantity')??"" }}">
                                     @error('quantity')
                                     <span class="invalid-feedback" role="alert">
@@ -151,7 +151,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group custom-select2">
-                                    <label for="sellection" class="pb-2"><strong>Desired Turnaround
+                                    <label for="sellection"><strong>Desired Turnaround
                                             Time:</strong></label>
                                     <select class="form-control  @error('sellection') is-invalid @enderror" id="sellection" name="sellection">
                                         <option value="" disabled>Select Time Duration :</option>
@@ -176,7 +176,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label for="comment" class="pb-2"><strong>Details Instraction:</strong></label>
+                                    <label for="comment"><strong>Details Instraction:</strong></label>
                                     <textarea class="form-control @error('details_instraction') is-invalid @enderror" rows="6" id="comment" name="details_instraction">{{ session('details_instraction')??"" }}</textarea>
                                     @error('details_instraction')
                                     <span class="invalid-feedback" role="alert">
