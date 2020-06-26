@@ -2,8 +2,8 @@
 <section id="tag">
     <div class="container py-md-5 py-sm-3 py-xs-2 mobile-pt">
         <div class="row">
-            <div class="tagSec col-md-7 col-sm-12">
-                <h5 class="pb-2"><b>Tag :</b></h5>
+            <div class="tagSec col-sm-12 col-md-7 col-lg-6 col-xl-6">
+                <h5 class="pb-4 mobile-pb"><b>Tag :</b></h5>
                 <div class="grid-container1">
                     <div class="grid-itema">
                         <a href="#">Commercial Photography (21)</a>
@@ -51,8 +51,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-5  col-sm-12 text-center pt-4">
-                <h5>Our Professional Clipping path Specialists Provide only the best Results!</h5>
+            <div class="col-sm-12 col-md-5 col-lg-6 col-xl-6 text-center pt-4">
+                <h5 class="pt-3 mobile-pt">Our Professional Clipping path Specialists Provide only the best Results!</h5>
                 <p class="pt-3">Quote in 45 Minutes</p>
                 <div class="custom_button text-center">
                     <a href="{{route('get.quote')}}" class="btn btn text-light text-uppercase">Get Your Quote</a>
