@@ -10,16 +10,34 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-/*=====*****=====* Authentication Route =====*****=====*/
+/* =========***\ Authentation Route \***==========*/
 Auth::routes();
 // Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/logout', 'Auth\LoginController@logout')->name('logout');
-/*=====*****=====* Authentication Route =====*****=====*/
+/* =========***\ Authentation Route \***==========*/
 
 
-/*=====*****=====* FrontEnd Route =====*****=====*/
+/* FrontEnd Route */
+Route::get('/', 'frontEnd\WebController@index')->name('index');
+Route::get('about-us', 'frontEnd\WebController@aboutUs')->name('about.us');
+Route::get('pricing', 'frontEnd\WebController@pricing')->name('pricing');
+Route::get('sample', 'frontEnd\WebController@sample')->name('sample');
+Route::get('upload', 'frontEnd\WebController@upload')->name('upload');
+Route::get('faq', 'frontEnd\WebController@faq')->name('faq');
+Route::get('privacy-and-policy', 'frontEnd\WebController@privacyAndPolicy')->name('privacy.and.policy');
+Route::get('terms-and-conditions', 'frontEnd\WebController@termsAndConditions')->name('terms.and.conditions');
+Route::get('refund-policy', 'frontEnd\WebController@refundPolicy')->name('refund.policy');
+Route::get('payment-method', 'frontEnd\WebController@paymentMethod')->name('payment.method');
+Route::get('ecommerce-trend', 'frontEnd\WebController@ecommerceTrend')->name('ecommerce.trend');
+Route::get('sitemap', 'frontEnd\WebController@siteMap')->name('sitemap');
+Route::get('get-quote', 'QuoteController@getQuote')->name('get.quote');
+Route::post('store-quote', 'QuoteController@storeQuote')->name('store.quote');
+Route::get('get-quote-upload', 'frontEnd\WebController@getQuoteUpload')->name('get.quote.upload');
+Route::post('contact-send', 'admin\ContactUsController@send')->name('contact.send');
+Route::get('contact', 'admin\ContactUsController@index')->name('contact');
+/* FrontEnd Route */
 
-/*====----====* Service Route Start *====----====*/
+/* Services Route */
 Route::get('clipping-path', 'frontEnd\WebController@clippingPath')->name('clipping.path');
 Route::get('background-removal', 'frontEnd\WebController@backgrounRemoval')->name('background.removal');
 Route::get('image-masking', 'frontEnd\WebController@imageMasking')->name('image.masking');
@@ -29,43 +47,24 @@ Route::get('ghosht-manneuquin', 'frontEnd\WebController@ghostManneuquin')->name(
 Route::get('product-photo-editing', 'frontEnd\WebController@productPhotEditing')->name('product.photo.editing');
 Route::get('color-correction', 'frontEnd\WebController@colorCorrection')->name('color.correction');
 Route::get('vector-conversion', 'frontEnd\WebController@vectorConversion')->name('vector.conversion');
-/*====----====* Service Route End *====----====*/
+/* Services Route */
 
 
-
-
-Route::get('/', 'frontEnd\WebController@index')->name('index');
-Route::get('about-us', 'frontEnd\WebController@aboutUs')->name('about.us');
-Route::get('ecommerce-trend', 'frontEnd\WebController@ecommerceTrend')->name('ecommerce.trend');
-Route::get('pricing', 'frontEnd\WebController@pricing')->name('pricing');
-Route::get('sample', 'frontEnd\WebController@sample')->name('sample');
-Route::get('upload', 'frontEnd\WebController@upload')->name('upload');
-Route::get('faq', 'frontEnd\WebController@faq')->name('faq');
-Route::get('privacy-and-policy', 'frontEnd\WebController@privacyAndPolicy')->name('privacy.and.policy');
-Route::get('terms-and-conditions', 'frontEnd\WebController@termsAndConditions')->name('terms.and.conditions');
-Route::get('refund-policy', 'frontEnd\WebController@refundPolicy')->name('refund.policy');
-Route::get('payment-method', 'frontEnd\WebController@paymentMethod')->name('payment.method');
-Route::get('sitemap', 'frontEnd\WebController@siteMap')->name('sitemap');
-Route::get('get-quote', 'QuoteController@getQuote')->name('get.quote');
-Route::get('contact', 'admin\ContactUsController@index')->name('contact');
-Route::post('contact-send', 'admin\ContactUsController@send')->name('contact.send');
-Route::post('store-quote', 'QuoteController@storeQuote')->name('store.quote');
-Route::get('get-quote-upload', 'frontEnd\WebController@getQuoteUpload')->name('get.quote.upload');
-
-/*====----====* Blog Route Start *====----====*/
+/* Blog Route */
 Route::get('blog', 'BlogController@index')->name('blog');
 Route::get('blog/{slug}', 'BlogController@show');
 Route::get('blog-category', 'frontEnd\WebController@blogCategory')->name('blog.category');
-// Route::get('ecommerce-trend', 'frontEnd\WebController@ecommerceTrend')->name('ecommerce.trend');
-/*====----====* Blog Route End *====----====*/
+/* Blog Route */
 
 
 
+/* User Profile Route */
 Route::group(['middleware'=>['auth']], function () {
     Route::get('profile', 'ProfileController@index')->name('myprofile');
 
 });
-/*=====*****=====* FrontEnd Route =====*****=====*/
+/* User Profile Route */
+
 
 
 /*===== BackEnd Route =====*/
