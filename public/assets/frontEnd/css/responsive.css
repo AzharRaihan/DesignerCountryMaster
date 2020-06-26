@@ -556,14 +556,16 @@ video {
         border: 1px solid #19beb9;
     }
 
+
     label {
         font-size: 12px;
     }
 
     .submit {
-        padding: 6px 15px;
+        padding: 6px 12px;
         margin-top: 10px;
         font-size: 10px;
+        border-radius: 3px;
     }
 
     #contact_us .pt-5 {

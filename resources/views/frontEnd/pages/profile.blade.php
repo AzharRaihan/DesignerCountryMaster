@@ -2,6 +2,9 @@
 @section ('title', 'Professional Photo Editing | Clipping Path Ghost Manipulation')
 @section ('css')
 <style type="text/css">
+.vat p{
+    font-size: 12px;
+}
 
 </style>
 @endsection
@@ -10,11 +13,12 @@
 <!--==** Contact Us Section Start **==-->
   <section id="contact_us">
     <div class="container pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">
-        <div class="contact-head text-center pb-md-4 pb-sm-3 pb-xs-2">
-            <h1 class="py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5">Hello {{ Auth::user()->name }}!</h1>
-            <hr>
+        <div class="contact-head text-center pb-col-2 pb-sm-3 pb-md-4 pb-lg-5 pb-xl-5">
+            <h1 class="pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">Welcome To Designer Country Family</h1>
+            <h2 class="pt-3">This is  {{ Auth::user()->name }} Profile</h2>
         </div>
-        <div class="contact-body">
+        <hr>
+        <div class="contact-body pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">
             <div class="row">
                 <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-12">
                     <form>
@@ -41,7 +45,7 @@
                             <div class="col-md-6">
                                 <div class="form-group pb-sm-2 pb-xs-1">
                                     <label for="mobile"><b>Mobile/Phone :</b></label>
-                                    <input  type="number" name="phone" class="form-control" id="phone" value=""> 
+                                    <input  type="number" name="phone" class="form-control" id="phone" value="" min="1" max="20"> 
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -61,7 +65,7 @@
                             <div class="col-md-6">
                                 <div class="form-group pb-md-3 pb-sm-2 pb-xs-1">
                                     <label for="work-phone"><b>Work Phone :</b></label>
-                                    <input  type="work-phone" name="work-phone" class="form-control" value="">
+                                    <input  type="number" name="work-phone" class="form-control" value="" min="1" max="20">
                                 </div>
                             </div>
                         </div>
@@ -72,10 +76,11 @@
                                     <input  type="website" name="website" class="form-control" id="website" value=""> 
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 vat">
                                 <div class="form-group pb-md-3 pb-sm-2 pb-xs-1">
                                     <label for="vat"><b>Vat Number :</b></label>
-                                    <input  type="number" name="vat" class="form-control" value="">
+                                    <input  type="number" name="vat" class="form-control" value="" min="1">
+                                    <p class="text-muted pt-2">If your business is registered for VAT in the E.U., enter your VAT number here, starting with the two-digit country code, i.e. GB123456789.</p>
                                 </div>
                             </div>
                         </div>
