@@ -293,6 +293,477 @@ video {
     }
 }
 
+/*		Wide Mobile Layout: 431.
+            Gutters: 24px.
+            Outer margins: 22px.
+            Inherits styles from: Default Layout, Mobile Layout.
+    ------------------------------------------------------------
+    cols    1     2      3      4      5
+    px      68    160    252    344    436    */
+
+@media only screen and (min-width: 431px) and (max-width: 575px) {
+
+    /*===== Custom Mobile Responsive Css Start ======*/
+    .mobile-padding {
+        padding: 16px 12px;
+    }
+
+    .mobile-pt {
+        padding-top: 16px;
+    }
+
+    .mobile-pb {
+        padding-bottom: 16px;
+    }
+
+    .mobile-py {
+        padding: 16px 0px;
+    }
+
+    .mobile-px {
+        padding: 0px 14px;
+    }
+
+    .mobile-pl {
+        padding-left: 14px;
+    }
+
+    .mobile-pr {
+        padding-right: 14px;
+    }
+
+    .navbar-brand img {
+        padding-left: 14px;
+    }
+
+    .custom-b {
+        font-size: 12px;
+    }
+
+    .mobile-navbar button {
+        margin-right: 12px;
+        font-size: 18px;
+    }
+
+    .navbar-toggler {
+        padding: 4px 7px;
+    }
+
+    .custom_button {
+        padding: 8px 0px 15px 0px;
+    }
+
+    .custom_button a {
+        padding: 8px 10px;
+        font-weight: bold;
+        font-size: 12px;
+        margin-top: 8px;
+        border-radius: 4px;
+    }
+
+    .custom_button a:hover {
+        background-color: #007571;
+        color: #ffffff;
+    }
+
+    .submit {
+        border-radius: 4px;
+        padding: 12px 27px;
+    }
+
+    #header .dropdown-menu {
+        width: 100px;
+        margin-left: 20px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    #header .account-section {
+        width: 70px !important;
+        margin-left: 20px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .navbar-nav {
+        padding-left: 20px;
+    }
+
+    h1 {
+        font-size: 21px;
+        padding: 15px 5px;
+    }
+
+    h2 {
+        font-size: 19px;
+    }
+
+    h3 {
+        font-size: 17px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    h5 {
+        font-size: 13px;
+    }
+
+    h6 {
+        font-size: 11px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    /*===== Custom Mobile Responsive Css Start ======*/
+
+    /* Index page Start */
+    #header {
+        height: 65px;
+        padding-top: 3px;
+    }
+
+    .navbar-brand img {
+        height: 30px;
+    }
+
+    #header .navbar-nav a {
+        padding-left: 18px;
+        font-size: 12px;
+    }
+
+    #around img {
+        padding-bottom: 22px;
+    }
+
+    #hpaayness h3 {
+        padding: 12px 12px 12px 12px;
+    }
+
+    #hpaayness p {
+        padding: 0px 12px 12px 12px;
+    }
+
+    #latest_product h5 {
+        padding: 12px 0px;
+    }
+
+    #sponsor {
+        display: none;
+    }
+
+    #tag a {
+        font-size: 11px;
+    }
+
+    #around h3 {
+        padding-top: 17px;
+    }
+
+    #happyness h3 {
+        padding-top: 17px;
+    }
+
+    .how-to-element {
+        padding: 17px 0px;
+    }
+
+    #design_sample p {
+        padding-bottom: 12px;
+    }
+
+    #footer .row {
+        padding: 30px 18px;
+    }
+
+    #footer ul {
+        padding-top: 18px;
+    }
+
+    #footer ul li {
+        padding-bottom: 0px;
+    }
+
+    #footer ul li a {
+        font-size: 12px;
+    }
+
+    #footer .social-media i {
+        color: white;
+        font-size: 12px;
+        border-top: none;
+    }
+
+    #footer .social-media {
+        padding: 12px 0px;
+    }
+
+    .e-footer {
+        padding-top: 33px;
+    }
+
+    /* About-Page Start */
+    .about-title {
+        padding-top: 170px;
+    }
+
+    .follow-social-link {
+        padding-top: 12px;
+    }
+
+    /* Background-Removal-Page Start*/
+    .mobile-sample>div {
+        padding: 23px 0px;
+    }
+
+    #sample_card .py-5 {
+        padding: 23px 0px !important;
+    }
+
+    /* Why-Designer Country Start */
+    #about_article i {
+        padding: 18px;
+        font-size: 35px;
+    }
+
+    /* Sample Card */
+    #sample_card i {
+        font-size: 35px;
+        padding-bottom: 25px;
+    }
+
+    /* Clipping Path */
+    .image_editing .pl {
+        padding-left: 23px;
+    }
+
+    .image_editing li {
+        font-size: 12px;
+    }
+
+    /* Contact Us */
+    .form-control {
+        line-height: 23px;
+        font-size: 12px;
+        border: 1px solid #ced4da;
+    }
+
+    .form-control:focus {
+        border: 1px solid #19beb9;
+    }
+
+
+    label {
+        font-size: 14px;
+    }
+
+    .submit {
+        padding: 8px 15px;
+        margin-top: 13px;
+        font-size: 12px;
+        border-radius: 4px;
+    }
+
+    #contact_us .pt-5 {
+        padding-top: 0rem !important;
+    }
+
+    #office_location .head i {
+        font-size: 30px;
+        border: 2px solid #19beb9;
+        width: 55px;
+        height: 55px;
+    }
+
+    #office_location .body a {
+        font-size: 12px;
+    }
+
+    #office_location .body i {
+        font-size: 17px;
+    }
+
+    #office_location .list-group-item {
+        padding: 0.25rem 0.75rem;
+    }
+
+    /* Faq Page */
+    #faq .card a {
+        font-size: 16px;
+    }
+
+    #faq .card-header i {
+        border: 1px solid #19beb9;
+        font-size: 12px;
+        margin-right: 12px;
+        padding: 5px 6px;
+    }
+
+    #faq .px-5 {
+        padding-left: 18px !important;
+    }
+
+    #faq .px-5 {
+        padding-right: 18px !important;
+    }
+
+    #faq .py-3 {
+        padding-top: 12px !important;
+    }
+
+    #faq .py-3 {
+        padding-bottom: 12px !important;
+    }
+
+    #faq a {
+        font-size: 17px;
+    }
+
+    /* Get Quote Page */
+    select.form-control:not([size]):not([multiple]) {
+        height: calc(2.25rem + 2px);
+    }
+
+    .checkmark {
+        height: 17px;
+        width: 17px;
+    }
+
+    .check-container .checkmark:after {
+        left: 7px;
+        top: 3px;
+        width: 6px;
+        height: 11px;
+    }
+
+    .file-upload .card-title span {
+        font-size: 16px;
+    }
+
+    #file_upload_body .card-body .py-4 {
+        padding-top: 0px !important;
+    }
+
+    #file_upload_body .card-body .py-4 {
+        padding-bottom: 0px !important;
+    }
+
+    #file_upload_body .card-body i {
+        font-size: 28px;
+        color: #009B97;
+    }
+
+    #file_upload .card-body span {
+        /* font-size: 16px; */
+    }
+
+    #payment-method .payment-m {
+        font-size: 15px;
+    }
+
+    #payment-method .method {
+        font-size: 15px;
+        padding-left: 5px;
+    }
+
+    #payment-method .py-5 {
+        padding-bottom: 18px !important;
+        padding-top: 18px !important;
+    }
+
+    #myBtnContainer .mt-3 {
+        margin-top: 7px !important;
+    }
+
+    #pricing_body .list-group-item {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    #privacy_and_policy .privacy-body ul {
+        font-size: 14px;
+    }
+
+    #privacy_and_policy .privacy-mobile .py-2 {
+        padding-bottom: 9px !important;
+        padding-top: 0px !important;
+
+    }
+
+    .sitemapRes .pl-5 {
+        padding-left: 12px !important;
+    }
+
+    .sitemapRes {
+        margin: 0 auto;
+        width: 80% !important;
+    }
+
+    #sitemap a {
+        font-size: 15px;
+
+    }
+
+    #footer .social-media i {
+        color: white;
+        font-size: 14px;
+        border: 1px solid #19beb9;
+        /* border-radius: 50%; */
+    }
+
+
+    .social-media .social-link .fa-facebook-f {
+        padding: 9px 13px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+
+    }
+
+    .social-media .social-link .fa-twitter {
+        padding: 9px 11px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .social-media .social-link .fa-linkedin-in {
+        padding: 9px 12px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .social-media .social-link .fa-instagram {
+        padding: 9px 11px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .social-media .social-link .fa-pinterest {
+        padding: 9px 11px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .social-media .social-link .fa-youtube {
+        padding: 9px 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    #contact_us label {
+        padding-bottom: 10px;
+    }
+
+    #editing_Service label {
+        padding-bottom: 10px;
+
+    }
+}
+
 /*		Wide Mobile Layout: 360.
             Gutters: 24px.
             Outer margins: 22px.
@@ -301,7 +772,7 @@ video {
     cols    1     2      3      4      5
     px      68    160    252    344    436    */
 
-@media only screen and (min-width: 310px) and (max-width: 575px) {
+@media only screen and (min-width: 310px) and (max-width: 430px) {
 
     /*===== Custom Mobile Responsive Css Start ======*/
     .mobile-padding {
@@ -759,10 +1230,8 @@ video {
     }
 
     #editing_Service label {
-        padding-bottom: 18px;
+        padding-bottom: 8px;
 
     }
 
 }
-
-/*------------------------------------------------------------*/

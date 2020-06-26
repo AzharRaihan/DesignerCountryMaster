@@ -20,7 +20,7 @@
                 </div>
                 <hr>
                 <div class="editing_service_body py-col-2 py-sm-2 py-md-3 py-lg-4 py-xl-4">
-                    <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-pb">Choose one or more service <sup><strong
+                    <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-pb mobile-pt">Choose one or more service <sup><strong
                                 style="font-size: larger;">*</strong></sup></h4>
 
                     <form action="{{ route('store.quote') }}" method="POST">
