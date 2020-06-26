@@ -695,32 +695,52 @@ video {
 
     }
 
-
-
-
-    /*===== index.html Responsive Css End ======*/
-
-    /*===== upload.html Responsive Css Start ======*/
-    /* #upload .upload-file {
-        padding-top: 20px;
-    } */
-
-    /*===== About-Us.html Responsive Css Start ======*/
-
-    /*===== About-Us.html Responsive Css End ======*/
-
-    /* .img-fluid {
-        width: 100%px;
+    #footer .social-media i {
+        color: white;
+        font-size: 12px;
+        border: 1px solid #19beb9;
+        /* border-radius: 50%; */
     }
 
-    .form-control {
-        line-height: 1rem;
-        border: 1px solid #CED4DA;
-        border-radius: 4px;
-        transition: border-color .15s ease-in-out, black .15s ease-in-out;
+
+    .social-media .social-link .fa-facebook-f {
+        padding: 9px 13px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+
     }
 
-*/
+    .social-media .social-link .fa-twitter {
+        padding: 9px 11px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .social-media .social-link .fa-linkedin-in {
+        padding: 9px 12px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .social-media .social-link .fa-instagram {
+        padding: 9px 11px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .social-media .social-link .fa-pinterest {
+        padding: 9px 11px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .social-media .social-link .fa-youtube {
+        padding: 9px 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
 }
 
 /*------------------------------------------------------------*/

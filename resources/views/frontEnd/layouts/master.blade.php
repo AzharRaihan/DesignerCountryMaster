@@ -182,16 +182,16 @@
     <div class="social-media text-center py-md-5 py-sm-5 py-xs-2">
       <div class="social-link">
         <a href="https://www.facebook.com/designercountry/" target="_blank">
-          <i class="fab fa-facebook-f" style="padding: 12px 16px;"></i>
+          <i class="fab fa-facebook-f"></i>
         </a>
         <a href="https://twitter.com/designercounty" target="_blank">
-          <i class="fab fa-twitter"style="padding: 12px 12px;"></i>
+          <i class="fab fa-twitter"></i>
         </a>
         <a href="https://www.linkedin.com/company/designercountry/" target="_blank">
-          <i class="fab fa-linkedin-in"style="padding: 12px 13px;"></i>
+          <i class="fab fa-linkedin-in"></i>
         </a>
         <a href="https://www.instagram.com/designercountry/" target="_blank">
-          <i class="fab fa-instagram" style="padding: 12px 13px;"></i>
+          <i class="fab fa-instagram"></i>
         </a>
         <a href="https://www.pinterest.com/designercountry/" target="_blank">
           <i class="fab fa-pinterest"></i>

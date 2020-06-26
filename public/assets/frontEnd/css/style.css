@@ -437,7 +437,7 @@ hr {
 /* ============> **Tag Section End ** <============ */
 /* ============> **Footer Section Start ** <============ */
 #footer {
-    background-color: #283E4B;
+    background-color: #213744;
 }
 
 #footer ul {
@@ -456,12 +456,52 @@ hr {
 
 #footer .social-media i {
     color: white;
-    font-size: 16px;
-    padding: 12px 12px;
-    border-top: 2px solid rgb(88, 145, 175);
+    font-size: 20px;
+    border: 1px solid #19beb9;
+    /* border-top: 2px solid rgb(88, 145, 175);
     border-bottom: 2px solid rgb(88, 145, 175);
-    border-radius: 50%;
+    border-radius: 50%; */
 }
+
+.social-media .social-link .fa-facebook-f {
+    padding: 11px 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+
+}
+
+.social-media .social-link .fa-twitter {
+    padding: 11px 11px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.social-media .social-link .fa-linkedin-in {
+    padding: 11px 12px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.social-media .social-link .fa-instagram {
+    padding: 11px 12px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.social-media .social-link .fa-pinterest {
+    padding: 11px 12px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.social-media .social-link .fa-youtube {
+    padding: 11px 11px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
 
 #footer ul li {
     padding-bottom: 3px;
@@ -469,8 +509,9 @@ hr {
 
 #footer .social-media i:hover {
     background-color: #19beb9;
-    border-top: 2px solid #2e4a5a;
-    border-bottom: 2px solid #2e4a5a;
+    /* border-top: 2px solid #2e4a5a;
+    border-bottom: 2px solid #2e4a5a; */
+    border: 1px solid #19beb9;
     text-decoration: none;
 }
 

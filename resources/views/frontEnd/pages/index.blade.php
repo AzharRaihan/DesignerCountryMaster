@@ -153,7 +153,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img src="{{asset('assets/frontEnd/images/home_page/Dc_Flag_of_Bangladesh.png')}}" alt="Bangladesh_flag" class="img-fluid">
+                <img src="{{asset('assets/frontEnd/images/home_page/Dc_Flag_of_Bangladesh.png')}}" alt="Bangladesh_flag" class="img-fluid" style="width: 100%;">
             </div>
         </div>
         <hr>
