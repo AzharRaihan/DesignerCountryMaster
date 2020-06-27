@@ -21,20 +21,20 @@ class ContactUsController extends Controller
         $request->validate([
             'name' => 'required',
             'email' => 'required|email',
-            'subject' => 'required'
-            // 'message' => 'required'
+            'subject' => 'required',
+            'message' => 'required'
         ],
         [
             'name.required' => 'The Name Field Is Required',
             'email.required' => 'The Email Field Is Required',
-            'subject.required' => 'The Subject Field Is Required'
-            // 'message.required' => 'Please Fill The Message Field'
+            'subject.required' => 'The Subject Field Is Required',
+            'message.required' => 'The Message Field Is Required'
         ]);
         
         $data = array(
             'name_data' => $request->name,
             'email_date' => $request->email,
-            'subject_deta' => $request->subject,  
+            'subject_deta' => $request->subject,
             'message_data' => $request->message
         );
 
