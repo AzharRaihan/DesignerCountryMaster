@@ -21,14 +21,14 @@ class ContactUsController extends Controller
         $request->validate([
             'name' => 'required',
             'email' => 'required|email',
-            'subject' => 'required',
-            'message' => 'required'
+            'subject' => 'required'
+            // 'message' => 'required'
         ],
         [
-            'name.required' => 'Please Fill The Name Field',
-            'email.required' => 'Please Fill Email Field',
-            'subject.required' => 'Please Fill The Subject Field',
-            'message.required' => 'Please Fill The Message Field'
+            'name.required' => 'The Name Field Is Required',
+            'email.required' => 'The Email Field Is Required',
+            'subject.required' => 'The Subject Field Is Required'
+            // 'message.required' => 'Please Fill The Message Field'
         ]);
         
         $data = array(
@@ -38,15 +38,10 @@ class ContactUsController extends Controller
             'message_data' => $request->message
         );
 
-        // Mail::send('mail', $data, function($message) use($request){
-        //     $message->to('azharraihan6969@gmail.com', 'DesignerCountry')
-        //             ->subject('New Enquiry Received'. $request->name);
-        //     $message->from($request->email,$request->name);
-        // });
         Mail::to('azharraihan6969@gmail.com')->send(new ContactUsMail($data));
         ContactUs::create($request->all());
         Toastr::success('Your Message Send Successfully','success');
-        return redirect()->back()->with('success', 'message has been sent');
+        return redirect()->back()->with('success', 'Your message successfully sent');
     }
 
     public function contactAdmin()

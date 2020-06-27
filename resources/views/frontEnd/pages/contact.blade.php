@@ -19,13 +19,16 @@
             <hr>
         </div>
         <div class="contact-body">
-          @if($message = Session::get('success'))
-            <div class="alert alert-success alert-block">
-              <button type="button" class="close" data-dismiss="alert"><i class="fas fa-times" style="font-size: 15px;"></i></button>
-              <strong> {{ $message }}</strong>
+          <!-- <div class="row">
+            <div class="col-md-10 offset-md-1">
+              @if($message = Session::get('success'))
+              <div class="alert alert-success alert-block">
+                <button type="button" class="close" data-dismiss="alert"><i class="fas fa-times"></i></button>
+                <strong> {{ $message }}</strong>
+              </div>
+              @endif
             </div>
-          @endif
-
+          </div> -->
             <div class="row">
                 <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-12">
                     <form id="ContactUs"action="{{ route('contact.send') }}" class="" method="POST">
@@ -72,11 +75,11 @@
                             <label for="message"><b>Write Your Message :</b></label>
                             <textarea class="pl-2 pt-2 form-control @error('message') is-invalid @enderror" name="message"  placeholder="Write Your Message" rows="8" id="message" type="text"
                              spellcheck="false" class="border-rounded"></textarea>
-                              @error('message')
+                              <!-- @error('message')
                                   <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
                                   </span>
-                                @enderror
+                                @enderror -->
                         </div>
                         <div class="row pt-4">
  
