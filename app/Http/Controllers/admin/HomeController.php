@@ -17,6 +17,9 @@ class HomeController extends Controller
     public function dashboard(){
         return view('admin/dashboard/index');
     }
+    public function blogPost(){
+        return view('admin/dashboard/blog_post');
+    }
     public function service(){
         return view('admin/dashboard/service');
     }

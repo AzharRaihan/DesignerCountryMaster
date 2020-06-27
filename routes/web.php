@@ -70,6 +70,7 @@ Route::group(['middleware'=>['auth']], function () {
 /*===== BackEnd Route =====*/
 Route::group(['prefix' => 'admin', 'middleware'=>['auth','admin']], function () {
     Route::get('dashboard', 'admin\HomeController@dashboard')->name('dashboard');
+    Route::get('blog-post', 'admin\HomeController@blogPost')->name('blog.post');
     Route::get('service', 'admin\HomeController@service')->name('service');
     Route::get('quote', 'admin\HomeController@quote')->name('quote');
     Route::get('quote/{id}', 'admin\HomeController@quoteShow')->name('quote.show');

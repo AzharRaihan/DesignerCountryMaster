@@ -16,6 +16,11 @@
       </a>
     </li>
     <li>
+      <a class="app-menu__item"  href="{{route('blog.post')}}">
+        <i class="app-menu__icon fab fa-galactic-senate"></i><span class="app-menu__label">Blog Post</span>
+      </a>
+    </li>
+    <li>
       <a class="app-menu__item" href="{{route('service')}}">
         <i class="app-menu__icon far fa-sun"></i><span class="app-menu__label">Services</span>
       </a>
