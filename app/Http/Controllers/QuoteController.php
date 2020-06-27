@@ -1,13 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use App\Quote;
 use App\Mail\QuoteMail;
 use Illuminate\Http\Request;
 use Brian2694\Toastr\Facades\Toastr;
 use Illuminate\Support\Facades\Mail;
-
 class QuoteController extends Controller
 {    
     /**
@@ -27,7 +25,6 @@ class QuoteController extends Controller
      */
     public function storeQuote(Request $req)
     {
-        // dd($req->all());
         $req->validate([
             "name" => "required",
             "email" => "required|email",
@@ -36,11 +33,11 @@ class QuoteController extends Controller
             "sellection" => "required"
         ],
         [
-            'name.required' => 'Please Fill The Name Field',
-            'email.required' => 'Please Fill Email Field',
-            'quantity.required' => 'Please Quantity Field',
-            'details_instraction.required' => 'Please Fill the details Field',
-            'sellection.required' => 'Please fill duration Field'
+            'name.required' => 'The Name Field Is Required',
+            'email.required' => 'The Email Field Is Required',
+            'quantity.required' => 'The Quantity Field Is Required',
+            'details_instraction.required' => 'The Details Field Is Required',
+            'sellection.required' => 'The Sellection Field Is Required'
         ]);
 
             

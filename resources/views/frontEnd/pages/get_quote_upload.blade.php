@@ -45,7 +45,7 @@
                                 </span>
                             </div>
                         </div>
-                        <a href="https://designercountry.wetransfer.com/">
+                        <a href="https://designercountry.wetransfer.com/" target="_blank">
                             <div class="card-body dropzone dz-clickable text-center">
                                 <h5 class="py-4"><i class="fas fa-plus-circle"></i> Add Your Images</h5>
                             </div>
