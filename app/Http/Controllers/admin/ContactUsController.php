@@ -61,7 +61,5 @@ class ContactUsController extends Controller
         $contact = ContactUs::findOrFail($id);
         $contact->delete();
         return redirect()->back();
-    }
-
-    
+    } 
 }
