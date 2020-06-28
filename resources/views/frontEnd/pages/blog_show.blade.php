@@ -22,7 +22,7 @@
         </div>
         <div class="article px-col-2 px-sm-3 px-md-4 px-lg-5 px-xl-5 mobile-pl mobile-pr" style="width: 100%;">
             <hr>
-            <div> {!! $post->body !!} </div>
+            <div style="width: 100%;"> {!! $post->body !!} </div>
         </div>
     </div>
 </section>
