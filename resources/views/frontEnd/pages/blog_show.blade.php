@@ -5,21 +5,21 @@
 .blog img {
   width: 100%;
 }
+
+#blog_banner img {
+  width: 100%;
+}
 </style>
 @endsection
 @section ('content')
 
 <!--==** Commercial Trend Section Start **==-->
 <section id="commercial_trend">
-  <div class="container py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5">
-    <div class="head py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5 mobile-bl mobile-pr">
+  <div class="container py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5 mobile-pt">
+    <div id="blog_banner" class="head py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5 mobile-bl mobile-pr mobile-pt">
       <h2 class="text-center">{{ $post->title }}</h2>
-      <p class="text-center py-col-2 py-sm-2 py-md-3 py-lg-4 py-xl-4">{{ $post->excerpt }}</p>
-      <img src="{{ $post->featured_image }}" class="img-fluid" alt="">
-      <!-- <div class="px-col-2 px-sm-3 px-md-4 px-lg-5 px-xl-5 pt-col-2 pt-sm-2 pt-md-3 pt-lg-4 pt-xl-4">
-                <h5>Azhar Raihan</h5>
-                <h6 class="pt-2">21,February,2010</h6>
-            </div> -->
+      <p class="text-center py-col-2 py-sm-2 py-md-3 py-lg-4 py-xl-4 mobile-pb">{{ $post->excerpt }}</p>
+      <img src="{{ $post->featured_image }}" class="img-fluid mobile-pl" alt="">
     </div>
     <div class="article px-col-2 px-sm-3 px-md-4 px-lg-5 px-xl-5 mobile-pl mobile-pr" style="width: 100%;">
       <div class="blog" style="width: 100%;"> {!! $post->body !!} </div>
