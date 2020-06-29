@@ -2,7 +2,9 @@
 @section ('title', "$post->title")
 @section ('css')
 <style type="text/css">
-
+.blog img{
+    width: 100%;
+}
 </style>
 @endsection
 @section ('content')
@@ -21,8 +23,7 @@
             </div> -->
         </div>
         <div class="article px-col-2 px-sm-3 px-md-4 px-lg-5 px-xl-5 mobile-pl mobile-pr" style="width: 100%;">
-            <!-- <hr> -->
-            <div style="width: 100%;"> {!! $post->body !!} </div>
+            <div class="blog" style="width: 100%;"> {!! $post->body !!} </div>
         </div>
     </div>
 </section>
