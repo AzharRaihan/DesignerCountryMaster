@@ -733,6 +733,17 @@ textarea {
 
 /* ============> ** pricing.html End ** <============ */
 
+/* ============> ** Blog-Show Start ** <============ */
+#blog_banner img {
+    width: 100%;
+}
+
+#blog_body img {
+    width: 100%;
+}
+
+/* ============> ** Blog-Show End ** <============ */
+
 /* ============> ** sample.html start ** <============ */
 #sample_card {
     background-color: #19beb9;

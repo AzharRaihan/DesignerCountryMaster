@@ -2,13 +2,7 @@
 @section ('title', "$post->title")
 @section ('css')
 <style type="text/css">
-.blog img {
-  width: 100%;
-}
 
-#blog_banner img {
-  width: 100%;
-}
 </style>
 @endsection
 @section ('content')
@@ -21,8 +15,9 @@
       <p class="text-center py-col-2 py-sm-2 py-md-3 py-lg-4 py-xl-4 mobile-pb">{{ $post->excerpt }}</p>
       <img src="{{ $post->featured_image }}" class="img-fluid mobile-pl" alt="">
     </div>
-    <div class="article px-col-2 px-sm-3 px-md-4 px-lg-5 px-xl-5 mobile-pl mobile-pr" style="width: 100%;">
-      <div class="blog" style="width: 100%;"> {!! $post->body !!} </div>
+    <div id="blog_body" class="article px-col-2 px-sm-3 px-md-4 px-lg-5 px-xl-5 mobile-pl mobile-pr"
+      style="width: 100%;">
+      <div> {!! $post->body !!} </div>
     </div>
   </div>
 </section>
