@@ -38,7 +38,6 @@ font-family: 'Signika', sans-serif; */
 .container {
     padding-right: 0px;
     padding-left: 0px;
-
 }
 
 h1,
@@ -61,7 +60,6 @@ a {
 a:hover {
     color: black;
     text-decoration: none;
-
 }
 
 p {
@@ -81,7 +79,6 @@ p {
 
 #editing_Service label {
     padding-bottom: 15px;
-
 }
 
 .custom_button a {
@@ -132,22 +129,21 @@ ul {
     padding: 0px;
 }
 
-
 hr {
     border: 1px solid #19beb9;
 }
 
 .form-control {
     line-height: 2rem;
-    border: 2px solid #CED4DA;
+    border: 2px solid #ced4da;
     border-radius: 4px;
-    transition: border-color .15s ease-in-out, black .15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, black 0.15s ease-in-out;
 }
 
 .form-control:focus {
     -webkit-box-shadow: none;
     box-shadow: none;
-    border: 2px solid #19BEB9;
+    border: 2px solid #19beb9;
 }
 
 /*=========> Checkbox Customize Css <===========*/
@@ -180,7 +176,7 @@ hr {
     left: 0;
     height: 20px;
     width: 20px;
-    background-color: #CED4DA;
+    background-color: #ced4da;
     border-radius: 2px;
 }
 
@@ -190,8 +186,8 @@ hr {
   } */
 
 /* When the checkbox is checked, add a blue background */
-.check-container input:checked~.checkmark {
-    background-color: #19BEB9;
+.check-container input:checked ~ .checkmark {
+    background-color: #19beb9;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -202,7 +198,7 @@ hr {
 }
 
 /* Show the checkmark when checked */
-.check-container input:checked~.checkmark:after {
+.check-container input:checked ~ .checkmark:after {
     display: block;
 }
 
@@ -226,7 +222,7 @@ hr {
 #header {
     position: -webkit-sticky;
     position: sticky;
-    background-color: #283e4b;
+    background-color: #023441;
     top: 0;
     z-index: 20;
     padding: 6px 0px;
@@ -240,7 +236,7 @@ hr {
 }
 
 #header .menu {
-    background-color: #283e4b;
+    background-color: #023441;
 }
 
 #header .navbar .nav-item:not(:last-child) {
@@ -272,7 +268,6 @@ hr {
 .account-section a:hover {
     color: white;
     text-decoration: none;
-
 }
 
 .dropdown-toggle::after {
@@ -311,7 +306,6 @@ hr {
     margin-left: -84px;
     margin-top: 0px;
     text-align: center;
-
 }
 
 /* ============> **Header Css End** <============ */
@@ -442,7 +436,7 @@ hr {
 /* ============> **Tag Section End ** <============ */
 /* ============> **Footer Section Start ** <============ */
 #footer {
-    background-color: #213744;
+    background-color: #02303b;
 }
 
 #footer ul {
@@ -456,7 +450,7 @@ hr {
 }
 
 #footer ul li a:hover {
-    color: #19BEB9;
+    color: #19beb9;
 }
 
 #footer .social-media i {
@@ -472,8 +466,6 @@ hr {
     padding: 11px 15px;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
-
-
 }
 
 .social-media .social-link .fa-twitter {
@@ -505,8 +497,6 @@ hr {
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-
-
 
 #footer ul li {
     padding-bottom: 3px;
@@ -594,7 +584,7 @@ hr {
     color: black;
 }
 
-.card-link+.card-link {
+.card-link + .card-link {
     margin-left: 0px;
 }
 
@@ -691,8 +681,8 @@ textarea {
 
 #office_location .head i {
     font-size: 50px;
-    color: #19BEB9;
-    border: 3px solid #19BEB9;
+    color: #19beb9;
+    border: 3px solid #19beb9;
     border-radius: 50%;
     padding: 10px;
     width: 80px;
@@ -791,12 +781,12 @@ textarea {
     color: rgb(0, 0, 0);
     font-size: 16px;
     padding: 12px 12px;
-    border-bottom: 2px solid #19BEB9;
+    border-bottom: 2px solid #19beb9;
     border-radius: 50%;
 }
 
 #about_worker .follow_me i:hover {
-    background-color: #283E4B;
+    background-color: #283e4b;
     color: white;
     border-bottom: 2px solid rgb(153, 154, 155);
 }
@@ -836,7 +826,7 @@ textarea {
 
 #file_upload_body .card-body i {
     font-size: 50px;
-    color: #009B97;
+    color: #009b97;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -850,7 +840,7 @@ textarea {
     margin-left: -95px;
     margin-top: 0px;
     text-align: center;
-    background-color: #283E4B;
+    background-color: #283e4b;
     color: white;
 }
 
@@ -863,13 +853,13 @@ select.form-control:not([size]):not([multiple]) {
 
 /* Payment Method */
 #payment-method .payment-m {
-    color: #002B86;
+    color: #002b86;
     font-size: 26px;
     font-weight: bold;
 }
 
 #payment-method .method {
-    color: #26A7DC;
+    color: #26a7dc;
     font-size: 26px;
     font-weight: bold;
 }
