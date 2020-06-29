@@ -186,7 +186,7 @@ hr {
   } */
 
 /* When the checkbox is checked, add a blue background */
-.check-container input:checked ~ .checkmark {
+.check-container input:checked~.checkmark {
     background-color: #19beb9;
 }
 
@@ -198,7 +198,7 @@ hr {
 }
 
 /* Show the checkmark when checked */
-.check-container input:checked ~ .checkmark:after {
+.check-container input:checked~.checkmark:after {
     display: block;
 }
 
@@ -231,7 +231,7 @@ hr {
 #header .dropdown-menu {
     width: 250px;
     margin-left: -100px;
-    margin-top: 0px;
+    margin-top: -1px;
     text-align: center;
 }
 
@@ -304,8 +304,10 @@ hr {
 #header .account-section {
     width: 110px;
     margin-left: -84px;
-    margin-top: 0px;
+    margin-top: -1px;
     text-align: center;
+    background-color: #023441 !important;
+    color: white;
 }
 
 /* ============> **Header Css End** <============ */
@@ -584,7 +586,7 @@ hr {
     color: black;
 }
 
-.card-link + .card-link {
+.card-link+.card-link {
     margin-left: 0px;
 }
 
