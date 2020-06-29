@@ -15,13 +15,13 @@
             <p class="text-center py-col-2 py-sm-2 py-md-3 py-lg-4 py-xl-4">{{ $post->excerpt }}</p>
             <img src="{{ $post->featured_image }}" class="img-fluid"
                     alt="">
-            <div class="px-col-2 px-sm-3 px-md-4 px-lg-5 px-xl-5 pt-col-2 pt-sm-2 pt-md-3 pt-lg-4 pt-xl-4">
+            <!-- <div class="px-col-2 px-sm-3 px-md-4 px-lg-5 px-xl-5 pt-col-2 pt-sm-2 pt-md-3 pt-lg-4 pt-xl-4">
                 <h5>Azhar Raihan</h5>
                 <h6 class="pt-2">21,February,2010</h6>
-            </div>
+            </div> -->
         </div>
         <div class="article px-col-2 px-sm-3 px-md-4 px-lg-5 px-xl-5 mobile-pl mobile-pr" style="width: 100%;">
-            <hr>
+            <!-- <hr> -->
             <div style="width: 100%;"> {!! $post->body !!} </div>
         </div>
     </div>
@@ -32,7 +32,7 @@
         <div class="col-md-12">
             <div id="disqus_thread"></div>
         <script>
-        
+
         /**
         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
@@ -42,6 +42,7 @@
         this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
         };
         */
+
         (function() { // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
         s.src = 'https://designer-country-1.disqus.com/embed.js';
@@ -51,7 +52,7 @@
         </script>
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         </div>
-        
+
     </div>
 </div>
 @endsection
