@@ -1,5 +1,5 @@
 @extends ('frontEnd.layouts.master')
-@section ('title', 'Ecommerce-Trend')
+@section ('title', "$post->title")
 @section ('css')
 <style type="text/css">
 
@@ -12,7 +12,7 @@
     <div class="container py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5">
         <div class="head py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5 mobile-bl mobile-pr">
             <h2 class="text-center">{{ $post->title }}</h2>
-            <p class="text-center py-col-2 py-sm-2 py-md-3 py-lg-4 py-xl-4">{{ $post->title }}</p>
+            <p class="text-center py-col-2 py-sm-2 py-md-3 py-lg-4 py-xl-4">{{ $post->excerpt }}</p>
             <img src="{{ $post->featured_image }}" class="img-fluid"
                     alt="">
             <div class="px-col-2 px-sm-3 px-md-4 px-lg-5 px-xl-5 pt-col-2 pt-sm-2 pt-md-3 pt-lg-4 pt-xl-4">
