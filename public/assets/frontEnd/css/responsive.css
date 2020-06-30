@@ -176,9 +176,6 @@ video {
         padding-top: 250px;
     }
 
-    .img-fluid {
-        width: 100%;
-    }
 
 }
 
@@ -1343,5 +1340,13 @@ video {
         padding-bottom: 8px;
 
     }
+    /* #about_us_bg {
+        height: 60vh;
+   
+    } 
+    
+    #about_bg_overlay {
+        height: 70%;
+    } */
 
 }
