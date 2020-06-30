@@ -310,6 +310,9 @@ hr {
     background-color: #023441 !important;
     color: white;
 }
+#dasktop a{
+    padding: 9px 0px !important;
+}
 
 .error {
     color: #FF0000;
