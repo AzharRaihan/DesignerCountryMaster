@@ -58,26 +58,7 @@
   <link rel="stylesheet" href="http://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css">
   @yield ('css')
   <style>
-  .error {
-    color: #FF0000;
-  }
 
-  .dropdown-toggle::after {
-    border-top: .0em solid;
-
-  }
-
-  .navbar-collapse .nav-item>a {
-    padding: 30px 0px;
-  }
-
-  .navbar-dark {
-    padding: 0px
-  }
-
-  #header {
-    padding: 0px;
-  }
   </style>
 </head>
 

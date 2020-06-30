@@ -79,6 +79,7 @@ video {
     border: 0;
 }
 
+
 /*		Tablet Layout: 768px.
             Gutters: 24px.
             Outer margins: 28px.
@@ -88,8 +89,8 @@ video {
     px      68    160    252    344    436    528    620    712    */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    /*===== index.html Responsive Css Start ======*/
 
+    /* Default Responsive CSS */
     h1 {
         font-size: 31px;
     }
@@ -122,6 +123,44 @@ video {
         font-size: 16px;
     }
 
+    /* Pages Responsive CSS */
+
+    #header {
+        padding: 0px;
+    }
+
+    #header .dropdown-menu {
+        width: 220px;
+        margin-left: 10px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    #header .account-section {
+        width: 160px;
+    }
+
+    .navbar-collapse .nav-item>a {
+        padding: 9px 0px;
+    }
+
+    .navbar-dark {
+        padding: 0px
+    }
+
+    .navbar-expand-lg>.container,
+    .navbar-expand-lg>.container-fluid {
+        padding: 10px 0px;
+    }
+
+    .navbar-toggler-icon {
+        font-size: 18px;
+    }
+
+    .dropdown-toggle::after {
+        border-top: .0em solid;
+    }
+
     #around img {
         height: 100%;
     }
@@ -130,28 +169,14 @@ video {
         font-size: 13px;
     }
 
-    #header .dropdown-menu {
-        width: 250px;
-        margin-left: 10px;
-        margin-top: 0px;
-        text-align: center;
-    }
-
-    .account-section {
-        margin-right: 100px;
-        margin-top: 0px;
-        text-align: center;
-    }
-
     .about-title {
         padding-top: 250px;
     }
 
     .img-fluid {
-        width: 100%px;
+        width: 100%;
     }
 
-    /*===== index.html Responsive Css End ======*/
 }
 
 /*		Wide Tablet Layout: 576.
@@ -164,44 +189,7 @@ video {
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
 
-    /*===== index.html Responsive Css Start ======*/
-    .submit {
-        border-radius: 4px;
-        padding: 13px 30px;
-    }
-
-    .custom_button {
-        padding: 50px 0px;
-    }
-
-    .custom_button a {
-        background-color: #009b97;
-        color: #ffffff;
-        border-radius: 4px;
-        padding: 0px 25px;
-        margin-top: 10px;
-        font-weight: bold;
-    }
-
-    .custom_button a:hover {
-        background-color: #007571;
-        color: #ffffff;
-    }
-
-    #header .dropdown-menu {
-        width: 210px;
-        margin-left: 20px;
-        margin-top: 0px;
-        text-align: center;
-    }
-
-    #header .account-section {
-        width: 80px;
-        margin-left: 20px;
-        margin-top: 0px;
-        text-align: center;
-    }
-
+    /* Default Responsive CSS */
     h1 {
         font-size: 29px;
         padding: 20px 0px;
@@ -231,8 +219,27 @@ video {
         font-size: 16px;
     }
 
-    #header .navbar-nav a {
-        padding-left: 15px;
+    .submit {
+        border-radius: 4px;
+        padding: 13px 30px;
+    }
+
+    .custom_button {
+        padding: 50px 0px;
+    }
+
+    .custom_button a {
+        background-color: #009b97;
+        color: #ffffff;
+        border-radius: 4px;
+        padding: 0px 25px;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    .custom_button a:hover {
+        background-color: #007571;
+        color: #ffffff;
     }
 
     .custom_button {
@@ -241,6 +248,47 @@ video {
 
     .custom_button a {
         padding: 15px 35px;
+    }
+
+    /* Pages Responsive CSS */
+
+    #header img {
+        height: 30px;
+    }
+
+    #header .dropdown-menu {
+        width: 200px;
+        margin-left: 20px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    #header .navbar-nav a {
+        padding-left: 15px;
+        font-size: 13px;
+    }
+
+    #header .account-section {
+        width: 80px;
+        margin-left: 20px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+
+    .navbar-expand-lg>.container,
+    .navbar-expand-lg>.container-fluid {
+        padding: 10px 0px;
+    }
+
+
+    .navbar-toggler-icon {
+        font-size: 16px;
+    }
+
+    .navbar-collapse .nav-item>a {
+        padding: 7px 0px;
+        font-size: 13px;
     }
 
     #around h3 {
@@ -263,19 +311,17 @@ video {
         padding: 30px 0px;
     }
 
-    /*===== index.html Responsive Css End ======*/
 
-    /*===== upload.html Responsive Css Start ======*/
     #upload .upload-file {
         padding-top: 20px;
     }
 
-    /*===== About-Us.html Responsive Css Start ======*/
+
     .about-title {
         padding-top: 200px;
     }
 
-    /*===== About-Us.html Responsive Css End ======*/
+
 
     .img-fluid {
         width: 100%px;
@@ -303,92 +349,7 @@ video {
 
 @media only screen and (min-width: 431px) and (max-width: 575px) {
 
-    /*===== Custom Mobile Responsive Css Start ======*/
-    .mobile-padding {
-        padding: 16px 12px;
-    }
-
-    .mobile-pt {
-        padding-top: 16px;
-    }
-
-    .mobile-pb {
-        padding-bottom: 16px;
-    }
-
-    .mobile-py {
-        padding: 16px 0px;
-    }
-
-    .mobile-px {
-        padding: 0px 14px;
-    }
-
-    .mobile-pl {
-        padding-left: 14px;
-    }
-
-    .mobile-pr {
-        padding-right: 14px;
-    }
-
-    .navbar-brand img {
-        padding-left: 14px;
-    }
-
-    .custom-b {
-        font-size: 12px;
-    }
-
-    .mobile-navbar button {
-        margin-right: 12px;
-        font-size: 18px;
-    }
-
-    .navbar-toggler {
-        padding: 4px 7px;
-    }
-
-    .custom_button {
-        padding: 8px 0px 15px 0px;
-    }
-
-    .custom_button a {
-        padding: 8px 10px;
-        font-weight: bold;
-        font-size: 12px;
-        margin-top: 8px;
-        border-radius: 4px;
-    }
-
-    .custom_button a:hover {
-        background-color: #007571;
-        color: #ffffff;
-    }
-
-    .submit {
-        border-radius: 4px;
-        padding: 12px 27px;
-    }
-
-    #header .dropdown-menu {
-        width: 100px;
-        margin-left: 20px;
-        margin-top: 0px;
-        text-align: center;
-    }
-
-    #header .account-section {
-        width: 70px !important;
-        margin-left: 20px;
-        margin-top: 0px;
-        text-align: center;
-    }
-
-    .navbar-nav {
-        padding-left: 20px;
-    }
-
+    /* Default Responsive Css */
     h1 {
         font-size: 21px;
         padding: 15px 5px;
@@ -419,22 +380,123 @@ video {
         line-height: 18px;
     }
 
-    /*===== Custom Mobile Responsive Css Start ======*/
-
-    /* Index page Start */
-    #header {
-        height: 65px;
-        padding-top: 3px;
+    .mobile-padding {
+        padding: 16px 12px;
     }
 
-    .navbar-brand img {
-        height: 30px;
+    .mobile-pt {
+        padding-top: 16px;
+    }
+
+    .mobile-pb {
+        padding-bottom: 16px;
+    }
+
+    .mobile-py {
+        padding: 16px 0px;
+    }
+
+    .mobile-px {
+        padding: 0px 14px;
+    }
+
+    .mobile-pl {
+        padding-left: 14px;
+    }
+
+    .mobile-pr {
+        padding-right: 14px;
+    }
+
+    .mobile-navbar button {
+        margin-right: 12px;
+        font-size: 16px;
+    }
+
+    .custom-b {
+        font-size: 12px;
+    }
+
+    .custom_button {
+        padding: 8px 0px 15px 0px;
+    }
+
+    .custom_button a {
+        padding: 8px 10px;
+        font-weight: bold;
+        font-size: 12px;
+        margin-top: 8px;
+        border-radius: 4px;
+    }
+
+    .custom_button a:hover {
+        background-color: #007571;
+        color: #ffffff;
+    }
+
+    .submit {
+        border-radius: 4px;
+        padding: 12px 27px;
+    }
+
+    /* Pages Responsive Css */
+    #header img {
+        height: 26px;
+    }
+
+    #header .dropdown-menu {
+        width: 180px;
+        margin-left: 20px;
+        margin-top: 0px;
+        text-align: center;
     }
 
     #header .navbar-nav a {
         padding-left: 18px;
         font-size: 12px;
     }
+
+    #header .account-section {
+        width: 70px !important;
+        margin-left: 20px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    #header .account-section a {
+        margin-left: 0px;
+
+    }
+
+
+    .navbar-expand-lg>.container,
+    .navbar-expand-lg>.container-fluid {
+        padding: 10px 0px;
+    }
+
+
+    .navbar-toggler-icon {
+        font-size: 16px;
+    }
+
+    .navbar-collapse .nav-item>a {
+        padding: 7px 0px;
+        font-size: 13px;
+    }
+
+
+    .navbar-brand img {
+        padding-left: 14px;
+    }
+
+    .navbar-toggler {
+        padding: 2px 6px;
+    }
+
+    .navbar-nav {
+        padding-left: 20px;
+    }
+
 
     #around img {
         padding-bottom: 22px;
@@ -657,10 +719,6 @@ video {
         color: #009B97;
     }
 
-    #file_upload .card-body span {
-        /* font-size: 16px; */
-    }
-
     #payment-method .payment-m {
         font-size: 15px;
     }
@@ -774,7 +832,37 @@ video {
 
 @media only screen and (min-width: 310px) and (max-width: 430px) {
 
-    /*===== Custom Mobile Responsive Css Start ======*/
+    /* Default Responsive CSS */
+    h1 {
+        font-size: 19px;
+        padding: 15px 5px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    h4 {
+        font-size: 13px;
+    }
+
+    h5 {
+        font-size: 11px;
+    }
+
+    h6 {
+        font-size: 11px;
+    }
+
+    p {
+        font-size: 9px;
+        line-height: 16px;
+    }
+
     .mobile-padding {
         padding: 14px 10px;
     }
@@ -801,6 +889,10 @@ video {
 
     .mobile-pr {
         padding-right: 10px;
+    }
+
+    #header img {
+        height: 26px;
     }
 
     .navbar-brand img {
@@ -842,11 +934,20 @@ video {
         padding: 10px 25px;
     }
 
+    /* #header img {
+        height: 24px;
+    } */
+
     #header .dropdown-menu {
-        width: 100px;
+        width: 160px;
         margin-left: 20px;
         margin-top: 0px;
         text-align: center;
+    }
+
+    #header .navbar-nav a {
+        padding-left: 16px;
+        font-size: 10px;
     }
 
     #header .account-section {
@@ -856,56 +957,42 @@ video {
         text-align: center;
     }
 
+    #header .account-section a {
+        margin-left: 0px;
+
+    }
+
+
+    .navbar-expand-lg>.container,
+    .navbar-expand-lg>.container-fluid {
+        padding: 10px 0px;
+    }
+
+
+    .navbar-toggler-icon {
+        font-size: 14px;
+    }
+
+    .navbar-collapse .nav-item>a {
+        padding: 7px 0px;
+        font-size: 13px;
+    }
+
+
+    .navbar-brand img {
+        padding-left: 14px;
+    }
+
+    .navbar-toggler {
+        padding: 2px 6px;
+    }
+
     .navbar-nav {
         padding-left: 20px;
     }
 
-    h1 {
-        font-size: 19px;
-        padding: 15px 5px;
-    }
 
-    h2 {
-        font-size: 17px;
-    }
 
-    h3 {
-        font-size: 15px;
-    }
-
-    h4 {
-        font-size: 13px;
-    }
-
-    h5 {
-        font-size: 11px;
-    }
-
-    h6 {
-        font-size: 11px;
-    }
-
-    p {
-        font-size: 9px;
-        line-height: 16px;
-    }
-
-    /*===== Custom Mobile Responsive Css Start ======*/
-
-    /* Index page Start */
-    #header {
-        height: 60px;
-        padding-top: 3px;
-    }
-
-    .navbar-brand img {
-        height: 28px;
-    }
-
-    #header .navbar-nav a {
-        padding-left: 15px;
-        font-size: 10px;
-    }
 
     #around img {
         padding-bottom: 20px;

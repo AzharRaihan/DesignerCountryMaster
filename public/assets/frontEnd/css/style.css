@@ -146,7 +146,7 @@ hr {
     border: 2px solid #19beb9;
 }
 
-/*=========> Checkbox Customize Css <===========*/
+
 /* The container */
 .check-container {
     display: block;
@@ -180,10 +180,7 @@ hr {
     border-radius: 2px;
 }
 
-/* On mouse-over, add a grey background color */
-/* .container:hover input ~ .checkmark {
-    background-color: #ccc;
-  } */
+
 
 /* When the checkbox is checked, add a blue background */
 .check-container input:checked~.checkmark {
@@ -215,17 +212,13 @@ hr {
     transform: rotate(45deg);
 }
 
-/*=========> Checkbox Customize Css <===========*/
-
-/* ============> **Custom End** <============ */
-/* ============> **Header Css Start** <============ */
 #header {
     position: -webkit-sticky;
     position: sticky;
     background-color: #023441;
     top: 0;
     z-index: 20;
-    padding: 6px 0px;
+    padding: 0px;
 }
 
 #header .dropdown-menu {
@@ -233,6 +226,8 @@ hr {
     margin-left: -100px;
     margin-top: -1px;
     text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 #header .menu {
@@ -310,8 +305,23 @@ hr {
     color: white;
 }
 
-/* ============> **Header Css End** <============ */
-/* ============> **Banner and Around Css start** <============ */
+.error {
+    color: #FF0000;
+}
+
+.dropdown-toggle::after {
+    border-top: .0em solid;
+
+}
+
+.navbar-collapse .nav-item>a {
+    padding: 30px 0px;
+}
+
+.navbar-dark {
+    padding: 0px
+}
+
 #banner h1 {
     font-family: "Josefin Sans", sans-serif;
     -webkit-font-family: "Josefin Sans", sans-serif;
@@ -333,8 +343,7 @@ hr {
     color: #19beb9;
 }
 
-/* ============> **Banner and Around Css End** <============ */
-/* ============> **Design Sample and About Css Section Start ** <============ */
+
 #design_sample img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 100%;
@@ -362,7 +371,6 @@ hr {
 #about_article i {
     padding: 20px;
     color: #19beb9;
-    /* border: 1px solid #a0ce4e; */
     font-size: 50px;
     border-radius: 50%;
 }
@@ -375,8 +383,7 @@ hr {
     display: none;
 }
 
-/* ============> **Design Sample and About Css Section Start ** <============ */
-/* ============> **Tag Section Start ** <============ */
+
 #tag a {
     text-decoration: none;
     color: rgb(138, 138, 138);
@@ -435,8 +442,6 @@ hr {
     text-align: center;
 }
 
-/* ============> **Tag Section End ** <============ */
-/* ============> **Footer Section Start ** <============ */
 #footer {
     background-color: #02303b;
 }
@@ -459,9 +464,6 @@ hr {
     color: white;
     font-size: 20px;
     border: 1px solid #19beb9;
-    /* border-top: 2px solid rgb(88, 145, 175);
-    border-bottom: 2px solid rgb(88, 145, 175);
-    border-radius: 50%; */
 }
 
 .social-media .social-link .fa-facebook-f {
@@ -506,8 +508,6 @@ hr {
 
 #footer .social-media i:hover {
     background-color: #19beb9;
-    /* border-top: 2px solid #2e4a5a;
-    border-bottom: 2px solid #2e4a5a; */
     border: 1px solid #19beb9;
     text-decoration: none;
 }
@@ -520,9 +520,6 @@ hr {
     text-decoration: none;
 }
 
-/* ============> **Footer Section End ** <============ */
-
-/* ============> **About_us $ blog.html  Start ** <============ */
 #about-us-head {
     background-color: #009b97;
 }
@@ -547,15 +544,13 @@ hr {
 
 .blog_category a {
     color: rgb(0, 0, 0);
-    /* text-decoration: none; */
+
 }
 
 .blog_category p {
     color: black;
 }
 
-/* ============> **About_us $ blog.html End ** <============ */
-/* ============> **faq.html Start ** <============ */
 #faq .card-header i {
     border: 2px solid #19beb9;
     border-radius: 50%;
@@ -580,7 +575,6 @@ hr {
 
 .card a {
     color: #007bff;
-    /* text-decoration: none; */
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
     color: black;
@@ -601,9 +595,7 @@ hr {
     color: white;
 }
 
-/* ============> **faq.html End ** <============ */
 
-/* ============> **blog_category.html Start ** <============ */
 .custom-b {
     background-color: #009b97;
     color: white;
@@ -633,47 +625,22 @@ hr {
     padding: 10px;
 }
 
-/* The "show" class is added to the filtered elements */
+
 .show {
     display: block;
 }
 
-/* Style the buttons */
-/* .btn {
-border: none;
-outline: none;
-padding: 12px 16px;
-background-color: white;
-cursor: pointer;
-}
 
-.btn:hover {
-background-color: #ddd;
-}
-
-*/
 .btn.active {
     background-color: #007571;
     color: white;
 }
 
-/* .content p{
-background: #283E4B;
-height: 40px;
-margin-bottom: 0px;
-} */
-/* .list-group-item {
-
-  margin-bottom: 0px
-
-} */
 .content img {
     width: 100%;
 }
 
-/* ============> **blog_category.html Start ** <============ */
 
-/* ============> ** contact.html Start ** <============ */
 textarea {
     margin: 0;
     border: 1px solid #ced4da;
@@ -713,8 +680,7 @@ textarea {
     text-decoration: none;
 }
 
-/* ============> ** contact.html End ** <============ */
-/* ============> ** pricing.html start ** <============ */
+
 #pricing_head .content .div {
     background-color: #009b97;
 }
@@ -723,9 +689,7 @@ textarea {
     margin-bottom: 0px;
 }
 
-/* ============> ** pricing.html End ** <============ */
 
-/* ============> ** Blog-Show Start ** <============ */
 #blog_banner img {
     width: 100%;
 }
@@ -734,9 +698,7 @@ textarea {
     width: 100%;
 }
 
-/* ============> ** Blog-Show End ** <============ */
 
-/* ============> ** sample.html start ** <============ */
 #sample_card {
     background-color: #19beb9;
     color: white;
@@ -747,9 +709,7 @@ textarea {
     padding-bottom: 30px;
 }
 
-/* ============> ** sample.html End ** <============ */
 
-/* ============> ** about_us.html Start ** <============ */
 #about_us_bg {
     background-image: url("../images/about/designercountry_team.png");
     background-size: cover;
@@ -815,16 +775,13 @@ textarea {
     text-decoration: none;
 }
 
-/* ============> ** about_us.html End ** <============ */
-/* ============> ** file_upload.html Start ** <============ */
+
 #file_upload_message {
     background-color: #009b97;
     color: white;
 }
 
-/* #file_upload .card-body span {
-    font-size: 30px;
-} */
+
 
 #file_upload_body .card-body i {
     font-size: 50px;
@@ -846,9 +803,6 @@ textarea {
     color: white;
 }
 
-/* .img-fluid{
-    width: 100%;
-} */
 select.form-control:not([size]):not([multiple]) {
     height: calc(2.25rem + 12px);
 }
