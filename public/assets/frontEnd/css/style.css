@@ -373,8 +373,8 @@ hr {
     height: 400px;
 }
 
-#about_bg .about-title {
-    padding-top: 400px;
+#about-title{
+    padding-top: 430px;
 }
 
 #about_article i {

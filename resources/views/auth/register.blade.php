@@ -32,9 +32,17 @@
       
   <style>
     .login-content .login-box {
-    min-width: 350px;
-    min-height: 530px;
-  }
+      min-width: 350px;
+      min-height: 530px;
+    }
+    @media only screen and (min-width: 310px) and (max-width: 430px) {
+      
+    .login-content .login-box {
+        min-width: 280px;
+        min-height: 435px;
+    }
+
+    }
   </style>
   
 </head>

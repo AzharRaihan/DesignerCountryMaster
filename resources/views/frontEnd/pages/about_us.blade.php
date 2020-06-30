@@ -10,7 +10,7 @@
 <!--==** About-Us Head Section Start **==-->
 <div id="about_us_bg">
     <div id="about_bg_overlay">
-        <div class="text-light text-center about-title px-col-3 px-sm-3 px-md-4 px-lg-5 px-xl-5">
+        <div id="about-title" class="text-light text-center about-title px-col-3 px-sm-3 px-md-4 px-lg-5 px-xl-5">
             <h1>Our Team</h1>
             <p>We love what we do and come to work every day hungry to change the world of work!</p>
         </div>
@@ -55,22 +55,6 @@
                             <h3 class="text-center pb-2">Nayeem Khan</h3>
                             <h4 class="text-center">Founder And Owner</h4>
                         </div>
-                        <div class="follow_me text-center py-col-2 py-sm-3 py-md-3 py-lg-3 py-xl-3">
-                            <div class="follow-social-link">
-                                <a href="https://www.facebook.com/nayeemkhangdc" target="_blank">
-                                    <i class="fab fa-facebook-f" style="padding: 12px 16px;"></i>
-                                </a>
-                                <a href="https://twitter.com/designercounty" target="blank">
-                                    <i class="fab fa-twitter" style="padding: 12px 12px;"></i>
-                                </a>
-                                <a href="https://www.linkedin.com/company/designer-country" target="blank">
-                                    <i class="fab fa-linkedin" style="padding: 12px 13px;"></i>
-                                </a>
-                                <a href="https://www.instagram.com/nayeemkhangdc/" target="_blank">
-                                    <i class="fab fa-instagram" style="padding: 12px 13px;"></i>
-                                </a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -96,22 +80,6 @@
                                 <h3 class="text-center pb-2">Mustafigur Rahman</h3>
                                 <h4 class="text-center">Co-Founder</h4>
                             </div>
-                            <div class="follow_me text-center py-col-2 py-sm-2 py-md-3 py-lg-3 py-xl-3 py-col-2 py-sm-2 py-md-3 py-lg-3 py-xl-3">
-                                <div class="follow-social-link">
-                                    <a href="https://www.facebook.com/profile.php?id=100007719463198" target="_blank">
-                                        <i class="fab fa-facebook-f" style="padding: 12px 16px;"></i>
-                                    </a>
-                                    <a href="#" target="_blank">
-                                        <i class="fab fa-twitter" style="padding: 12px 12px;"></i>
-                                    </a>
-                                    <a href="https://www.linkedin.com/in/mostafiz-ahmed-295164143" target="_blank">
-                                        <i class="fab fa-linkedin" style="padding: 12px 13px;"></i>
-                                    </a>
-                                    <a href="#" target="_blank">
-                                        <i class="fab fa-instagram" style="padding: 12px 13px;"></i>
-                                    </a>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -126,22 +94,6 @@
                             <div class="title mobile-py">
                                 <h3 class="text-center pb-2">Aminul Islam</h3>
                                 <h4 class="text-center">Human Resource</h4>
-                            </div>
-                            <div class="follow_me text-center py-col-2 py-sm-2 py-md-3 py-lg-3 py-xl-3">
-                                <div class="follow-social-link">
-                                    <a href="" target="_blank">
-                                        <i class="fab fa-facebook-f" style="padding: 12px 16px;"></i>
-                                    </a>
-                                    <a href="" target="_blank">
-                                        <i class="fab fa-twitter" style="padding: 12px 12px;"></i>
-                                    </a>
-                                    <a href="" target="_blank">
-                                        <i class="fab fa-linkedin" style="padding: 12px 13px;"></i>
-                                    </a>
-                                    <a href="" target="_blank">
-                                        <i class="fab fa-instagram" style="padding: 12px 13px;"></i>
-                                    </a>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -161,22 +113,6 @@
                             <h3 class="text-center pb-2">Azhar Raihan</h3>
                             <h4 class="text-center">Software Engineer</h4>
                             <h4>Design And Developer</h4>
-                        </div>
-                        <div class="follow_me text-center py-col-2 py-sm-2 py-md-3 py-lg-3 py-xl-3 mobile-pb">
-                            <div class="follow-social-link">
-                                <a href="https://www.facebook.com/AzharRaihan6969" target="_blank">
-                                    <i class="fab fa-facebook-f" style="padding: 12px 16px;"></i>
-                                </a>
-                                <a href="https://twitter.com/AzharRaihan6969" target="_blank">
-                                    <i class="fab fa-twitter" style="padding: 12px 12px;"></i>
-                                </a>
-                                <a href="https://www.linkedin.com/in/AzharRaihan6969" target="_blank">
-                                    <i class="fab fa-linkedin" style="padding: 12px 13px;"></i>
-                                </a>
-                                <a href="https://www.instagram.com/azharraihan2/" target="_blank">
-                                    <i class="fab fa-instagram" style="padding: 12px 13px;"></i>
-                                </a>
-                            </div>
                         </div>
                     </div>
                 </div>

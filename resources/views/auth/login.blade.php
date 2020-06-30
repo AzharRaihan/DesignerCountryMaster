@@ -24,13 +24,25 @@
   <link rel="stylesheet" href="{{asset('assets/frontEnd/css/responsive.css')}}">
   <link rel="stylesheet" href="{{asset('assets/backEnd/css/main.css')}}">
 
+  <style>
+    @media only screen and (min-width: 310px) and (max-width: 430px) {
+      
+    .login-content .login-box {
+        min-width: 280px;
+        min-height: 435px;
+    }
+
+    }
+
+  </style>
+
   
 </head>
   
 <body>
-  <section class="login-content">
+  <section class="login-content" class="mobile-pl mobile-pr">
     <div class="logo">
-    <a href="{{route('index')}}"><img src="{{asset('assets/frontEnd/images/home_page/logo.png')}}" alt="Designer_country" class="img-fluid"></a>
+      <a href="{{route('index')}}"><img src="{{asset('assets/frontEnd/images/home_page/logo.png')}}" alt="Designer_country" class="img-fluid"></a>
     </div>
     <div class="login-box">
       <form class="login-form" method="POST" action="{{ route('login') }}">

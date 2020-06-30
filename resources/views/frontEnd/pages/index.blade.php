@@ -224,7 +224,7 @@
 <!--==** Happyness Section End **==-->
 
 <!--==** Latest Product Section Start **==-->
-<section id="latest_product">
+<!-- <section id="latest_product">
   <div class="container py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5">
     <div class="text-center pb-col-2 pb-sm-3 pb-md-4 pb-lg-5 pb-xl-5">
       <h1>Read Our Latest Product Photos Tips</h1>
@@ -259,7 +259,7 @@
     </div>
     <hr>
   </div>
-</section>
+</section> -->
 <!--==** Latest Product Section End **==-->
 
 <!--==** Sponsor  Section Start **==-->
