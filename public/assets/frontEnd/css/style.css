@@ -264,7 +264,13 @@ hr {
     color: white;
     text-decoration: none;
 }
-
+.account-section>a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.account-section .nav-link{
+    padding: 15px 0px;
+}
 .dropdown-toggle::after {
     transition: transform 0.15s linear;
 }
@@ -297,8 +303,8 @@ hr {
 }
 
 #header .account-section {
-    width: 110px;
-    margin-left: -84px;
+    width: 190px;
+    margin-left: -105px;
     margin-top: -1px;
     text-align: center;
     background-color: #023441 !important;

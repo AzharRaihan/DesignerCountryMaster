@@ -65,7 +65,7 @@
 <body>
   <!--==** Header Section Start **==-->
   <section id="header">
-    <div class="px-md-5 px-sm-3 px-xs-2">
+    <div class="px-md-5 px-sm-3 px-xs-3">
       <nav class="menu navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid mobile-navbar">
           <a class="navbar-brand" href="{{route('index')}}">
@@ -77,26 +77,26 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto mobile-pl">
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown1" role="button"
                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SERVICES <i
                     class="fas fa-caret-down"></i></a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                  <a class="dropdown-item py-md-2 py-sm-1 py-xs-0" href="{{route('clipping.path')}}">Clipping Path</a>
-                  <a class="dropdown-item py-md-2 py-sm-1 py-xs-0" href="{{route('background.removal')}}">Background
+                  <a class="dropdown-item py-xl-3 py-lg-3 py-md-2 py-sm-2 py-xs-0 mobile mobile-service" href="{{route('clipping.path')}}">Clipping Path</a>
+                  <a class="dropdown-item py-xl-3 py-lg-3 py-md-2 py-sm-2 py-xs-0 mobile mobile-service" href="{{route('background.removal')}}">Background
                     Removal</a>
-                  <a class="dropdown-item py-md-2 py-sm-1 py-xs-0" href="{{route('image.masking')}}">Image Masking</a>
-                  <a class="dropdown-item py-md-2 py-sm-1 py-xs-0" href="{{route('natural.shadow')}}">Natural Shadow</a>
-                  <a class="dropdown-item py-md-2 py-sm-1 py-xs-0" href="{{route('photo.retouching')}}">Photo
+                  <a class="dropdown-item py-xl-3 py-lg-3 py-md-2 py-sm-2 py-xs-0 mobile mobile-service" href="{{route('image.masking')}}">Image Masking</a>
+                  <a class="dropdown-item py-xl-3 py-lg-3 py-md-2 py-sm-2 py-xs-0 mobile mobile-service" href="{{route('natural.shadow')}}">Natural Shadow</a>
+                  <a class="dropdown-item py-xl-3 py-lg-3 py-md-2 py-sm-2 py-xs-0 mobile mobile-service" href="{{route('photo.retouching')}}">Photo
                     Retouching</a>
-                  <a class="dropdown-item py-md-2 py-sm-1 py-xs-0" href="{{route('ghosht.manneuquin')}}">Ghost
+                  <a class="dropdown-item py-xl-3 py-lg-3 py-md-2 py-sm-2 py-xs-0 mobile mobile-service" href="{{route('ghosht.manneuquin')}}">Ghost
                     Mannequin</a>
-                  <a class="dropdown-item py-md-2 py-sm-1 py-xs-0" href="{{route('product.photo.editing')}}">Product
+                  <a class="dropdown-item py-xl-3 py-lg-3 py-md-2 py-sm-2 py-xs-0 mobile mobile-service" href="{{route('product.photo.editing')}}">Product
                     Photo Editing</a>
-                  <a class="dropdown-item py-md-2 py-sm-1 py-xs-0" href="{{route('color.correction')}}">Color
+                  <a class="dropdown-item py-xl-3 py-lg-3 py-md-2 py-sm-2 py-xs-0 mobile mobile-service" href="{{route('color.correction')}}">Color
                     Correction</a>
-                  <a class="dropdown-item py-md-2 py-sm-1 py-xs-0" href="{{route('vector.conversion')}}"
+                  <a class="dropdown-item py-xl-3 py-lg-3 py-md-2 py-sm-2 py-xs-0 mobile mobile-service" href="{{route('vector.conversion')}}"
                     style="border: none;">Vector Conversion</a>
                 </div>
               </li>
