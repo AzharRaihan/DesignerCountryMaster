@@ -264,13 +264,16 @@ hr {
     color: white;
     text-decoration: none;
 }
-.account-section>a{
+
+.account-section>a {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.account-section .nav-link{
+
+.account-section .nav-link {
     padding: 15px 0px;
 }
+
 .dropdown-toggle::after {
     transition: transform 0.15s linear;
 }
@@ -310,7 +313,8 @@ hr {
     background-color: #023441 !important;
     color: white;
 }
-#dasktop a{
+
+#dasktop a {
     padding: 9px 0px !important;
 }
 
@@ -373,7 +377,7 @@ hr {
     height: 400px;
 }
 
-#about-title{
+#about-title {
     padding-top: 430px;
 }
 
