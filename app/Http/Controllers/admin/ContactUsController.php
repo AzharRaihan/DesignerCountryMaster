@@ -38,7 +38,7 @@ class ContactUsController extends Controller
             'message_data' => $request->message
         );
 
-        Mail::to('designercountry@gmail.com')->send(new ContactUsMail($data));
+        Mail::to('azharraihan6969@gmail.com')->send(new ContactUsMail($data));
         ContactUs::create($request->all());
         Toastr::success('Your Message Send Successfully','success');
         return redirect()->back()->with('success', 'Your message successfully sent');

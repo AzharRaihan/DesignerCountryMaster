@@ -46,7 +46,8 @@ class QuoteController extends Controller
         'brightness_enhencement','ecomerce_image_editing','image_restarted']))
         {
             $data = Quote::create($req->all());
-            Mail::to('designercountry@gmail.com')->send(new QuoteMail($data));
+            Mail::to('azharraihan6969@gmail.com')->send(new QuoteMail($data));
+            // Mail::to($req->email)->send(new QuoteMail($data)); For send to user email
             session(['name' => $data->name]);
             Toastr::success('Your Data Update Successfully','success');
             return redirect()->route('get.quote.upload');
