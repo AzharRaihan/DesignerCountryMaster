@@ -13,3 +13,8 @@ Wink Blog information
 =====================
 Id: admin@mail.come
 pass: j3HRi9LnOHMJII4z
+
+Dashboard Login
+===============
+ID: azharraihan6969@gmail.com
+Pass: azharraihan6969
