@@ -90,7 +90,6 @@
 
 <!--==** How To Work Section Start **==-->
 <section id="howWork">
-
   <div class="container py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5">
     <h1 class="text-center">How To Work</h1>
     <div class="row pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">
