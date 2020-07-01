@@ -160,7 +160,8 @@ video {
     .dropdown-toggle::after {
         border-top: .0em solid;
     }
-    .account-section .nav-link{
+
+    .account-section .nav-link {
         padding: 15px 0px;
     }
 
@@ -249,7 +250,8 @@ video {
     .custom_button a {
         padding: 15px 35px;
     }
-    .account-section .nav-link{
+
+    .account-section .nav-link {
         padding: 13px 0px;
     }
 
@@ -415,6 +417,7 @@ video {
         margin-right: 12px;
         font-size: 16px;
     }
+
     .mobile-service {
         padding-top: 5px;
         padding-bottom: 5px;
@@ -503,7 +506,8 @@ video {
     .navbar-nav {
         padding-left: 20px;
     }
-    .account-section .nav-link{
+
+    .account-section .nav-link {
         padding: 10px 0px;
     }
 
@@ -900,6 +904,7 @@ video {
     .mobile-pr {
         padding-right: 10px;
     }
+
     .mobile-service {
         padding-top: 4px;
         padding-bottom: 4px;
@@ -975,10 +980,12 @@ video {
         margin-left: 0px;
 
     }
-    #mobile-device a{
+
+    #mobile-device a {
         padding: 5px 0px;
     }
-    .account-section .nav-link{
+
+    .account-section .nav-link {
         padding: 8px 0px;
     }
 
@@ -1340,6 +1347,7 @@ video {
         padding-bottom: 8px;
 
     }
+
     /* #about_us_bg {
         height: 60vh;
    
