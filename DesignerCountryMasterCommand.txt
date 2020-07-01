@@ -7,3 +7,9 @@ php artisan serve // For Run Website
 
 If the admin wants to get any information from the user for contact and work, then the email that will be used must have less security app on.
 Otherwise no information will come in the email from the user.
+
+
+Wink Blog information
+=====================
+Id: admin@mail.come
+pass: j3HRi9LnOHMJII4z
