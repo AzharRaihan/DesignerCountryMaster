@@ -4,3 +4,6 @@ php artisan wink:install // For Wink Install
 php artisan wink:migrate // For Wink Migrate
 php artisan queue:work // Send Email to Author
 php artisan serve // For Run Website
+
+If the admin wants to get any information from the user for contact and work, then the email that will be used must have less security app on.
+Otherwise no information will come in the email from the user.
