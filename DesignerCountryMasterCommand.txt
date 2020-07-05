@@ -1,7 +1,10 @@
 php artisan migrate:fresh --seed // For Seed
+php artisan config:clear // if you change .env
+php artisan key:generate 
 php artisan storage:link // For Storage, if storage is not available
 php artisan wink:install // For Wink Install
 php artisan wink:migrate // For Wink Migrate
+php artisan optimize
 php artisan queue:work // Send Email to Author
 php artisan serve // For Run Website
 
@@ -12,7 +15,7 @@ Otherwise no information will come in the email from the user.
 Wink Blog information
 =====================
 Id: admin@mail.come
-pass: j3HRi9LnOHMJII4z
+pass: 9zKI1s46Fsv05NCU
 
 Dashboard Login
 ===============
