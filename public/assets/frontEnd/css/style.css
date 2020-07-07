@@ -220,7 +220,6 @@ hr {
 }
 
 
-
 .custom_button {
     padding: 60px 0px;
 }
@@ -265,6 +264,56 @@ hr {
 }
 
 /* ============> **Custom Css End** <============ */
+
+
+
+
+/* ============> **Banner Section Start** <============ */
+#banner {
+    background-image: url("../images/home_page/banner_dc.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: -5;
+}
+
+#banner #banner-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+}
+
+#banner #banner-overlay .banner-title {
+    padding-top: 20%;
+}
+
+.banner_button {
+    padding: 60px 0px;
+}
+
+.banner_button a {
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #19BEB9;
+    padding: 15px 60px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.banner_button a:hover {
+    background-color: #023441 !important;
+    color: #ffffff !important;
+    border: 1px solid #023441;
+}
+
+/* ============> **Banner Section Start** <============ */
+
 
 
 /* Header Css */
@@ -687,11 +736,12 @@ select.form-control:not([size]):not([multiple]) {
 #about_us_bg {
     background-image: url("../images/about/designercountry_team.png");
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     position: relative;
+    background-attachment: fixed;
     top: 0;
     bottom: 0;
-    height: 70vh;
+    height: 100%;
     z-index: -5;
 }
 
@@ -706,27 +756,9 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .about-title {
-    padding-top: 300px;
+    padding-top: 400px !important;
 }
 
 #about_worker img {
     border-radius: 50%;
 }
-
-/* #about-us-head {
-    background-color: #009b97;
-}
-
-#about-us-head .watch-button a {
-    background-color: #283e4b;
-    border: 2px solid rgb(37, 207, 202);
-    color: rgb(255, 255, 255);
-    border-radius: 5px;
-}
-
-#about-us-head .watch-button a:hover {
-    background-color: #007571;
-    color: #ffffff;
-    border: 2px solid #009b97;
-    transition: 0.5s;
-} */

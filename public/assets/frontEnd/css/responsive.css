@@ -81,12 +81,12 @@ video {
 
 
 /*		Tablet Layout: 768px.
-            Gutters: 24px.
-            Outer margins: 28px.
-            Inherits styles from: Default Layout.
-    -----------------------------------------------------------------
-    cols    1     2      3      4      5      6      7      8
-    px      68    160    252    344    436    528    620    712    */
+                Gutters: 24px.
+                Outer margins: 28px.
+                Inherits styles from: Default Layout.
+        -----------------------------------------------------------------
+        cols    1     2      3      4      5      6      7      8
+        px      68    160    252    344    436    528    620    712    */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
@@ -173,20 +173,45 @@ video {
         font-size: 13px;
     }
 
-    .about-title {
+    #about_us_bg #about_bg_overlay .about-title {
         padding-top: 250px;
     }
+
+
+    /* ===> Banner start <===*/
+    #banner {
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        z-index: -5;
+    }
+
+    #banner #banner-overlay {
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -5;
+    }
+
+    /*#banner #banner-overlay .banner-title {
+        padding-top: 60%;
+        }*/
+    /* ===> Banner End <===*/
 
 
 }
 
 /*		Wide Tablet Layout: 576.
-            Gutters: 24px.
-            Outer margins: 22px.
-            Inherits styles from: Default Layout, Tablet Layout.
-    ------------------------------------------------------------
-    cols    1     2      3      4      5
-    px      68    160    252    344    436    */
+                Gutters: 24px.
+                Outer margins: 22px.
+                Inherits styles from: Default Layout, Tablet Layout.
+        ------------------------------------------------------------
+        cols    1     2      3      4      5
+        px      68    160    252    344    436    */
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
 
@@ -226,14 +251,14 @@ video {
     }
 
     .custom_button {
-        padding: 50px 0px;
+        padding: 35px 0px;
     }
 
     .custom_button a {
         background-color: #009b97;
         color: #ffffff;
         border-radius: 4px;
-        padding: 0px 25px;
+        padding: 15px 35px;
         margin-top: 10px;
         font-weight: bold;
     }
@@ -243,13 +268,24 @@ video {
         color: #ffffff;
     }
 
-    .custom_button {
+    .banner_button {
         padding: 35px 0px;
     }
 
-    .custom_button a {
+    .banner_button a {
+        background-color: #009b97;
+        color: #ffffff;
+        border-radius: 4px;
         padding: 15px 35px;
+        margin-top: 10px;
+        font-weight: bold;
     }
+
+    .banner_button a:hover {
+        background-color: #007571;
+        color: #ffffff;
+    }
+
 
     .account-section .nav-link {
         padding: 13px 0px;
@@ -257,6 +293,30 @@ video {
 
 
     /* Pages Responsive CSS */
+    /* ===> Banner start <===*/
+    #banner {
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        z-index: -5;
+    }
+
+    #banner #banner-overlay {
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -5;
+    }
+
+    #banner #banner-overlay .banner-title {
+        padding-top: 40%;
+    }
+
+    /* ===> Banner End <===*/
 
     #header img {
         height: 30px;
@@ -322,10 +382,9 @@ video {
     }
 
 
-    .about-title {
+    #about_us_bg #about_bg_overlay .about-title {
         padding-top: 200px;
     }
-
 
 
     .img-fluid {
@@ -345,12 +404,12 @@ video {
 }
 
 /*		Wide Mobile Layout: 431.
-            Gutters: 24px.
-            Outer margins: 22px.
-            Inherits styles from: Default Layout, Mobile Layout.
-    ------------------------------------------------------------
-    cols    1     2      3      4      5
-    px      68    160    252    344    436    */
+                Gutters: 24px.
+                Outer margins: 22px.
+                Inherits styles from: Default Layout, Mobile Layout.
+        ------------------------------------------------------------
+        cols    1     2      3      4      5
+        px      68    160    252    344    436    */
 
 @media only screen and (min-width: 431px) and (max-width: 575px) {
 
@@ -445,12 +504,53 @@ video {
         color: #ffffff;
     }
 
+    .banner_button {
+        padding: 8px 0px 15px 0px;
+    }
+
+    .banner_button a {
+        padding: 8px 10px;
+        font-weight: bold;
+        font-size: 12px;
+        margin-top: 8px;
+        border-radius: 4px;
+    }
+
+    .banner_button a:hover {
+        background-color: #007571;
+        color: #ffffff;
+    }
+
     .submit {
         border-radius: 4px;
         padding: 12px 27px;
     }
 
     /* Pages Responsive Css */
+    /* ===> Banner start <===*/
+    #banner {
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        z-index: -5;
+    }
+
+    #banner #banner-overlay {
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -5;
+    }
+
+    #banner #banner-overlay .banner-title {
+        padding-top: 60%;
+    }
+
+    /* ===> Banner End <===*/
     #header img {
         height: 26px;
     }
@@ -583,9 +683,10 @@ video {
     }
 
     /* About-Page Start */
-    .about-title {
+    #about_us_bg #about_bg_overlay .about-title {
         padding-top: 170px;
     }
+
 
     .follow-social-link {
         padding-top: 12px;
@@ -837,12 +938,12 @@ video {
 }
 
 /*		Wide Mobile Layout: 360.
-            Gutters: 24px.
-            Outer margins: 22px.
-            Inherits styles from: Default Layout, Mobile Layout.
-    ------------------------------------------------------------
-    cols    1     2      3      4      5
-    px      68    160    252    344    436    */
+                Gutters: 24px.
+                Outer margins: 22px.
+                Inherits styles from: Default Layout, Mobile Layout.
+        ------------------------------------------------------------
+        cols    1     2      3      4      5
+        px      68    160    252    344    436    */
 
 @media only screen and (min-width: 310px) and (max-width: 430px) {
 
@@ -949,14 +1050,53 @@ video {
         color: #ffffff;
     }
 
+    .banner_button {
+        padding: 8px 0px 15px 0px;
+    }
+
+    .banner_button a {
+        padding: 8px 10px;
+        font-weight: bold;
+        font-size: 10px;
+        margin-top: 8px;
+        border-radius: 3px;
+    }
+
+    .banner_button a:hover {
+        background-color: #007571;
+        color: #ffffff;
+    }
+
     .submit {
         border-radius: 3px;
         padding: 10px 25px;
     }
 
-    /* #header img {
-        height: 24px;
-    } */
+
+    /* ===> Banner start <===*/
+    #banner {
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        z-index: -5;
+    }
+
+    #banner #banner-overlay {
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -5;
+    }
+
+    #banner #banner-overlay .banner-title {
+        padding-top: 40%;
+    }
+
+    /* ===> Banner End <===*/
 
     #header .dropdown-menu {
         width: 160px;
@@ -1092,7 +1232,7 @@ video {
     }
 
     /* About-Page Start */
-    .about-title {
+    #about_us_bg #about_bg_overlay .about-title {
         padding-top: 170px;
     }
 
@@ -1348,13 +1488,6 @@ video {
 
     }
 
-    /* #about_us_bg {
-        height: 60vh;
-   
-    } 
-    
-    #about_bg_overlay {
-        height: 70%;
-    } */
+
 
 }

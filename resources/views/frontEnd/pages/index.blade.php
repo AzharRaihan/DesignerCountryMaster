@@ -10,18 +10,15 @@
 
 <!--==** Banner Section Start **==-->
 <section id="banner">
-  <div class="container pt-col-2 pt-sm-3 pt-md-4 pt-lg-5 pt-xl-5">
-    <h1 class="text-center py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5">Professional Clipping Path & Photo Retouching
-      Service...
-      Online Support for Every Time - Any Time!</h1>
-    <img src="{{asset('assets/frontEnd/images/home_page/Home_Images.png')}}" alt="designer_country_banner"
-      class="img-fluid">
-    <div class="container">
-      <div class="custom_button text-center">
+  <div id="banner-overlay">
+    <div class="banner-title container">
+      <h1 class="text-light text-center">Professional Clipping Path & Photo Retouching Service...
+        Online Support for Every Time - Any Time!</h1>
+      <div class="banner_button text-center">
         <a href="{{route('get.quote')}}" class="btn btn">TRY US FREE</a>
       </div>
-      <hr>
     </div>
+  </div>
   </div>
 </section>
 <!--==** Banner Section End **==-->
