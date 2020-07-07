@@ -282,8 +282,9 @@ video {
     }
 
     .banner_button a:hover {
-        background-color: #007571;
-        color: #ffffff;
+        background-color: #023441 !important;
+        color: #ffffff !important;
+        border: 1px solid #023441;
     }
 
 
@@ -313,7 +314,7 @@ video {
     }
 
     #banner #banner-overlay .banner-title {
-        padding-top: 40%;
+        padding-top: 30%;
     }
 
     /* ===> Banner End <===*/
@@ -517,8 +518,9 @@ video {
     }
 
     .banner_button a:hover {
-        background-color: #007571;
-        color: #ffffff;
+        background-color: #023441 !important;
+        color: #ffffff !important;
+        border: 1px solid #023441;
     }
 
     .submit {
@@ -1063,8 +1065,9 @@ video {
     }
 
     .banner_button a:hover {
-        background-color: #007571;
-        color: #ffffff;
+        background-color: #023441 !important;
+        color: #ffffff !important;
+        border: 1px solid #023441;
     }
 
     .submit {
