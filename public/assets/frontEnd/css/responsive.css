@@ -273,19 +273,10 @@ video {
     }
 
     .banner_button a {
-        color: #ffffff;
         border-radius: 4px;
         padding: 15px 35px;
         margin-top: 10px;
-        font-weight: bold;
     }
-
-    .banner_button a:hover {
-        background-color: #023441 !important;
-        color: #ffffff !important;
-        border: 1px solid #023441;
-    }
-
 
     .account-section .nav-link {
         padding: 13px 0px;
@@ -510,17 +501,11 @@ video {
 
     .banner_button a {
         padding: 8px 10px;
-        font-weight: bold;
         font-size: 12px;
         margin-top: 8px;
         border-radius: 4px;
     }
 
-    .banner_button a:hover {
-        background-color: #023441 !important;
-        color: #ffffff !important;
-        border: 1px solid #023441;
-    }
 
     .submit {
         border-radius: 4px;
@@ -1057,17 +1042,11 @@ video {
 
     .banner_button a {
         padding: 8px 10px;
-        font-weight: bold;
         font-size: 10px;
         margin-top: 8px;
         border-radius: 3px;
     }
 
-    .banner_button a:hover {
-        background-color: #023441 !important;
-        color: #ffffff !important;
-        border: 1px solid #023441;
-    }
 
     .submit {
         border-radius: 3px;
