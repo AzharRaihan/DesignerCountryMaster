@@ -63,6 +63,8 @@
 </head>
 
 <body>
+
+
   <!--==** Header Section Start **==-->
   <section id="header">
     <div class="px-md-5 px-sm-3 px-xs-3">
@@ -152,8 +154,7 @@
   <section id="footer">
     <div class="container pt-md-5 pt-sm-3 pt-xs-2">
       <div class="row">
-        <div class="col-md-2"></div>
-        <div class="e-footer py-md-4 py-sm-4 col-md-3 information">
+        <div class="py-md-4 py-sm-4 col-md-3 col-lg-3 col-xl-3">
           <h5 class="text-uppercase text-light pb-col-2 pb-sm-3"><span
               style="border-bottom: 1px solid #19BEB9; padding-bottom: 8px;">Information</span></h5>
           <ul class="pt-md-4 pt-sm-2 pt-xs-2">
@@ -166,7 +167,7 @@
             <li><a href="{{route('sitemap')}}">Sitemap</a></li>
           </ul>
         </div>
-        <div class="e-footer py-md-4 py-sm-4 col-md-3  company">
+        <div class="py-md-4 py-sm-4 col-md-3 col-lg-3 col-xl-3">
           <h5 class="text-uppercase text-light pb-col-2 pb-sm-3"><span
               style="border-bottom: 1px solid #19BEB9; padding-bottom: 8px;">Company</span></h5>
           <ul class="pt-md-4 pt-sm-2 pt-xs-2">
@@ -176,7 +177,7 @@
             <li><a href="{{route('contact')}}">Support Center</a></li>
           </ul>
         </div>
-        <div class="e-footer py-md-4 py-sm-4 col-md-3  get-started">
+        <div class="py-md-4 py-sm-4 col-md-3 col-lg-3 col-xl-3">
           <h5 class="text-uppercase text-light pb-col-2 pb-sm-3"><span
               style="border-bottom: 1px solid #19BEB9; padding-bottom: 8px;">Get Started</span></h5>
           <ul class="pt-md-4 pt-sm-2 pt-xs-2">
@@ -190,8 +191,22 @@
             @endif
           </ul>
         </div>
+        <div class="py-md-4 py-sm-4 col-md-3 col-lg-3 col-xl-3">
+          <h5 class="text-uppercase text-light pb-col-2 pb-sm-3"><span
+              style="border-bottom: 1px solid #19BEB9; padding-bottom: 8px;">Our Services</span></h5>
+          <ul class="pt-md-4 pt-sm-2 pt-xs-2">
+            <li><a href="{{route('clipping.path')}}">Clipping Path</a></li>
+            <li><a href="{{route('background.removal')}}">Background Removal</a></li>
+            <li><a href="{{route('image.masking')}}">Image Masking</a></li>
+            <li><a href="{{route('natural.shadow')}}">Natural Shadow</a></li>
+            <li><a href="{{route('photo.retouching')}}">Photo Retouching</a></li>
+            <li><a href="{{route('ghosht.manneuquin')}}">Ghost Manneuquin</a></li>
+            <li><a href="{{route('product.photo.editing')}}">Photo Editing</a></li>
+            <li><a href="{{route('color.correction')}}">Color Correction</a></li>
+            <li><a href="{{route('vector.conversion')}}">Vector Conversion</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="col-md-1"></div>
       <hr style="border-bottom: 1px solid rgb(88, 145, 175);">
     </div>
     <div class="social-media text-center py-md-5 py-sm-5 py-xs-2">
@@ -222,6 +237,7 @@
     </div>
     </div>
   </section>
+
 
   <!--==** Footer Section Start **==-->
   <script src="http://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
