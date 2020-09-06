@@ -179,20 +179,6 @@
         </div>
         <div class="py-md-4 py-sm-4 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
           <h5 class="text-uppercase text-light pb-col-2 pb-sm-3"><span
-              style="border-bottom: 1px solid #19BEB9; padding-bottom: 8px;">Get Started</span></h5>
-          <ul class="pt-md-4 pt-sm-2 pt-xs-2">
-            <li><a href="{{route('index')}}">Home</a></li>
-            <li><a href="{{route('get.quote')}}">Get quote</a></li>
-            @if (auth()->user())
-            <li><a href="{{route('logout')}}">Already Loged in</a></li>
-            @else
-            <li><a href="{{route('login')}}">Log in</a></li>
-            <li><a href="{{ route('register') }}">Sig up</a></li>
-            @endif
-          </ul>
-        </div>
-        <div class="py-md-4 py-sm-4 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-          <h5 class="text-uppercase text-light pb-col-2 pb-sm-3"><span
               style="border-bottom: 1px solid #19BEB9; padding-bottom: 8px;"> Services</span></h5>
           <ul class="pt-md-4 pt-sm-2 pt-xs-2">
             <li><a href="{{route('clipping.path')}}">Clipping Path</a></li>
@@ -204,6 +190,20 @@
             <li><a href="{{route('product.photo.editing')}}">Photo Editing</a></li>
             <li><a href="{{route('color.correction')}}">Color Correction</a></li>
             <li><a href="{{route('vector.conversion')}}">Vector Conversion</a></li>
+          </ul>
+        </div>
+        <div class="py-md-4 py-sm-4 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+          <h5 class="text-uppercase text-light pb-col-2 pb-sm-3"><span
+              style="border-bottom: 1px solid #19BEB9; padding-bottom: 8px;">Get Started</span></h5>
+          <ul class="pt-md-4 pt-sm-2 pt-xs-2">
+            <li><a href="{{route('index')}}">Home</a></li>
+            <li><a href="{{route('get.quote')}}">Get quote</a></li>
+            @if (auth()->user())
+            <li><a href="{{route('logout')}}">Already Loged in</a></li>
+            @else
+            <li><a href="{{route('login')}}">Log in</a></li>
+            <li><a href="{{ route('register') }}">Sig up</a></li>
+            @endif
           </ul>
         </div>
       </div>
