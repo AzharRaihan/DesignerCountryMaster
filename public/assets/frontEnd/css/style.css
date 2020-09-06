@@ -7,7 +7,6 @@
 */
 /* ============> **Base Css Start** <============ */
 
-
 /* ===============> **Font-Family Css Start** <==============*/
 @import url("https://fonts.googleapis.com/css?family=Dosis|Josefin+Sans|Signika&display=swap");
 
@@ -25,13 +24,10 @@ font-family: 'Signika', sans-serif; */
 
 /* ============> **Custom Css Start** <============ */
 
-
 * {
     margin: 0px;
     padding: 0px;
 }
-
-
 
 h1,
 h2,
@@ -111,7 +107,6 @@ p {
     border: 2px solid #19beb9;
 }
 
-
 ul {
     list-style-type: none;
     padding: 0px;
@@ -158,10 +153,8 @@ hr {
     border-radius: 2px;
 }
 
-
-
 /* When the checkbox is checked, add a blue background */
-.check-container input:checked~.checkmark {
+.check-container input:checked ~ .checkmark {
     background-color: #19beb9;
 }
 
@@ -173,7 +166,7 @@ hr {
 }
 
 /* Show the checkmark when checked */
-.check-container input:checked~.checkmark:after {
+.check-container input:checked ~ .checkmark:after {
     display: block;
 }
 
@@ -209,11 +202,9 @@ hr {
     padding: 10px;
 }
 
-
 .show {
     display: block;
 }
-
 
 .btn.active {
     background-color: #007571;
@@ -223,7 +214,6 @@ hr {
 .content img {
     width: 100%;
 }
-
 
 .custom_button {
     padding: 60px 0px;
@@ -268,11 +258,7 @@ hr {
     color: white;
 }
 
-
 /* ============> **Custom Css End** <============ */
-
-
-
 
 /* ============> **Banner Section Start** <============ */
 #banner {
@@ -306,7 +292,7 @@ hr {
 .banner_button a {
     color: #ffffff;
     border-radius: 5px;
-    border: 1px solid #19BEB9;
+    border: 1px solid #19beb9;
     padding: 15px 60px;
     font-weight: bold;
     text-decoration: none;
@@ -314,13 +300,11 @@ hr {
 
 .banner_button a:hover {
     background-color: #023441 !important;
-    color: #19BEB9 !important;
+    color: #19beb9 !important;
     border: 1px solid #023441;
 }
 
 /* ============> **Banner Section Start** <============ */
-
-
 
 /* Header Css */
 #header {
@@ -385,7 +369,7 @@ hr {
     text-decoration: none;
 }
 
-.account-section>a {
+.account-section > a {
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -430,27 +414,24 @@ hr {
     background-color: white;
 }
 
-
-
 #dasktop a {
     padding: 9px 0px !important;
 }
 
 .error {
-    color: #FF0000;
+    color: #ff0000;
 }
 
 .dropdown-toggle::after {
-    border-top: .0em solid;
-
+    border-top: 0em solid;
 }
 
-.navbar-collapse .nav-item>a {
+.navbar-collapse .nav-item > a {
     padding: 30px 0px;
 }
 
 .navbar-dark {
-    padding: 0px
+    padding: 0px;
 }
 
 /* Banner Css */
@@ -563,7 +544,6 @@ hr {
 
 .blog_category a {
     color: rgb(0, 0, 0);
-
 }
 
 .blog_category p {
@@ -652,7 +632,7 @@ textarea {
     color: black;
 }
 
-.card-link+.card-link {
+.card-link + .card-link {
     margin-left: 0px;
 }
 
@@ -737,7 +717,6 @@ select.form-control:not([size]):not([multiple]) {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
 /* About Us Page Css */
 #about_us_bg {
     background-image: url("../images/about/designercountry_team.png");
@@ -764,7 +743,6 @@ select.form-control:not([size]):not([multiple]) {
 #about-title {
     padding-top: 300px;
 }
-
 
 #about_worker img {
     border-radius: 50%;
