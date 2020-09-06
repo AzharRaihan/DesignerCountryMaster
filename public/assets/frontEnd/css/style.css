@@ -154,7 +154,7 @@ hr {
 }
 
 /* When the checkbox is checked, add a blue background */
-.check-container input:checked ~ .checkmark {
+.check-container input:checked~.checkmark {
     background-color: #19beb9;
 }
 
@@ -166,7 +166,7 @@ hr {
 }
 
 /* Show the checkmark when checked */
-.check-container input:checked ~ .checkmark:after {
+.check-container input:checked~.checkmark:after {
     display: block;
 }
 
@@ -369,7 +369,7 @@ hr {
     text-decoration: none;
 }
 
-.account-section > a {
+.account-section>a {
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -426,7 +426,7 @@ hr {
     border-top: 0em solid;
 }
 
-.navbar-collapse .nav-item > a {
+.navbar-collapse .nav-item>a {
     padding: 30px 0px;
 }
 
@@ -632,7 +632,7 @@ textarea {
     color: black;
 }
 
-.card-link + .card-link {
+.card-link+.card-link {
     margin-left: 0px;
 }
 

@@ -37,14 +37,12 @@
   <!--==** Logo **==-->
   <link rel="icon" href="{{asset('assets/frontEnd/images/home_page/Dc_Logo.png')}}" type="image/x-icon">
   <!--==** Bootstrap CDN Link **==-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <!--==** Ajax CDN Link **==-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <!--==** Jquery Link **==-->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/additional-methods.min.js"></script>
   <!--==** Font Awesome Link **==-->
@@ -52,12 +50,28 @@
   <!-- Carousel -->
   <link rel="stylesheet" href="{{asset('assets/frontEnd/owl-carousel/css/owl.carousel.min.css')}}">
   <link rel="stylesheet" href="{{asset('assets/frontEnd/owl-carousel/css/owl.theme.default.min.css')}}">
+
+  <!--==** Vendors  Link **==-->
+  <!--**
+  
+  <link href="{{asset('assets/frontEnd/vendor/icofont/icofont.min.css')}}" rel="stylesheet" />
+  <link href="{{asset('assets/frontEnd/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet" />
+  <link href="{{asset('assets/frontEnd/vendor/animate.css/animate.min.css')}}" rel="stylesheet" />
+  <link href="{{asset('assets/frontEnd/vendor/venobox/venobox.css')}}" rel="stylesheet" />
+  <link href="{{asset('assets/frontEnd/vendor/aos/aos.css')}}" rel="stylesheet" />
+  <link href="{{asset('assets/frontEnd/vendor/main-css/style.css')}}" rel="stylesheet" />
+
+  **-->
+
   <!--==** Css Link **==-->
+  <link rel="stylesheet" href="http://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css">
   <link rel="stylesheet" href="{{asset('assets/frontEnd/css/style.css')}}">
   <link rel="stylesheet" href="{{asset('assets/frontEnd/css/responsive.css')}}">
-  <link rel="stylesheet" href="http://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css">
 
+  <!--==** Yield Css **==-->
   @yield ('css')
+  <!--==** Yield Css **==-->
+
   <style>
 
   </style>
@@ -150,7 +164,11 @@
     </div>
   </section>
   <!--==** Header Section End **==-->
+
+  <!--==** Yield Content Start **==-->
   @yield ('content')
+  <!--==** Yield Content End **==-->
+
   <!--==** Footer Section Start **==-->
   <section id="footer">
     <div class="container pt-md-5 pt-sm-3 pt-xs-2">
@@ -238,83 +256,44 @@
     </div>
     </div>
   </section>
+  <!--==** Footer Section End **==-->
 
-
-  <!--==** Footer Section Start **==-->
   <script src="http://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
   <script src="http://cdn.bootcss.com/toastr.js/latest/js/toastr.min.js"></script>
   {!! Toastr::message() !!}
-  <!--==*** MenuBar Scrip Link **==-->
-  <script>
-  const $dropdown = $(".dropdown");
-  const $dropdownToggle = $(".dropdown-toggle");
-  const $dropdownMenu = $(".dropdown-menu");
-  const showClass = "show";
 
-  $(window).on("load resize", function() {
-    if (this.matchMedia("(min-width: 768px)").matches) {
-      $dropdown.hover(
-        function() {
-          const $this = $(this);
-          $this.addClass(showClass);
-          $this.find($dropdownToggle).attr("aria-expanded", "true");
-          $this.find($dropdownMenu).addClass(showClass);
-        },
-        function() {
-          const $this = $(this);
-          $this.removeClass(showClass);
-          $this.find($dropdownToggle).attr("aria-expanded", "false");
-          $this.find($dropdownMenu).removeClass(showClass);
-        }
-      );
-    } else {
-      $dropdown.off("mouseenter mouseleave");
-    }
-  });
-  </script>
+  <!--==*** MenuBar Scrip Link **==-->
+  <script src="{{asset('assets/frontEnd/js/header.js')}}"></script>
   <!--==*** MenuBar Scrip Link **==-->
 
   <!--==*** Java Scrip Link **==-->
   @yield ('js')
   <!--==*** Java Scrip Link **==-->
+
   <!--==*** Script  Link **==-->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-  </script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-  </script>
-  <!--==*** Script  Link **==-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
   <!--Owl Carousel Script-->
   <script src="{{asset('assets/frontEnd/owl-carousel/js/owl.carousel.min.js')}}"></script>
-  <script>
-  $('.owl-carousel').owlCarousel({
-    loop: true,
-    margin: 10,
-    autoplay: 1000,
-    responsiveClass: true,
+  <script src="{{asset('assets/frontEnd/owl-carousel/js/owl.carousel.play.js')}}"></script>
 
-    responsive: {
-      0: {
-        items: 3,
-        nav: true
-      },
-      600: {
-        items: 4,
-        nav: false
-      },
-      1000: {
-        items: 6,
-        nav: true,
-        loop: false
-      }
-    }
-  });
-  </script>
-  <!--Owl Carousel Script-->
+  <!-- Vendor JS Files -->
+  <!--**
+  <script src="{{asset('assets/frontEnd/vendor/jquery/jquery.min.js')}}"></script>
+  <script src="{{asset('assets/frontEnd/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{asset('assets/frontEnd/vendor/jquery.easing/jquery.easing.min.js')}}"></script>
+  <script src="{{asset('assets/frontEnd/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
+  <script src="{{asset('assets/frontEnd/vendor/venobox/venobox.min.js')}}"></script>
+  <script src="{{asset('assets/frontEnd/vendor/aos/aos.js')}}"></script>
+
+  **-->
+  <!-- Template Main JS File -->
+  <!--**
+    <script src="{{asset('assets/frontEnd/vendor/js/main.js')}}"></script>
+  **-->
 
 </body>
 
