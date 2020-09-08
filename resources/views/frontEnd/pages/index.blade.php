@@ -8,61 +8,27 @@
 @endsection
 @section ('content')
 
-<!--==** Banner Section Start **==-->
-<!-- <section id="banner">
-  <div id="banner-overlay">
-    <div class="banner-title container">
-      <div class="row">
-        <div class="col-lg-8">
-          <h1>Welcome to <span>Designer Country</span></h1>
-          <h2>We are committed to your overall well-being and cooperation</h2>
-          <div class="btns">
-            <a href="#menu" class="btn-menu animated fadeInUp scrollto">Our Services</a>
-            <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Book a Table</a>
-          </div>
-        </div>
-        <div class="col-lg-4 d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-delay="200">
-          <a href="https://youtu.be/wSdP9jBWfXg" class="venobox play-btn" data-vbtype="video" data-autoplay="true"></a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-<!--==** Banner Section End **==-->
 
-
-
-
-<!-- ======= Hero Section ======= -->
-<section id="hero" class="d-flex align-items-center">
+<!-- ======= banner Section ======= -->
+<section id="banner" class="d-flex align-items-center">
   <div class="container position-relative text-center text-lg-left" data-aos="zoom-in" data-aos-delay="100">
     <div class="row">
       <div class="col-lg-8">
-        <h1>Welcome to <span>Restaurantly</span></h1>
-        <h2>Delivering great food for more than 18 years!</h2>
+        <h1>Welcome to <span>Designer Country</span></h1>
+        <h2>Clipping Path & Photo Retouching Services, Online Support for Every Time!</h2>
 
         <div class="btns">
-          <a href="#menu" class="btn-menu animated fadeInUp scrollto">Our Menu</a>
-          <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Book a Table</a>
+          <a href="{{route('sample')}}" class="btn-menu animated fadeInUp scrollto">Our Service</a>
+          <a href="{{route('get.quote')}}" class="btn-book animated fadeInUp scrollto">Try Us Free</a>
         </div>
       </div>
       <div class="col-lg-4 d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-delay="200">
-        <a href="https://www.youtube.com/watch?v=GlrxcuEDyF8" class="venobox play-btn" data-vbtype="video"
-          data-autoplay="true"></a>
+        <a href="https://youtu.be/mpxaEorpgiI" class="venobox play-btn" data-vbtype="video" data-autoplay="true"></a>
       </div>
-
     </div>
   </div>
 </section>
-<!-- End Hero -->
-
-
-
-
-
-
-
-
+<!-- End banner -->
 
 
 <!--==** Around Section Start **==-->

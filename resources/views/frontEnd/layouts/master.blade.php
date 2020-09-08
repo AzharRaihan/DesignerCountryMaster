@@ -47,39 +47,35 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/additional-methods.min.js"></script>
   <!--==** Font Awesome Link **==-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+
+  <!--==** Vendors  Link **==-->
+  <!-- <link href="{{asset('assets/frontEnd/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" /> -->
+  <!-- <link href="{{asset('assets/frontEnd/vendor/icofont/icofont.min.css')}}" rel="stylesheet" /> -->
+  <link href="{{asset('assets/frontEnd/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet" />
+  <link href="{{asset('assets/frontEnd/vendor/animate.css/animate.min.css')}}" rel="stylesheet" />
+  <link href="{{asset('assets/frontEnd/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet" />
+  <link href="{{asset('assets/frontEnd/vendor/venobox/venobox.css')}}" rel="stylesheet" />
+  <link href="{{asset('assets/frontEnd/vendor/aos/aos.css')}}" rel="stylesheet" />
   <!-- Carousel -->
   <link rel="stylesheet" href="{{asset('assets/frontEnd/owl-carousel/css/owl.carousel.min.css')}}">
   <link rel="stylesheet" href="{{asset('assets/frontEnd/owl-carousel/css/owl.theme.default.min.css')}}">
-
-  <!--==** Vendors  Link **==-->
-
-
-  <link href="{{asset('assets/frontEnd/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" />
-  <!-- <link href="{{asset('assets/frontEnd/vendor/icofont/icofont.min.css')}}" rel="stylesheet" /> -->
-  <!-- <link href="{{asset('assets/frontEnd/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet" /> -->
-  <!-- <link href="{{asset('assets/frontEnd/vendor/animate.css/animate.min.css')}}" rel="stylesheet" /> -->
-  <!-- <link href="{{asset('assets/frontEnd/vendor/venobox/venobox.css')}}" rel="stylesheet" /> -->
-  <link href="{{asset('assets/frontEnd/vendor/aos/aos.css')}}" rel="stylesheet" />
 
 
   <!--==** Css Link **==-->
   <link rel="stylesheet" href="http://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css">
   <link rel="stylesheet" href="{{asset('assets/frontEnd/css/style.css')}}">
-  <link href="{{asset('assets/frontEnd/vendor/main-css/style.css')}}" rel="stylesheet" />
   <link rel="stylesheet" href="{{asset('assets/frontEnd/css/responsive.css')}}">
 
   <!--==** Yield Css **==-->
   @yield ('css')
   <!--==** Yield Css **==-->
-
   <style>
 
   </style>
 </head>
 
 <body>
-
-
   <!--==** Header Section Start **==-->
   <section id="header">
     <div class="px-md-5 px-sm-3 px-xs-3">
@@ -169,6 +165,8 @@
   @yield ('content')
   <!--==** Yield Content End **==-->
 
+
+
   <!--==** Footer Section Start **==-->
   <section id="footer">
     <div class="container pt-md-5 pt-sm-3 pt-xs-2">
@@ -205,7 +203,7 @@
             <li><a href="{{route('image.masking')}}">Image Masking</a></li>
             <li><a href="{{route('natural.shadow')}}">Natural Shadow</a></li>
             <li><a href="{{route('photo.retouching')}}">Photo Retouching</a></li>
-            <li><a href="{{route('ghosht.manneuquin')}}">Ghost Manneuquin</a></li>
+            <li><a href="{{route('ghosht.manneuquin')}}">Ghost Mannequin</a></li>
             <li><a href="{{route('product.photo.editing')}}">Photo Editing</a></li>
             <li><a href="{{route('color.correction')}}">Color Correction</a></li>
             <li><a href="{{route('vector.conversion')}}">Vector Conversion</a></li>
@@ -256,23 +254,21 @@
     </div>
     </div>
   </section>
-  <!--==** Footer Section End **==-->
+  <!--==** Footer Section Start **==-->
 
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
 
   <script src="http://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
   <script src="http://cdn.bootcss.com/toastr.js/latest/js/toastr.min.js"></script>
   {!! Toastr::message() !!}
 
-  <!--==*** MenuBar Scrip Link **==-->
-  <script src="{{asset('assets/frontEnd/js/header.js')}}"></script>
-  <!--==*** MenuBar Scrip Link **==-->
 
   <!--==*** Java Scrip Link **==-->
   @yield ('js')
   <!--==*** Java Scrip Link **==-->
+
+
 
   <!--==*** Script  Link **==-->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
@@ -280,22 +276,53 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 
+
   <!--Owl Carousel Script-->
   <script src="{{asset('assets/frontEnd/owl-carousel/js/owl.carousel.min.js')}}"></script>
   <script src="{{asset('assets/frontEnd/owl-carousel/js/owl.carousel.play.js')}}"></script>
 
+
   <!-- Vendor JS Files -->
   <script src="{{asset('assets/frontEnd/vendor/jquery/jquery.min.js')}}"></script>
   <!-- <script src="{{asset('assets/frontEnd/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script> -->
-  <!-- <script src="{{asset('assets/frontEnd/vendor/jquery.easing/jquery.easing.min.js')}}"></script> -->
+  <script src="{{asset('assets/frontEnd/vendor/jquery.easing/jquery.easing.min.js')}}"></script>
   <script src="{{asset('assets/frontEnd/vendor/owl.carousel/owl.carousel.min.js')}}"></script>
   <script src="{{asset('assets/frontEnd/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
-  <!-- <script src="{{asset('assets/frontEnd/vendor/venobox/venobox.min.js')}}"></script> -->
+  <script src="{{asset('assets/frontEnd/vendor/venobox/venobox.min.js')}}"></script>
   <script src="{{asset('assets/frontEnd/vendor/aos/aos.js')}}"></script>
-
   <!-- Template Main JS File -->
   <script src="{{asset('assets/frontEnd/vendor/js/main.js')}}"></script>
 
+
+
+  <!--==*** Script  Link **==-->
+  <!--Owl Carousel Script-->
+  <script src="{{asset('assets/frontEnd/owl-carousel/js/owl.carousel.min.js')}}"></script>
+  <script>
+  $('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    autoplay: 1000,
+    responsiveClass: true,
+
+    responsive: {
+      0: {
+        items: 3,
+        nav: true
+      },
+      600: {
+        items: 4,
+        nav: false
+      },
+      1000: {
+        items: 6,
+        nav: true,
+        loop: false
+      }
+    }
+  });
+  </script>
+  <!--Owl Carousel Script-->
 
 </body>
 
