@@ -27,7 +27,6 @@ font-family: 'Signika', sans-serif; */
     padding: 0px;
 }
 
-
 h1,
 h2,
 h3,
@@ -106,7 +105,6 @@ p {
     border: 2px solid #19beb9;
 }
 
-
 ul {
     list-style-type: none;
     padding: 0px;
@@ -153,10 +151,8 @@ hr {
     border-radius: 2px;
 }
 
-
-
 /* When the checkbox is checked, add a blue background */
-.check-container input:checked~.checkmark {
+.check-container input:checked ~ .checkmark {
     background-color: #19beb9;
 }
 
@@ -168,7 +164,7 @@ hr {
 }
 
 /* Show the checkmark when checked */
-.check-container input:checked~.checkmark:after {
+.check-container input:checked ~ .checkmark:after {
     display: block;
 }
 
@@ -204,11 +200,9 @@ hr {
     padding: 10px;
 }
 
-
 .show {
     display: block;
 }
-
 
 .btn.active {
     background-color: #007571;
@@ -218,8 +212,6 @@ hr {
 .content img {
     width: 100%;
 }
-
-
 
 .custom_button {
     padding: 60px 0px;
@@ -263,7 +255,6 @@ hr {
     background-color: #007571;
     color: white;
 }
-
 
 /* ==========> ** Preloader Css ** <==============*/
 
@@ -427,7 +418,7 @@ hr {
 }
 
 #banner .play-btn::after {
-    content: '';
+    content: "";
     position: absolute;
     left: 50%;
     top: 50%;
@@ -442,7 +433,7 @@ hr {
 }
 
 #banner .play-btn::before {
-    content: '';
+    content: "";
     position: absolute;
     width: 120px;
     height: 120px;
@@ -470,7 +461,7 @@ hr {
 }
 
 #banner .play-btn:hover::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 50%;
     top: 50%;
@@ -548,7 +539,6 @@ hr {
 
 /* ============> **Banner Section Start** <============ */
 
-
 /* Header Css */
 #header {
     position: -webkit-sticky;
@@ -612,7 +602,7 @@ hr {
     text-decoration: none;
 }
 
-.account-section>a {
+.account-section > a {
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -657,27 +647,24 @@ hr {
     background-color: white;
 }
 
-
-
 #dasktop a {
     padding: 9px 0px !important;
 }
 
 .error {
-    color: #FF0000;
+    color: #ff0000;
 }
 
 .dropdown-toggle::after {
-    border-top: .0em solid;
-
+    border-top: 0em solid;
 }
 
-.navbar-collapse .nav-item>a {
+.navbar-collapse .nav-item > a {
     padding: 30px 0px;
 }
 
 .navbar-dark {
-    padding: 0px
+    padding: 0px;
 }
 
 /* Banner Css */
@@ -790,7 +777,6 @@ hr {
 
 .blog_category a {
     color: rgb(0, 0, 0);
-
 }
 
 .blog_category p {
@@ -879,7 +865,7 @@ textarea {
     color: black;
 }
 
-.card-link+.card-link {
+.card-link + .card-link {
     margin-left: 0px;
 }
 
@@ -964,7 +950,6 @@ select.form-control:not([size]):not([multiple]) {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
 /* About Us Page Css */
 #about_us_bg {
     background-image: url("../images/about/designercountry_team.png");
@@ -973,7 +958,7 @@ select.form-control:not([size]):not([multiple]) {
     position: relative;
     top: 0;
     bottom: 0;
-    height: 70vh;
+    height: 100vh;
     z-index: -5;
 }
 

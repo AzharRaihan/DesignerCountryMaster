@@ -178,29 +178,9 @@ video {
     }
 
 
-    /* ===> Banner start <===*/
-    #banner {
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        top: 0;
-        bottom: 0;
-        height: 100%;
-        z-index: -5;
-    }
 
-    #banner #banner-overlay {
-        top: 0;
-        bottom: 0;
-        height: 100%;
-        width: 100%;
-        z-index: -5;
-    }
 
-    /*#banner #banner-overlay .banner-title {
-        padding-top: 60%;
-        }*/
-    /* ===> Banner End <===*/
+
 
 
 }
@@ -268,15 +248,10 @@ video {
         color: #ffffff;
     }
 
-    .banner_button {
-        padding: 35px 0px;
-    }
 
-    .banner_button a {
-        border-radius: 4px;
-        padding: 15px 35px;
-        margin-top: 10px;
-    }
+
+
+
 
     .account-section .nav-link {
         padding: 13px 0px;
@@ -284,30 +259,7 @@ video {
 
 
     /* Pages Responsive CSS */
-    /* ===> Banner start <===*/
-    #banner {
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        top: 0;
-        bottom: 0;
-        height: 100%;
-        z-index: -5;
-    }
 
-    #banner #banner-overlay {
-        top: 0;
-        bottom: 0;
-        height: 100%;
-        width: 100%;
-        z-index: -5;
-    }
-
-    #banner #banner-overlay .banner-title {
-        padding-top: 30%;
-    }
-
-    /* ===> Banner End <===*/
 
     #header img {
         height: 30px;
@@ -495,16 +447,8 @@ video {
         color: #ffffff;
     }
 
-    .banner_button {
-        padding: 8px 0px 15px 0px;
-    }
 
-    .banner_button a {
-        padding: 8px 10px;
-        font-size: 12px;
-        margin-top: 8px;
-        border-radius: 4px;
-    }
+
 
 
     .submit {
@@ -513,30 +457,7 @@ video {
     }
 
     /* Pages Responsive Css */
-    /* ===> Banner start <===*/
-    #banner {
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        top: 0;
-        bottom: 0;
-        height: 100%;
-        z-index: -5;
-    }
 
-    #banner #banner-overlay {
-        top: 0;
-        bottom: 0;
-        height: 100%;
-        width: 100%;
-        z-index: -5;
-    }
-
-    #banner #banner-overlay .banner-title {
-        padding-top: 60%;
-    }
-
-    /* ===> Banner End <===*/
     #header img {
         height: 26px;
     }
@@ -1036,16 +957,7 @@ video {
         color: #ffffff;
     }
 
-    .banner_button {
-        padding: 8px 0px 15px 0px;
-    }
 
-    .banner_button a {
-        padding: 8px 10px;
-        font-size: 10px;
-        margin-top: 8px;
-        border-radius: 3px;
-    }
 
 
     .submit {
@@ -1054,30 +966,8 @@ video {
     }
 
 
-    /* ===> Banner start <===*/
-    #banner {
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        top: 0;
-        bottom: 0;
-        height: 100%;
-        z-index: -5;
-    }
 
-    #banner #banner-overlay {
-        top: 0;
-        bottom: 0;
-        height: 100%;
-        width: 100%;
-        z-index: -5;
-    }
 
-    #banner #banner-overlay .banner-title {
-        padding-top: 40%;
-    }
-
-    /* ===> Banner End <===*/
 
     #header .dropdown-menu {
         width: 160px;
