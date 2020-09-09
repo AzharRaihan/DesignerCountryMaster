@@ -275,16 +275,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-
-
   <!--Owl Carousel Script-->
   <script src="{{asset('assets/frontEnd/owl-carousel/js/owl.carousel.min.js')}}"></script>
   <script src="{{asset('assets/frontEnd/owl-carousel/js/owl.carousel.play.js')}}"></script>
 
-
   <!-- Vendor JS Files -->
   <script src="{{asset('assets/frontEnd/vendor/jquery/jquery.min.js')}}"></script>
-  <!-- <script src="{{asset('assets/frontEnd/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script> -->
   <script src="{{asset('assets/frontEnd/vendor/jquery.easing/jquery.easing.min.js')}}"></script>
   <script src="{{asset('assets/frontEnd/vendor/owl.carousel/owl.carousel.min.js')}}"></script>
   <script src="{{asset('assets/frontEnd/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
@@ -293,36 +289,6 @@
   <!-- Template Main JS File -->
   <script src="{{asset('assets/frontEnd/vendor/js/main.js')}}"></script>
 
-
-
-  <!--==*** Script  Link **==-->
-  <!--Owl Carousel Script-->
-  <script src="{{asset('assets/frontEnd/owl-carousel/js/owl.carousel.min.js')}}"></script>
-  <script>
-  $('.owl-carousel').owlCarousel({
-    loop: true,
-    margin: 10,
-    autoplay: 1000,
-    responsiveClass: true,
-
-    responsive: {
-      0: {
-        items: 3,
-        nav: true
-      },
-      600: {
-        items: 4,
-        nav: false
-      },
-      1000: {
-        items: 6,
-        nav: true,
-        loop: false
-      }
-    }
-  });
-  </script>
-  <!--Owl Carousel Script-->
 
 </body>
 
