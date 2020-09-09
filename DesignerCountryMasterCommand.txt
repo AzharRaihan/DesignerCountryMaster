@@ -15,7 +15,7 @@ Otherwise no information will come in the email from the user.
 Wink Blog information
 =====================
 Id: admin@mail.come
-pass: 9zKI1s46Fsv05NCU
+pass: n7KKcggSxcCVXj85
 
 Dashboard Login
 ===============
