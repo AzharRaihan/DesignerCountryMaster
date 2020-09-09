@@ -345,12 +345,6 @@ hr {
     padding-top: 0px;
 }
 
-@media (max-width: 992px) {
-    #banner .container {
-        padding-top: 98px;
-    }
-}
-
 #banner h1 {
     margin: 0;
     font-size: 48px;
