@@ -171,7 +171,7 @@
   <section id="footer">
     <div class="container pt-md-5 pt-sm-3 pt-xs-2">
       <div class="row">
-        <div class="py-md-4 py-sm-4 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+        <div class="py-md-4 py-sm-4 col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
           <h5 class="text-uppercase text-light pb-col-2 pb-sm-3"><span
               style="border-bottom: 1px solid #19BEB9; padding-bottom: 8px;">Information</span></h5>
           <ul class="pt-md-4 pt-sm-2 pt-xs-2">
@@ -184,7 +184,7 @@
             <li><a href="{{route('sitemap')}}">Sitemap</a></li>
           </ul>
         </div>
-        <div class="py-md-4 py-sm-4 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+        <div class="py-md-4 py-sm-4 col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
           <h5 class="text-uppercase text-light pb-col-2 pb-sm-3"><span
               style="border-bottom: 1px solid #19BEB9; padding-bottom: 8px;">Company</span></h5>
           <ul class="pt-md-4 pt-sm-2 pt-xs-2">
@@ -194,7 +194,7 @@
             <li><a href="{{route('contact')}}">Support Center</a></li>
           </ul>
         </div>
-        <div class="py-md-4 py-sm-4 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+        <div class="py-md-4 py-sm-4 col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 mobile-pt">
           <h5 class="text-uppercase text-light pb-col-2 pb-sm-3"><span
               style="border-bottom: 1px solid #19BEB9; padding-bottom: 8px;"> Services</span></h5>
           <ul class="pt-md-4 pt-sm-2 pt-xs-2">
@@ -209,7 +209,7 @@
             <li><a href="{{route('vector.conversion')}}">Vector Conversion</a></li>
           </ul>
         </div>
-        <div class="py-md-4 py-sm-4 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+        <div class="py-md-4 py-sm-4 col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 mobile-pt">
           <h5 class="text-uppercase text-light pb-col-2 pb-sm-3"><span
               style="border-bottom: 1px solid #19BEB9; padding-bottom: 8px;">Get Started</span></h5>
           <ul class="pt-md-4 pt-sm-2 pt-xs-2">
@@ -251,7 +251,6 @@
     <div class="copy-right pb-5">
       <p class="text-center text-light pt-3  pb-4 px-4">Designer Country is a brand of <a href="#"
           style="color: #19beb9;">Photoshopspecialist</a>. © 2020 All rights reserved.</p>
-    </div>
     </div>
   </section>
   <!--==** Footer Section Start **==-->
