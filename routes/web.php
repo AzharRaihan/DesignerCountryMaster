@@ -35,6 +35,7 @@ Route::post('store-quote', 'QuoteController@storeQuote')->name('store.quote');
 Route::get('get-quote-upload', 'frontEnd\WebController@getQuoteUpload')->name('get.quote.upload');
 Route::post('contact-send', 'admin\ContactUsController@send')->name('contact.send');
 Route::get('contact', 'admin\ContactUsController@index')->name('contact');
+Route::get('photoshop-specialish', 'frontEnd\WebController@photoshopSpecialist')->name('photoshop.specialist');
 /* FrontEnd Route */
 
 /* Services Route */
@@ -48,7 +49,6 @@ Route::get('product-photo-editing', 'frontEnd\WebController@productPhotEditing')
 Route::get('color-correction', 'frontEnd\WebController@colorCorrection')->name('color.correction');
 Route::get('vector-conversion', 'frontEnd\WebController@vectorConversion')->name('vector.conversion');
 /* Services Route */
-
 
 /* Blog Route */
 Route::get('blog', 'BlogController@index')->name('blog');
@@ -83,7 +83,3 @@ Route::group(['prefix' => 'admin', 'middleware'=>['auth','admin']], function () 
     Route::put('profile/update/password', 'admin\HomeController@passwordUpdate')->name('update.password');
 });
 /*===== BackEnd Route =====*/
-
-
-
-

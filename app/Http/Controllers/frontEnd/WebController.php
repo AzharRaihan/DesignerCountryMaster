@@ -94,5 +94,8 @@ class WebController extends Controller
     public function createAccount(){
         return view('frontEnd.pages.create_account');
     }
+    public function photoshopSpecialist(){
+        return view('frontEnd.pages.photoshop_specialist');
+    }
 
 }
