@@ -38,12 +38,12 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
       <div class="logo mr-auto">
-        <a href="index.html"><img
+        <a href="{{route('photoshop.specialist')}}"><img
             src="{{asset('assets/frontEnd/photoshop_specialist_img/DesignerCountryImages/logo.png')}}" alt="" /></a>
       </div>
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.html">Team</a></li>
+          <li class="active"><a href="#chefs">Team</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#menu">Service</a></li>
           <li><a href="#specials">Specials</a></li>
@@ -571,8 +571,8 @@
     <section id="book-a-table" class="book-a-table">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
-          <h2>Reservation</h2>
-          <p>Book a Table</p>
+          <h2>For Service</h2>
+          <p>Contact</p>
         </div>
 
         <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up"
