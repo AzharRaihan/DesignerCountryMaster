@@ -11,13 +11,10 @@
 
   <!-- Favicons -->
   <link rel="icon" href="{{asset('assets/frontEnd/images/home_page/Dc_Logo.png')}}" type="image/x-icon">
-  <link href="{{asset('assets/frontEnd/frontEnd/photoshop_specialist_img/apple-touch-icon.png')}}"
-    rel="apple-touch-icon" />
+  <link href="{{asset('assets/frontEnd/frontEnd/photoshop_specialist_img/apple-touch-icon.png')}}" rel="apple-touch-icon" />
 
   <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
 
   <!-- Vendor CSS Files -->
   <link href="{{asset('assets/frontEnd/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" />
@@ -37,8 +34,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
       <div class="logo mr-auto">
-        <a href="{{route('index')}}"><img
-            src="{{asset('assets/frontEnd/photoshop_specialist_img/DesignerCountryImages/logo.png')}}" alt="" /></a>
+        <a href="{{route('index')}}"><img src="{{asset('assets/frontEnd/photoshop_specialist_img/DesignerCountryImages/logo.png')}}" alt="" /></a>
       </div>
       <nav class="nav-menu d-none d-lg-block">
         <ul>
@@ -187,8 +183,7 @@
 
         <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
           <div class="col-lg-6 menu-item filter-starters">
-            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/services/Clipping_Path_3.png')}}"
-              class="menu-img" alt="" />
+            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/services/Clipping_Path_3.png')}}" class="menu-img" alt="" />
             <div class="menu-content">
               <a href="#">Clipping Path</a><span>$0.39</span>
             </div>
@@ -198,8 +193,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-specialty">
-            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/services/Image_Masking_Service.png')}}"
-              class="menu-img" alt="" />
+            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/services/Image_Masking_Service.png')}}" class="menu-img" alt="" />
             <div class="menu-content">
               <a href="#">Image Masking</a><span>$1.50</span>
             </div>
@@ -209,8 +203,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-starters">
-            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/services/Color_Correction_2.png')}}"
-              class="menu-img" alt="" />
+            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/services/Color_Correction_2.png')}}" class="menu-img" alt="" />
             <div class="menu-content">
               <a href="#">Color Correction</a><span>$1.50</span>
             </div>
@@ -221,8 +214,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-salads">
-            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/services/Background_Remove_5.png')}}"
-              class="menu-img" alt="" />
+            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/services/Background_Remove_5.png')}}" class="menu-img" alt="" />
             <div class="menu-content">
               <a href="#">Background Removal</a><span>$0.39</span>
             </div>
@@ -232,8 +224,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-specialty">
-            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/services/Product_photo_editing_2.png')}}"
-              class="menu-img" alt="" />
+            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/services/Product_photo_editing_2.png')}}" class="menu-img" alt="" />
             <div class="menu-content">
               <a href="#">Product Photo Editing</a><span>$1.65</span>
             </div>
@@ -244,8 +235,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-starters">
-            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/services/Ghost_Mannequin_Sample.png')}}"
-              class="menu-img" alt="" />
+            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/services/Ghost_Mannequin_Sample.png')}}" class="menu-img" alt="" />
             <div class="menu-content">
               <a href="#">Ghost Mannequin</a><span>$1.45</span>
             </div>
@@ -276,8 +266,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-specialty">
-            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/services/Vector_Conversion_1.png')}}"
-              class="menu-img" alt="" />
+            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/services/Vector_Conversion_1.png')}}" class="menu-img" alt="" />
             <div class="menu-content">
               <a href="#">Vector Conversion</a><span>$4.99</span>
             </div>
@@ -299,37 +288,30 @@
           <p>Contact</p>
         </div>
 
-        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up"
-          data-aos-delay="100">
+        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
           <div class="form-row">
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4"
-                data-msg="Please enter at least 4 chars" />
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                data-rule="email" data-msg="Please enter a valid email" />
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone"
-                data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4"
-                data-msg="Please enter at least 4 chars" />
+              <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4"
-                data-msg="Please enter at least 4 chars" />
+              <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="number" class="form-control" name="people" id="people" placeholder="# of people"
-                data-rule="minlen:1" data-msg="Please enter at least 1 chars" />
+              <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars" />
               <div class="validate"></div>
             </div>
           </div>
@@ -370,8 +352,7 @@
               eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
-            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/testimonials/testimonials-1.jpg')}}"
-              class="testimonial-img" alt="" />
+            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/testimonials/testimonials-1.jpg')}}" class="testimonial-img" alt="" />
             <h3>Saul Goodman</h3>
             <h4>Ceo &amp; Founder</h4>
           </div>
@@ -384,8 +365,7 @@
               velit sunt aliqua noster fugiat irure amet legam anim culpa.
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
-            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/testimonials/testimonials-2.jpg')}}"
-              class="testimonial-img" alt="" />
+            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/testimonials/testimonials-2.jpg')}}" class="testimonial-img" alt="" />
             <h3>Sara Wilsson</h3>
             <h4>Designer</h4>
           </div>
@@ -398,8 +378,7 @@
               noster aute amet eram fore quis sint minim.
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
-            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/testimonials/testimonials-3.jpg')}}"
-              class="testimonial-img" alt="" />
+            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/testimonials/testimonials-3.jpg')}}" class="testimonial-img" alt="" />
             <h3>Jena Karlis</h3>
             <h4>Store Owner</h4>
           </div>
@@ -413,8 +392,7 @@
               veniam.
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
-            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/testimonials/testimonials-4.jpg')}}"
-              class="testimonial-img" alt="" />
+            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/testimonials/testimonials-4.jpg')}}" class="testimonial-img" alt="" />
             <h3>Matt Brandon</h3>
             <h4>Freelancer</h4>
           </div>
@@ -428,8 +406,7 @@
               cillum quid.
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
-            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/testimonials/testimonials-5.jpg')}}"
-              class="testimonial-img" alt="" />
+            <img src="{{asset('assets/frontEnd/photoshop_specialist_img/testimonials/testimonials-5.jpg')}}" class="testimonial-img" alt="" />
             <h3>John Larson</h3>
             <h4>Entrepreneur</h4>
           </div>
@@ -451,577 +428,449 @@
         <div class="row no-gutters">
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_1.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_1.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_1.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_1.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_2.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_2.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_2.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_2.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_3.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_3.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_3.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_3.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_4.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_4.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_4.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_4.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_5.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_5.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_5.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_5.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_6.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_6.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_6.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_6.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_7.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_7.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_7.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_7.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_8.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_8.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_8.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_8.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_9.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_9.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_9.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_9.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_10.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_10.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_10.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_10.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_11.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_11.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_11.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_11.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_12.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_12.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_12.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_12.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_13.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_13.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_13.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_13.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_14.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_14.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_14.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_14.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_15.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_15.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_15.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_15.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_16.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_16.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_16.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_16.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_17.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_17.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_17.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_17.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_18.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_18.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_18.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_18.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_19.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_19.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_19.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_19.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_20.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_20.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_20.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_20.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_21.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_21.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_21.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_21.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_22.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_22.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_22.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_22.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_23.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_23.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_23.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_23.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_24.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_24.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_24.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_24.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_25.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_25.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_25.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_25.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_26.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_26.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_26.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_26.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_27.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_27.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_27.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_27.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_28.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_28.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_28.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_28.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_28.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_28.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_28.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_28.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_29.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_29.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_29.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_29.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_30.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_30.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_30.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_30.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_31.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_31.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_31.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_31.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_32.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_32.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_32.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_32.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_33.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_33.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_33.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_33.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_34.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_34.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_34.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_34.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_35.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_35.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_35.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_35.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_36.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_36.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_36.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_36.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_37.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_37.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_37.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_37.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_38.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_38.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_38.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_38.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_39.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_39.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_39.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_39.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_40.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_40.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_40.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_40.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_41.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_41.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_41.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_41.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_42.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_42.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_42.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_42.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_43.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_43.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_43.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_43.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_44.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_44.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_44.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_44.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_45.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_45.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_45.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_45.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_46.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_46.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_46.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_46.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_47.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_47.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_47.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_47.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_48.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_48.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_48.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_48.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_49.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_49.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_49.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_49.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_50.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_50.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_50.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_50.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_51.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_51.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_51.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_51.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_52.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_52.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_52.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_52.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_53.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_53.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_53.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_53.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_54.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_54.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_54.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_54.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_55.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_55.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_55.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_55.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_56.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_56.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_56.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_56.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_57.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_57.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_57.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_57.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_58.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_58.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_58.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_58.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_59.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_59.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_59.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_59.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_60.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_60.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_60.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_60.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_61.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_61.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_61.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_61.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_62.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_62.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_62.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_62.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_63.png')}}"
-                class="venobox" data-gall="gallery-item">
-                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_63.png')}}"
-                  alt="" class="img-fluid" />
+              <a href="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_63.png')}}" class="venobox" data-gall="gallery-item">
+                <img src="{{asset('assets/frontEnd/photoshop_specialist_img/gallery/photoshop_specialist_63.png')}}" alt="" class="img-fluid" />
               </a>
             </div>
           </div>
@@ -1041,8 +890,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <img src="{{asset('assets/frontEnd/photoshop_specialist_img/chefs/azhar-raihan.png')}}" class="img-fluid"
-                alt="" />
+              <img src="{{asset('assets/frontEnd/photoshop_specialist_img/chefs/azhar-raihan.png')}}" class="img-fluid" alt="" />
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Walter White</h4>
@@ -1060,8 +908,7 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="member" data-aos="zoom-in" data-aos-delay="200">
-              <img src="{{asset('assets/frontEnd/photoshop_specialist_img/chefs/Mostafizar-Co-founder.png')}}"
-                class="img-fluid" alt="" />
+              <img src="{{asset('assets/frontEnd/photoshop_specialist_img/chefs/Mostafizar-Co-founder.png')}}" class="img-fluid" alt="" />
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Sarah Jhonson</h4>
@@ -1079,8 +926,7 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="member" data-aos="zoom-in" data-aos-delay="300">
-              <img src="{{asset('assets/frontEnd/photoshop_specialist_img/chefs/Aminul_Islam_Human_Resources.png')}}"
-                class="img-fluid" alt="" />
+              <img src="{{asset('assets/frontEnd/photoshop_specialist_img/chefs/Aminul_Islam_Human_Resources.png')}}" class="img-fluid" alt="" />
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>William Anderson</h4>
