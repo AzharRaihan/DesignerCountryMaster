@@ -966,17 +966,15 @@
                     ">Designer Country</span>
               </h3>
               <p>
-                A108 Adam Street <br />
-                NY 535022, USA<br /><br />
-                <strong>Phone:</strong> +1 5589 55488 55<br />
-                <strong>Email:</strong> info@example.com<br />
+                Dhaka, Bangladesh<br /><br />
+                <strong>Phone:</strong>8801914106753<br />
+                <strong>Email:</strong>designercountry@gmail.com<br />
               </p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://twitter.com/designercounty" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.facebook.com/designercountry/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/designercountry/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/designercountry/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
               </div>
             </div>
           </div>
@@ -988,22 +986,19 @@
             <ul>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a href="https://designercountry.com" target="_blank">Home</a>
+                <a href="{{route('index')}}">Home</a>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a href="https://designercountry.com/about-us" target="_blank">About us</a>
-              </li>
-              <li>
-                <i class="bx bx-chevron-right"></i> <a href="#">Services</a>
+                <a href="{{route('about.us')}}">About us</a>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a href="#">Terms of service</a>
+                <a href="{{route('terms.and.conditions')}}">Terms of service</a>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a href="#">Privacy policy</a>
+                <a href="{{route('privacy.and.policy')}}">Privacy policy</a>
               </li>
             </ul>
           </div>
