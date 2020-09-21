@@ -250,7 +250,7 @@
     </div>
     <div class="copy-right pb-5">
       <p class="text-center text-light pt-3  pb-4 px-4">Designer Country is a brand of <a
-          href="{{route('photoshop.specialist')}}" style="color: #19beb9;">Photoshopspecialist</a>. © 2020 All rights
+          href="#" style="color: #19beb9;">Photoshopspecialist</a>. © 2020 All rights
         reserved.
       </p>
     </div>
