@@ -1,8 +1,8 @@
-/* 
+/*
 * Project Name : Designer Country
-* Project Author : Nayeem Khan 
+* Project Author : Nayeem Khan
 * Project Start Date : 29.01.2020
-* All Section 
+* All Section
 *   1. Base Css
 */
 /* ============> **Base Css Start** <============ */
@@ -12,7 +12,7 @@
 /* font-family: 'Dosis', sans-serif;
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Signika', sans-serif; */
-/* * body{ 
+/* * body{
   font-family: 'Montserrat', sans-serif;
   -webkit-font-family: 'Montserrat', sans-serif;
   -moz-font-family: 'Montserrat', sans-serif;
@@ -74,9 +74,7 @@ p {
     padding: 0 !important;
 }
 
-#editing_Service label {
-    padding-bottom: 15px;
-}
+
 
 .btn.focus,
 .btn:focus {
@@ -152,7 +150,7 @@ hr {
 }
 
 /* When the checkbox is checked, add a blue background */
-.check-container input:checked ~ .checkmark {
+.check-container input:checked~.checkmark {
     background-color: #19beb9;
 }
 
@@ -164,7 +162,7 @@ hr {
 }
 
 /* Show the checkmark when checked */
-.check-container input:checked ~ .checkmark:after {
+.check-container input:checked~.checkmark:after {
     display: block;
 }
 
@@ -593,7 +591,7 @@ hr {
     text-decoration: none;
 }
 
-.account-section > a {
+.account-section>a {
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -650,7 +648,7 @@ hr {
     border-top: 0em solid;
 }
 
-.navbar-collapse .nav-item > a {
+.navbar-collapse .nav-item>a {
     padding: 30px 0px;
 }
 
@@ -856,7 +854,7 @@ textarea {
     color: black;
 }
 
-.card-link + .card-link {
+.card-link+.card-link {
     margin-left: 0px;
 }
 
