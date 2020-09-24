@@ -12,7 +12,7 @@
     <div class="container py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5">
         <div class="head pt-col-1 pt-sm-2 pt-md-2 pt-lg-3 pt-xl-3 mobile-pt">
             <h1 class="pb-col-2 pb-sm-3 pb-md-4 pb-lg-5 pb-xl-5 text-center">Background Removal Service</h1>
-            <div class="box" style="box-shadow: 3px 3px 13px 2px rgba(0,0,0,.3);">
+            <div class="box" style="box-shadow: 0 20px 80px -20px rgba(0,0,0,0.38);">
                 <img src="{{asset('assets/frontEnd/images/Service_All/Background_Remove_Service/Background_Remove_Service.png')}}"
                     alt="Background_Removal_Service" class="img-fluid" style="width:100%">
                 <div class="custom_button py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5 text-center">
@@ -31,7 +31,7 @@
             <h1 class="text-center text-uppercase">Our Work</h1>
         </div>
         <div class="box my-col-2 my-sm-3 my-md-4 my-lg-5 my-xl-5"
-            style="box-shadow: 3px 3px 13px 2px rgba(0,0,0,.3);">
+            style="box-shadow: 0 20px 80px -20px rgba(0,0,0,0.38);">
             <img src="{{asset('assets/frontEnd/images/Service_All/Background_Remove_Service/Background_Remove_Sample.png')}}"
                 alt="Background_Removal_Sample" class="img-fluid" style="width:100%">
         </div>
@@ -54,8 +54,8 @@
                 <div class="row">
                     <div class="col-md-6">
                         <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 "><b>Product Background Removal</b></h4>
-                        <p class="pb-sm-3 pb-xs-3 mobile-pb">Product images getting ready to enter on web, maiden work is to withdraw 
-                            image unnecessary background & place professional suited one basically it may transparent 
+                        <p class="pb-sm-3 pb-xs-3 mobile-pb">Product images getting ready to enter on web, maiden work is to withdraw
+                            image unnecessary background & place professional suited one basically it may transparent
                             for pure white including the naturalistic shadow.</p>
                     </div>
                     <div class="col-md-6">
@@ -68,8 +68,8 @@
                 <div class="row pt-sm-4 pt-xs-3">
                     <div class="col-md-6 mobile-pt">
                         <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-pt"><b>Portrait Background Removal</b></h4>
-                        <p class="pb-sm-3 pb-xs-3 mobile-pb">Model shoots also need background when you need to place it on 
-                            exceptional something & multicolor required. We draw a clipping path to cut 
+                        <p class="pb-sm-3 pb-xs-3 mobile-pb">Model shoots also need background when you need to place it on
+                            exceptional something & multicolor required. We draw a clipping path to cut
                             background & place it on your expected one.</p>
                     </div>
                     <div class="col-md-6">
@@ -82,8 +82,8 @@
                 <div class="row pt-sm-4 pt-xs-3">
                     <div class="col-md-6 mobile-pt">
                         <h4 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-pt"><b>Re-Size & Shadow</b></h4>
-                        <p class="pb-sm-3 pb-xs-3 mobile-pb">When remove background then do resize & shadow ads for the perfect 
-                            look & image optimization as the clients easily can load to their page where 
+                        <p class="pb-sm-3 pb-xs-3 mobile-pb">When remove background then do resize & shadow ads for the perfect
+                            look & image optimization as the clients easily can load to their page where
                             they are in objective to expand sale.</p>
                     </div>
                     <div class="col-md-6">
@@ -110,7 +110,7 @@
 
 
             <h5 class="pt-3 pb-col-2 pb-sm-3 pb-md-3 pb-lg-2 pb-xl-2 mobile-px"><b>Ecommerce Retailers Images Background Removal for Amazon, Alibaba, eBay – Designer Country </b></h5>
-            <p class="mobile-px mobile-pt">Designer Country is a global images correction service agency born from Outsource resource creating relation with different photography & people by providing photo selection & shadow add service.  
+            <p class="mobile-px mobile-pt">Designer Country is a global images correction service agency born from Outsource resource creating relation with different photography & people by providing photo selection & shadow add service.
             We assuredly online active where response you get within 30 minutes. We have 123 active image remover whom you can hire following any type payment method.
             We also have the ability to satisfy you providing Retouch, Manipulation, Color Consulting, Resized, and Logo & Vector Add.
             </p>

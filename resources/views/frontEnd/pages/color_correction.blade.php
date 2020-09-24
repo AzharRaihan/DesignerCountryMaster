@@ -12,7 +12,7 @@
     <div class="container py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5">
         <div class="head pt-col-1 pt-sm-2 pt-md-2 pt-lg-3 pt-xl-3 mobile-pt">
             <h1 class="pb-col-2 pb-sm-3 pb-md-4 pb-lg-5 pb-xl-5 text-center">Color Correction Service</h1>
-            <div class="box" style="box-shadow: 3px 3px 13px 2px rgba(0,0,0,.3);">
+            <div class="box" style="box-shadow: 0 20px 80px -20px rgba(0,0,0,0.38);">
                 <img src="{{asset('assets/frontEnd/images/Service_All/Color_Correction_Service/Color_Correction_Service.png')}}"
                     alt="Color_Correction_Service" class="img-fluid" style="width: 100%;">
                 <div class="custom_button py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5 text-center">
@@ -31,7 +31,7 @@
             <h1 class="text-center text-uppercase">Our Work</h1>
         </div>
         <div class="box my-col-2 my-sm-3 my-md-4 my-lg-5 my-xl-5"
-            style="box-shadow: 3px 3px 13px 2px rgba(0,0,0,.3);">
+            style="box-shadow: 0 20px 80px -20px rgba(0,0,0,0.38);">
             <img src="{{asset('assets/frontEnd/images/Service_All/Color_Correction_Service/Color_Correction_Sample.png')}}"
                 alt="Color_Correction_Sample" class="img-fluid" style="width: 100%;">
         </div>
@@ -99,7 +99,7 @@
         <div class="imge-article">
             <h1 class="pb-col-2 pb-sm-2 pb-md-3 pb-lg-4 pb-xl-4 mobile-pl mobile-pr">Portrait, Model or Product Color Variants & Adjustment to Outsource Images from Asia</h1>
             <p class="mobile-pl mobile-pr">Customarily throughout the photograph because of lack combination with brightness, situation, approach, and camera settings, the lifelike & instinctive color might be not perfect, subsequently by using the color adjustment process it may be controlled for naturalistic looking.
-            When Europe & American people apply for outsourcing images, they are able to grow pressure low, money & time reserved. Essentially South Asian countries freelancers do these. Outsource Images Color Change to Variants & What We Supply 
+            When Europe & American people apply for outsourcing images, they are able to grow pressure low, money & time reserved. Essentially South Asian countries freelancers do these. Outsource Images Color Change to Variants & What We Supply
             Our outsource group has got ready with thorough competence & experience in coloring products. In short supply photo adjustment, we do...
             <br><br></p>
                 <ul class="pl-5 pl-col-2 pl-sm-3 pl-md-4 pl-lg-5 pl-xl-5 pb-3">

@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="main py-col-2 py-sm-2 py-md-3 py-lg-4 py-xl-4 mx-col-2 mx-sm-3 mx-md-4 mx-lg-5 mx-xl-5"
-      style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+      style="box-shadow: 0 20px 80px -20px rgba(0,0,0,0.38);">
       <div id="myBtnContainer" class="text-center py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5 mobile-pt">
         <!-- <button class="btn btn-success" onclick="filterSelection('all')"> Show all</button> -->
         <button class="btn btn custom-b mt-3 active" onclick="filterSelection('clipping_path')">Clipping

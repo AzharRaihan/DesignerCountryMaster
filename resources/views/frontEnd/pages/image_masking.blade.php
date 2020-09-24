@@ -12,7 +12,7 @@
     <div class="container py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5">
         <div class="head pt-col-1 pt-sm-2 pt-md-2 pt-lg-3 pt-xl-3 mobile-pt">
             <h1 class="pb-col-2 pb-sm-3 pb-md-4 pb-lg-5 pb-xl-5 text-center">Image Masking Service</h1>
-            <div class="box" style="box-shadow: 3px 3px 13px 2px rgba(0,0,0,.3);">
+            <div class="box" style="box-shadow: 0 20px 80px -20px rgba(0,0,0,0.38);">
                 <img src="{{asset('assets/frontEnd/images/Service_All/Image_Masking_Service/Image_Masking_Service.png')}}"
                     alt="Image_Masking_Service" class="img-fluid" style="width: 100%;">
                 <div class="custom_button py-col-2 py-sm-3 py-md-4 py-lg-5 py-xl-5 text-center">
@@ -31,7 +31,7 @@
             <h1 class="text-center text-uppercase">Our Work</h1>
         </div>
         <div class="box my-col-2 my-sm-3 my-md-4 my-lg-5 my-xl-5"
-            style="box-shadow: 3px 3px 13px 2px rgba(0,0,0,.3);">
+            style="box-shadow: 0 20px 80px -20px rgba(0,0,0,0.38);">
             <img src="{{asset('assets/frontEnd/images/Service_All/Image_Masking_Service/Image_Masking_Sample.png')}}" alt="Image_Masking_Sample"
                 class="img-fluid" style="width: 100%;">
         </div>
