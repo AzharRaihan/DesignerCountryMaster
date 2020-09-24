@@ -45,7 +45,7 @@
             <div class="row">
                 <!-- Clipping Path Gallery Start -->
                 <div class=" column clipping_path">
-                    <div class="row">
+                    <div id="service_gallery" class="row">
                         <div class="col-md-4">
                             <div class="content">
                                 <img src="{{asset('assets/frontEnd/images/sample/Clipping_Path/Clipping.png')}}" alt="Mountains">
@@ -62,7 +62,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div id="service_gallery" class="row">
                         <div class="col-md-4">
                             <div class="content">
                                 <img src="{{asset('assets/frontEnd/images/sample/Clipping_Path/Cut_Out.png')}}" alt="Mountains">
@@ -86,7 +86,7 @@
                 <!-- Clipping Path Gallery End -->
                 <!--  Background-Removal Gallery Start -->
                 <div class="column background_removal">
-                    <div class="row">
+                    <div id="service_gallery" class="row">
                         <div class="col-md-4">
                             <div class="content">
                                 <img src="{{asset('assets/frontEnd/images/sample/Background_Removal/Background_Change.png')}}" alt="Mountains">
@@ -103,7 +103,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div id="service_gallery" class="row">
                         <div class="col-md-4">
                             <div class="content">
                                 <img src="{{asset('assets/frontEnd/images/sample/Background_Removal/Photoshop_clipp.png')}}" alt="Mountains">
@@ -127,7 +127,7 @@
                 <!--  Background-Removal Gallery End -->
                 <!--  Image-Masking Gallery Start -->
                 <div class="column image_masking">
-                    <div class="row">
+                    <div id="service_gallery" class="row">
                         <div class="col-md-4">
                             <div class="content">
                                 <img src="{{asset('assets/frontEnd/images/sample/Image_masking/Hair.png')}}" alt="Mountains">
@@ -144,7 +144,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div id="service_gallery" class="row">
                         <div class="col-md-4">
                             <div class="content">
                                 <img src="{{asset('assets/frontEnd/images/sample/Image_masking/Photo_Hair.png')}}" alt="Mountains">
@@ -168,7 +168,7 @@
                 <!--  Image-Masking Gallery End -->
                 <!--  Ghost-Mannequin Gallery Start -->
                 <div class="column ghost_mannequin">
-                    <div class="row">
+                    <div id="service_gallery" class="row">
                         <div class="col-md-4">
                             <div class="content">
                                 <img src="{{asset('assets/frontEnd/images/sample/Ghost_mannequin/Ghost_Mannequin_Service.png')}}" alt="Mountains">
@@ -185,7 +185,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div id="service_gallery" class="row">
                         <div class="col-md-4">
                             <div class="content">
                                 <img src="{{asset('assets/frontEnd/images/sample/Ghost_mannequin/Mannequin_Service.png')}}" alt="Mountains">
@@ -209,7 +209,7 @@
                 <!--  Ghost-Mannequin Gallery End -->
                 <!--  Natural-Shadow Gallery Start -->
                 <div class="column natural_shadow">
-                    <div class="row">
+                    <div id="service_gallery" class="row">
                         <div class="col-md-4">
                             <div class="content">
                                 <img src="{{asset('assets/frontEnd/images/sample/Drop_shadow/drop_Photoshop')}}.png" alt="Mountains">
@@ -226,7 +226,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div id="service_gallery" class="row">
                         <div class="col-md-4">
                             <div class="content">
                                 <img src="{{asset('assets/frontEnd/images/sample/Drop_shadow/image_drop_shadow.png')}}" alt="Mountains">
@@ -250,7 +250,7 @@
                 <!--  Natural-Shadow Gallery End -->
                 <!--  Photo-Retouching Gallery Start -->
                 <div class="column photo_retouching">
-                    <div class="row">
+                    <div id="service_gallery" class="row">
                         <div class="col-md-4">
                             <div class="content">
                                 <img src="{{asset('assets/frontEnd/images/sample/Photo_retouching/Jewelry_Retouching.png')}}" alt="Mountains">
@@ -267,7 +267,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div id="service_gallery" class="row">
                         <div class="col-md-4">
                             <div class="content">
                                 <img src="{{asset('assets/frontEnd/images/sample/Photo_retouching/Professional_retouching.png')}}" alt="Mountains">
@@ -291,7 +291,7 @@
                 <!--  Photo-Retouching Gallery End -->
                 <!--  Color-Variants Gallery Start -->
                 <div class="column color_correction">
-                    <div class="row">
+                    <div id="service_gallery" class="row">
                         <div class="col-md-4">
                             <div class="content">
                                 <img src="{{asset('assets/frontEnd/images/sample/Color_variants/Changing_Service.png')}}" alt="Mountains">
@@ -308,7 +308,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div id="service_gallery" class="row">
                         <div class="col-md-4">
                             <div class="content">
                                 <img src="{{asset('assets/frontEnd/images/sample/Color_variants/Color_variants.png')}}" alt="Mountains">
@@ -332,7 +332,7 @@
                 <!--  Color-Variants Gallery End -->
                 <!--  Product-Photo-Editing Gallery Start -->
                 <div class="column product_photo_editing">
-                    <div class="row">
+                    <div id="service_gallery" class="row">
                         <div class="col-md-4">
                             <div class="content">
                                 <img src="{{asset('assets/frontEnd/images/sample/Product_photo_editing/Background_Crop.png')}}" alt="Mountains">
@@ -349,7 +349,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div id="service_gallery" class="row">
                         <div class="col-md-4">
                             <div class="content">
                                 <img src="{{asset('assets/frontEnd/images/sample/Product_photo_editing/Product_Editing_Service.png')}}"
@@ -375,7 +375,7 @@
                 <!--  Product-Photo-Editing Gallery End -->
                 <!--  Vector-Conversion-Editing Gallery Start -->
                 <div class="column vector_conversion">
-                    <div class="row">
+                    <div id="service_gallery" class="row">
                         <div class="col-md-4">
                             <div class="content">
                                 <img src="{{asset('assets/frontEnd/images/sample/Vector_Conversion/conversion.png')}}" alt="Mountains">
@@ -392,7 +392,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div id="service_gallery" class="row">
                         <div class="col-md-4">
                             <div class="content">
                                 <img src="{{asset('assets/frontEnd/images/sample/Vector_Conversion/Converting_raster.png')}}" alt="Mountains">

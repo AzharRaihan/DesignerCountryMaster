@@ -889,32 +889,13 @@ select.form-control:not([size]):not([multiple]) {
     padding-bottom: 30px;
 }
 
-#sample .clipping_path,
-.background_removal,
-.image_masking,
-.ghost_mannequin,
-.natural_shadow,
-.photo_retouching,
-.color_correction,
-.product_photo_editing,
-.vector_conversion,
-.content {
-    padding: 8px;
-}
-
-#sample .clipping_path,
-.background_removal,
-.image_masking,
-.ghost_mannequin,
-.natural_shadow,
-.photo_retouching,
-.color_correction,
-.product_photo_editing,
-.vector_conversion,
-.col-md-4 {
+#service_gallery .col-md-4 {
     padding-left: 0px;
     padding-right: 0px;
 }
+
+
+
 
 /* Latesh Product */
 #latest_product a {
