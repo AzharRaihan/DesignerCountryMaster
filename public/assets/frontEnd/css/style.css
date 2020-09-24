@@ -22,10 +22,6 @@ font-family: 'Signika', sans-serif; */
 /* ===============> **Font-Family Css End** <==============*/
 
 /* ============> **Custom Css Start** <============ */
-* {
-    margin: 0px;
-    padding: 0px;
-}
 
 h1,
 h2,
@@ -69,12 +65,6 @@ p {
     margin-left: 0px;
 }
 
-.remove-all-margin-padding {
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
-
 
 .btn.focus,
 .btn:focus {
@@ -98,10 +88,11 @@ p {
 }
 
 .form-control:focus {
-    -webkit-box-shadow: none;
+    /*-webkit-box-shadow: none;*/
     box-shadow: none;
     border: 2px solid #19beb9;
 }
+
 
 ul {
     list-style-type: none;
@@ -149,6 +140,8 @@ hr {
     border-radius: 2px;
 }
 
+
+
 /* When the checkbox is checked, add a blue background */
 .check-container input:checked~.checkmark {
     background-color: #19beb9;
@@ -174,8 +167,6 @@ hr {
     height: 10px;
     border: solid white;
     border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 
@@ -198,9 +189,11 @@ hr {
     padding: 10px;
 }
 
+
 .show {
     display: block;
 }
+
 
 .btn.active {
     background-color: #007571;
@@ -210,6 +203,8 @@ hr {
 .content img {
     width: 100%;
 }
+
+
 
 .custom_button {
     padding: 60px 0px;
@@ -253,6 +248,7 @@ hr {
     background-color: #007571;
     color: white;
 }
+
 
 /* ==========> ** Preloader Css ** <==============*/
 
@@ -343,17 +339,15 @@ hr {
     padding-top: 0px;
 }
 
+
 #banner h1 {
     margin: 0;
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
     color: #fff;
-    font-family: "Josefin Sans", sans-serif;
-    -webkit-font-family: "Josefin Sans", sans-serif;
-    -moz-font-family: "Josefin Sans", sans-serif;
-    -ms-font-family: "Josefin Sans", sans-serif;
 }
+
 
 #banner h1 span {
     color: #19beb9;
@@ -411,7 +405,7 @@ hr {
 }
 
 #banner .play-btn::after {
-    content: "";
+    content: '';
     position: absolute;
     left: 50%;
     top: 50%;
@@ -426,7 +420,7 @@ hr {
 }
 
 #banner .play-btn::before {
-    content: "";
+    content: '';
     position: absolute;
     width: 126px;
     height: 124px;
@@ -454,7 +448,7 @@ hr {
 }
 
 #banner .play-btn:hover::before {
-    content: "";
+    content: '';
     position: absolute;
     left: 50%;
     top: 50%;
@@ -532,15 +526,17 @@ hr {
 
 /* ============> **Banner Section Start** <============ */
 
+
 /* Header Css */
 #header {
     position: -webkit-sticky;
     position: sticky;
-    background-color: #00313f;
+    background-color: #00313F;
     top: 0;
     z-index: 20;
     padding: 0px;
 }
+
 
 #header .dropdown-menu {
     width: 250px;
@@ -550,6 +546,8 @@ hr {
     padding-top: 0px;
     padding-bottom: 0px;
 }
+
+
 
 #header .navbar .nav-item:not(:last-child) {
     margin-right: 20px;
@@ -636,16 +634,19 @@ hr {
     background-color: white;
 }
 
+
+
 #dasktop a {
     padding: 9px 0px !important;
 }
 
 .error {
-    color: #ff0000;
+    color: #FF0000;
 }
 
 .dropdown-toggle::after {
-    border-top: 0em solid;
+    border-top: .0em solid;
+
 }
 
 .navbar-collapse .nav-item>a {
@@ -653,20 +654,10 @@ hr {
 }
 
 .navbar-dark {
-    padding: 0px;
+    padding: 0px
 }
 
-/* Banner Css */
-#banner h1 {
-    font-family: "Josefin Sans", sans-serif;
-    -webkit-font-family: "Josefin Sans", sans-serif;
-    -moz-font-family: "Josefin Sans", sans-serif;
-    -ms-font-family: "Josefin Sans", sans-serif;
-}
 
-#banner img {
-    width: 100%;
-}
 
 /* Footer Css */
 #footer {
@@ -766,6 +757,7 @@ hr {
 
 .blog_category a {
     color: rgb(0, 0, 0);
+
 }
 
 .blog_category p {
@@ -897,6 +889,15 @@ select.form-control:not([size]):not([multiple]) {
     padding-bottom: 30px;
 }
 
+#sample .clipping_path .content {
+    padding: 8px;
+}
+
+#sample .clipping_path .col-md-4 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 /* Latesh Product */
 #latest_product a {
     color: black;
@@ -939,6 +940,7 @@ select.form-control:not([size]):not([multiple]) {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
 /* About Us Page Css */
 #about_us_bg {
     background-image: url("../images/about/designercountry_team.png");
@@ -968,21 +970,3 @@ select.form-control:not([size]):not([multiple]) {
 #about_worker img {
     border-radius: 50%;
 }
-
-/* #about-us-head {
-    background-color: #009b97;
-}
-
-#about-us-head .watch-button a {
-    background-color: #283e4b;
-    border: 2px solid rgb(37, 207, 202);
-    color: rgb(255, 255, 255);
-    border-radius: 5px;
-}
-
-#about-us-head .watch-button a:hover {
-    background-color: #007571;
-    color: #ffffff;
-    border: 2px solid #009b97;
-    transition: 0.5s;
-} */
