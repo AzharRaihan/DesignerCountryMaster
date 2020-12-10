@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\admin;
+
 use App\Quote;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -14,26 +15,29 @@ class HomeController extends Controller
     {
         $this->middleware('admin');
     }
-    public function dashboard(){
+    public function dashboard()
+    {
         return view('admin/dashboard/index');
     }
-    public function blogPost(){
+    public function blogPost()
+    {
         return view('admin/dashboard/blog_post');
     }
-    public function service(){
+    public function service()
+    {
         return view('admin/dashboard/service');
     }
 
     public function quote()
     {
         $quotes = Quote::all();
-        return view('admin.dashboard.quote',compact('quotes'));
+        return view('admin.dashboard.quote', compact('quotes'));
     }
 
     public function quoteShow($id)
     {
         $quote = Quote::findOrFail($id);
-        return view('admin.dashboard.quote_show',compact('quote'));
+        return view('admin.dashboard.quote_show', compact('quote'));
     }
 
     public function quoteDelete($id)
@@ -55,19 +59,18 @@ class HomeController extends Controller
             'password' => 'required'
         ]);
         $hashedPass = Auth::user()->password;
-        if(Hash::check($req->oldpassword,$hashedPass)){
-            if(!Hash::check($req->password,$hashedPass)){
+        if (Hash::check($req->oldpassword, $hashedPass)) {
+            if (!Hash::check($req->password, $hashedPass)) {
                 $user = User::findOrFail(Auth::id());
                 $user->password = Hash::make($req->password);
                 $user->save();
 
-                return redirect()->back()->with('message','Password Updated Successflly');
-
-            }else{
-                return redirect()->back()->with('message','New password same to old password');
+                return redirect()->back()->with('message', 'Password Updated Successflly');
+            } else {
+                return redirect()->back()->with('message', 'New password same to old password');
             }
-        }else{
-            return redirect()->back()->with('message','Old password dose not existst');
+        } else {
+            return redirect()->back()->with('message', 'Old password dose not existst');
         }
     }
 
@@ -83,6 +86,6 @@ class HomeController extends Controller
         $user->email = $req->input('email');
         $user->save();
 
-        return redirect()->back()->with('message','Information Updated Successflly');
+        return redirect()->back()->with('message', 'Information Updated Successflly');
     }
 }

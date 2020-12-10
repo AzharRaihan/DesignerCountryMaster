@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Wink\WinkPost;
+
 class BlogController extends Controller
 {
     public function index()
@@ -12,13 +13,12 @@ class BlogController extends Controller
             ->live()
             ->orderBy('publish_date', 'DESC')
             ->simplePaginate(12);
-        // dd($posts);
         return view('frontEnd.pages.blog', [
             'posts' => $posts,
         ]);
     }
 
-    public function show ($slug)
+    public function show($slug)
     {
         $post = WinkPost::live()->whereSlug($slug)->firstOrFail();
 
@@ -26,5 +26,4 @@ class BlogController extends Controller
             'post' => $post
         ]);
     }
-
 }

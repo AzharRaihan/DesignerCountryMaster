@@ -10,7 +10,11 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 /* =========***\ Authentation Route \***==========*/
+
 Auth::routes();
 // Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/logout', 'Auth\LoginController@logout')->name('logout');
@@ -59,16 +63,15 @@ Route::get('blog-category', 'frontEnd\WebController@blogCategory')->name('blog.c
 
 
 /* User Profile Route */
-Route::group(['middleware'=>['auth']], function () {
+Route::group(['middleware' => ['auth']], function () {
     Route::get('profile', 'ProfileController@index')->name('myprofile');
-
 });
 /* User Profile Route */
 
 
 
 /*===== BackEnd Route =====*/
-Route::group(['prefix' => 'admin', 'middleware'=>['auth','admin']], function () {
+Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'admin']], function () {
     Route::get('dashboard', 'admin\HomeController@dashboard')->name('dashboard');
     Route::get('blog-post', 'admin\HomeController@blogPost')->name('blog.post');
     Route::get('service', 'admin\HomeController@service')->name('service');
